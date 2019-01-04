@@ -1,0 +1,145 @@
+body{
+    background-color: #fff!important;
+    .onlineHeader{
+        height: .44rem;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        border-bottom: .01rem solid rgba(228,231,241,1);
+        .orderDetail{
+            .orderDetail_bc{    
+                img{
+                    width: .16rem;
+                    height: .17rem;
+                    position: absolute;
+                    left: .14rem;
+                    top: .14rem;
+                }
+            }
+            .orderDetail_p{
+                line-height: .44rem;
+                font-size: .18rem;
+                font-weight:bold;
+                color:rgba(61,61,61,1);
+            }
+            .orderDetail_c{
+                font-size:.14rem;
+                font-weight:bold;
+                line-height:.20rem;
+                color:rgba(61,61,61,1);
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                right: .15rem;
+            }
+        }
+    }
+    .editDeliveryAddress_content{
+        margin-top: .44rem;
+        padding: 0 .16rem;       
+        ul{
+            li{
+                position: relative;
+                border-bottom: .01rem solid rgba(228,231,241,1);
+                padding: 0 .16rem;
+                margin-left: -.16rem;
+                margin-right: -.16rem;
+                // min-height: .5rem;
+                height: .5rem;
+                width: 3.75rem;
+                // line-height: .5rem;
+                input{
+                    padding: 0;
+                    margin: 0;
+                    border:0;   
+                    height: .5rem;
+                    font-size:.14rem;
+                    font-weight:bold;
+                    color:rgba(61,61,61,1);   
+                    // min-width: 3.75rem;
+                    word-break:break-all;
+                    display: inline-block;
+                    &[type=textarea]{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .clearName{
+                    width: .16rem;
+                    // height: .16rem;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0.16rem;
+                    border: 0;
+                    line-height: .16rem;
+                    margin-bottom: 0;
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        width: .16rem;
+                        height: .16rem;
+                        &.editDeliveryAddress_contentMore{
+                            width: .1rem;
+                            height: .1rem;
+                        }
+                    }
+                }
+                #cityResult3{
+                    height: .5rem;
+                    line-height: .5rem;
+                    font-size:.14rem;
+                    font-weight:bold;
+                    color:rgba(61,61,61,1);
+                }
+                &>span.fromMailList{
+                    font-size:.14rem;
+                    font-weight:500;
+                    line-height:.20rem;
+                    color:rgba(99,104,125,1);
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: .34rem;
+                }
+                .editDeliveryAddress_contentTitle{
+                    font-size:.14rem;
+                    font-weight:bold;
+                    line-height:.20rem;
+                    color:rgba(61,61,61,1);
+                    margin: .13rem 0 .16rem;
+                }
+                .editDeliveryAddress_contentSelect{
+                    display: flex;
+                    span{
+                        width:.60rem;
+                        height:.22rem;
+                        background:rgba(255,255,255,1);
+                        border:.01rem solid rgba(216,216,216,1);
+                        border-radius:.11rem;
+                        margin-right: .2rem;
+                        text-align: center;
+                        line-height: .22rem;
+                    }                   
+                }
+                &:nth-last-of-type(1){
+                    border-bottom: 0;
+                    display:flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .editDeliveryAddress_contentFot{
+                        font-size:.14rem;
+                        font-weight:bold;
+                        line-height:.20rem;
+                        color:rgba(61,61,61,1);
+                    }
+                }
+            }
+        }
+    }
+}

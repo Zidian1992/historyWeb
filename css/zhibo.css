@@ -1,0 +1,369 @@
+.zhibo {
+  width: 100%;
+  height: 100%; }
+  .zhibo .head {
+    width: 100%;
+    height: .44rem; }
+    .zhibo .head .search {
+      float: left;
+      margin-left: .16rem;
+      margin-top: .10rem;
+      width: .22rem;
+      height: .22rem; }
+      .zhibo .head .search img {
+        width: .22rem;
+        height: .22rem; }
+    .zhibo .head .location {
+      float: left;
+      margin-left: 1.21rem;
+      margin-top: .10rem;
+      width: .22rem;
+      height: .22rem; }
+      .zhibo .head .location img {
+        float: left;
+        width: .22rem;
+        height: .22rem;
+        margin-right: .05rem; }
+      .zhibo .head .location span {
+        float: left;
+        line-height: .22rem;
+        font-size: .14rem;
+        color: #3D3D3D; }
+    .zhibo .head .information {
+      position: relative;
+      float: right;
+      margin-top: .10rem;
+      margin-right: .25rem;
+      width: .22rem;
+      height: .22rem; }
+      .zhibo .head .information img {
+        width: .22rem;
+        height: .22rem; }
+      .zhibo .head .information .information1 {
+        width: .20rem;
+        height: .14rem;
+        background: #FF3053;
+        color: #fff;
+        line-height: .14rem;
+        text-align: center;
+        position: absolute;
+        left: .11rem;
+        bottom: .12rem;
+        font-size: .10rem;
+        vertical-align: top;
+        border-radius: .03rem; }
+
+.zhibojian {
+  width: 100%;
+  margin-top: .15rem; }
+  .zhibojian .left {
+    float: left;
+    width: 1.42rem; }
+    .zhibojian .left .remenzhibo {
+      margin-left: .17rem;
+      position: relative; }
+      .zhibojian .left .remenzhibo .tu {
+        position: absolute;
+        top: 0;
+        left: .47rem;
+        width: .44rem;
+        height: .14rem;
+        z-index: 200; }
+        .zhibojian .left .remenzhibo .tu img {
+          width: .44rem;
+          height: .14rem; }
+      .zhibojian .left .remenzhibo li {
+        width: .56rem;
+        height: .56rem;
+        border: .02rem solid #ffffff;
+        border-radius: 50%; }
+        .zhibojian .left .remenzhibo li img {
+          width: .56rem;
+          height: .56rem;
+          border-radius: 50%; }
+      .zhibojian .left .remenzhibo li:nth-child(2) {
+        position: absolute;
+        left: 0.27rem;
+        top: 0; }
+      .zhibojian .left .remenzhibo li:nth-child(3) {
+        position: absolute;
+        left: 0.67rem;
+        top: 0; }
+    .zhibojian .left .jinru {
+      margin-top: .06rem;
+      margin-left: .24rem;
+      height: .14rem;
+      font-size: .10rem;
+      color: #3D3D3D; }
+      .zhibojian .left .jinru span {
+        height: .14rem;
+        line-height: .14rem;
+        font-weight: bold;
+        float: left; }
+      .zhibojian .left .jinru img {
+        float: left;
+        width: .10rem;
+        height: .10rem;
+        margin-left: .05rem;
+        margin-top: .02rem; }
+  .zhibojian .right {
+    width: 2.11rem;
+    overflow: hidden;
+    float: right;
+    height: .80rem;
+    margin-top: .01rem; }
+    .zhibojian .right ul {
+      width: 12.00rem; }
+      .zhibojian .right ul li {
+        float: left;
+        width: .56rem;
+        height: .56rem;
+        margin-right: .10rem;
+        border-radius: 50%;
+        position: relative; }
+        .zhibojian .right ul li img {
+          width: .56rem;
+          height: .56rem; }
+        .zhibojian .right ul li .name {
+          line-height: .14rem;
+          height: .14rem;
+          font-size: .10rem;
+          color: #3D3D3D;
+          width: .56rem;
+          text-align: center;
+          margin-top: .07rem;
+          font-weight: bold; }
+        .zhibojian .right ul li .tu {
+          position: absolute;
+          top: 0;
+          left: .18rem;
+          width: .44rem;
+          height: .19rem; }
+          .zhibojian .right ul li .tu img {
+            width: .44rem;
+            height: .19rem; }
+
+.picture {
+  width: 100%;
+  margin-top: .14rem; }
+  .picture .picture1 {
+    width: 3.43rem;
+    height: 1.93rem;
+    margin: auto; }
+    .picture .picture1 img {
+      width: 3.43rem;
+      height: 1.93rem; }
+
+.fenglei {
+  width: 100%;
+  margin-top: .19rem; }
+  .fenglei ul {
+    width: 3.43rem;
+    margin: auto; }
+    .fenglei ul li:nth-child(5n) {
+      margin-right: 0; }
+    .fenglei ul li:nth-child(4) {
+      margin-right: .25rem; }
+    .fenglei ul li:nth-child(9) {
+      margin-right: .25rem; }
+    .fenglei ul li {
+      float: left;
+      width: .48rem;
+      margin-right: .26rem;
+      margin-bottom: .18rem; }
+      .fenglei ul li img {
+        width: .48rem;
+        height: .48rem; }
+      .fenglei ul li p {
+        width: .48rem;
+        height: .14rem;
+        line-height: .14rem;
+        font-size: .10rem;
+        text-align: center;
+        color: #3D3D3D;
+        margin-top: .03rem;
+        font-weight: bold; }
+
+.jiange {
+  width: 100%;
+  height: .06rem;
+  background: #F8F9FE; }
+
+.tuijianzhubo {
+  width: 100%; }
+  .tuijianzhubo .title {
+    width: 100%;
+    height: .47rem; }
+    .tuijianzhubo .title .span1 {
+      float: left;
+      margin-left: 1.47rem;
+      line-height: .47rem;
+      font-size: .18rem;
+      color: #3D3D3D;
+      font-weight: bold; }
+    .tuijianzhubo .title .gd {
+      float: right;
+      margin-right: .17rem; }
+      .tuijianzhubo .title .gd img {
+        width: .10rem;
+        height: .10rem;
+        float: right;
+        margin-left: .04rem;
+        margin-top: .19rem; }
+      .tuijianzhubo .title .gd span {
+        line-height: .47rem;
+        font-size: .14rem;
+        color: #3D3D3D;
+        font-weight: bold;
+        float: right; }
+  .tuijianzhubo .neirong {
+    width: 100%;
+    margin-bottom: .20rem; }
+    .tuijianzhubo .neirong .neirong1 {
+      width: 3.43rem;
+      height: 2.5rem;
+      border-radius: .02rem .02rem 0 0;
+      margin: auto;
+      position: relative;
+      margin-bottom: .16rem; }
+      .tuijianzhubo .neirong .neirong1 img {
+        width: 3.43rem;
+        height: 2.5rem;
+        border-radius: .02rem .02rem 0 0; }
+      .tuijianzhubo .neirong .neirong1 .dingwei {
+        z-index: 30;
+        position: absolute;
+        top: .11rem;
+        left: .11rem; }
+        .tuijianzhubo .neirong .neirong1 .dingwei img {
+          width: .12rem;
+          height: .14rem;
+          margin-right: .04rem;
+          float: left; }
+        .tuijianzhubo .neirong .neirong1 .dingwei span {
+          line-height: .14rem;
+          color: #F8F9FE;
+          font-size: .10rem;
+          float: left; }
+      .tuijianzhubo .neirong .neirong1 .youhui {
+        z-index: 30;
+        position: absolute;
+        top: .10rem;
+        right: 0; }
+        .tuijianzhubo .neirong .neirong1 .youhui li {
+          float: left;
+          padding: 0 .07rem;
+          line-height: .16rem;
+          height: .16rem;
+          text-align: center;
+          background: #FF3053;
+          color: #FFFFFF;
+          border-radius: .08rem;
+          margin-right: .10rem;
+          font-size: .10rem; }
+      .tuijianzhubo .neirong .neirong1 .zb {
+        z-index: 30;
+        position: absolute;
+        top: 1.39rem;
+        left: .12rem;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: .02rem;
+        height: .16rem;
+        padding: 0 .06rem 0 .05rem; }
+        .tuijianzhubo .neirong .neirong1 .zb li {
+          float: left;
+          font-size: .10rem;
+          color: #ffffff; }
+        .tuijianzhubo .neirong .neirong1 .zb li:nth-child(1) {
+          width: .05rem;
+          height: .05rem;
+          background: #FF3053;
+          border-radius: 50%;
+          margin-top: .06rem;
+          margin-right: 0.06rem; }
+        .tuijianzhubo .neirong .neirong1 .zb li:nth-child(2) {
+          height: .16rem;
+          line-height: .16rem;
+          margin-right: 0.06rem; }
+        .tuijianzhubo .neirong .neirong1 .zb li:nth-child(3) {
+          height: .08rem;
+          border-right: .01rem solid #ffffff;
+          margin-top: .05rem;
+          margin-right: 0.06rem; }
+        .tuijianzhubo .neirong .neirong1 .zb li:nth-child(4) {
+          width: .08rem;
+          height: .10rem;
+          margin-top: .03rem;
+          margin-right: .04rem; }
+          .tuijianzhubo .neirong .neirong1 .zb li:nth-child(4) img {
+            width: .08rem;
+            height: .10rem; }
+        .tuijianzhubo .neirong .neirong1 .zb li:nth-child(4) {
+          height: .16rem;
+          line-height: .16rem; }
+      .tuijianzhubo .neirong .neirong1 .shangpin {
+        z-index: 30;
+        position: absolute;
+        top: 1.60rem;
+        left: .10rem;
+        font-size: .18rem;
+        line-height: .25rem;
+        color: #ffffff; }
+      .tuijianzhubo .neirong .neirong1 .shangjia {
+        z-index: 30;
+        position: absolute;
+        top: 2.10rem;
+        left: .10rem;
+        height: .30rem; }
+        .tuijianzhubo .neirong .neirong1 .shangjia img {
+          width: .30rem;
+          height: .30rem;
+          float: left;
+          border-radius: 50%;
+          margin-right: .06rem; }
+        .tuijianzhubo .neirong .neirong1 .shangjia span {
+          float: left;
+          margin-top: .10rem;
+          line-height: .17rem;
+          font-size: .12rem;
+          color: #ffffff; }
+      .tuijianzhubo .neirong .neirong1 .chakan {
+        z-index: 30;
+        position: absolute;
+        top: 2.19rem;
+        right: .09rem; }
+        .tuijianzhubo .neirong .neirong1 .chakan li {
+          float: right;
+          line-height: .17rem;
+          color: #ffffff;
+          font-size: .10rem;
+          padding: 0 .10rem; }
+        .tuijianzhubo .neirong .neirong1 .chakan li:nth-child(1) img {
+          width: .14rem;
+          height: .14rem;
+          float: left;
+          margin-right: .05rem; }
+        .tuijianzhubo .neirong .neirong1 .chakan li:nth-child(1) span {
+          float: left; }
+        .tuijianzhubo .neirong .neirong1 .chakan li:nth-child(2) {
+          height: .08rem;
+          border-right: .01rem solid #ffffff;
+          padding: 0;
+          margin-top: .04rem; }
+        .tuijianzhubo .neirong .neirong1 .chakan li:nth-child(3) img {
+          width: .17rem;
+          height: .17rem;
+          float: left;
+          margin-right: .05rem; }
+        .tuijianzhubo .neirong .neirong1 .chakan li:nth-child(3) span {
+          float: left; }
+      .tuijianzhubo .neirong .neirong1 .mengceng {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0.2));
+        width: 3.43rem;
+        height: 2.50rem;
+        z-index: 10; }
+
+/*# sourceMappingURL=zhibo.css.map */

@@ -1,0 +1,122 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    margin-left: .14rem;
+    margin-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 1.98rem;
+    text-align: center; }
+  .head .information {
+    float: right;
+    padding-top: .20rem;
+    margin-right: .24rem;
+    position: relative; }
+    .head .information li {
+      width: .04rem;
+      height: .04rem;
+      float: left;
+      margin-right: .03rem;
+      background: #3D3D3D;
+      border-radius: 50%; }
+    .head .information div {
+      position: absolute;
+      top: .07rem;
+      left: .06rem;
+      width: .20rem;
+      height: .12rem;
+      border-radius: .03rem;
+      background: #FF3053;
+      color: #ffffff;
+      font-size: .10rem;
+      text-align: center;
+      line-height: .12rem; }
+
+.dianpu {
+  width: 100%;
+  height: 2.11rem;
+  background: linear-gradient(131deg, #5976eb 0%, #da6fba 100%);
+  opacity: 1; }
+  .dianpu .log {
+    width: 100%;
+    height: .70rem;
+    border-radius: 50%;
+    opacity: 1;
+    padding-top: .20rem; }
+    .dianpu .log img {
+      width: .70rem;
+      height: .70rem;
+      border-radius: 50%;
+      margin-left: 1.53rem; }
+  .dianpu .name {
+    height: .22rem;
+    font-size: .16rem;
+    line-height: .22rem;
+    color: white;
+    text-align: center;
+    margin-top: .10rem; }
+  .dianpu ul {
+    margin-top: .33rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .dianpu ul li {
+      text-align: center; }
+      .dianpu ul li div {
+        height: .20rem;
+        font-size: .14rem;
+        font-weight: bold;
+        line-height: .20rem;
+        color: white; }
+      .dianpu ul li p {
+        height: .17rem;
+        font-size: .12rem;
+        line-height: .17rem;
+        color: white; }
+
+.chongzhi {
+  width: 100%; }
+  .chongzhi .ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .chongzhi .ul li {
+      margin-top: .30rem;
+      text-align: center; }
+      .chongzhi .ul li img {
+        width: .60rem;
+        height: .60rem;
+        border-radius: 50%; }
+      .chongzhi .ul li p {
+        height: .17rem;
+        font-size: .12rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-56dianpu.css.map */

@@ -1,0 +1,341 @@
+html,body{
+    background:rgba(248,249,254,1);
+}
+.indent{
+    width: 100%;
+    .head{
+        width: 100%;
+        height: .44rem;
+        position: relative;
+        .return{
+            float: left;
+            margin-left: .14rem;
+            margin-top: .14rem;
+            img{
+                width: .16rem;
+                height: .17rem;
+            }
+        }
+        .title{
+            position: absolute;
+            position: absolute;
+            top:0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            max-width:1.98rem;
+            text-align: center;
+            height: .25rem;
+            line-height: .25rem;
+            font-size: .18rem;
+            font-weight: bold;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow:ellipsis;
+        }
+        
+    }
+    .information{
+        padding: .07rem 0 .09rem 0;
+        width: 3.39rem;
+       
+        margin: auto;
+        background: #ffffff;
+        border-radius: .08rem;
+        .left{
+            width: .17rem;
+            height: .20rem;
+            margin: .10rem;
+            float: left;
+            img{
+                width: .20rem;
+                height: .20rem; 
+            }
+        }
+        .center{
+            float: left;
+            .consignee{
+                .name{
+                    height: .20rem;
+                    line-height: .20rem;
+                    font-size: .14rem; 
+                    font-weight: bold;
+                    margin-right: .20rem;
+                    float: left;
+                }
+                .phone{
+                    height: .20rem;
+                    line-height: .20rem;
+                    font-size: .12rem; 
+                    font-weight: bold;
+                    color:rgba(173,178,198,1);
+                    float: left;
+                }
+            }
+            .site{
+                .mr{
+                    float: left;
+                    height: .16rem;
+                    line-height: .16rem;
+                    font-size: .10rem; 
+                    color:rgba(255,255,255,1);
+                    background:rgba(255,48,83,1);
+                    border-radius:.08rem;
+                    margin-right: .05rem;
+                    margin-top: .04rem;
+                    padding: 0 .05rem;
+                }
+                .site1{
+                    float: left;
+                    height: .17rem;
+                    line-height: .17rem;
+                    font-size: .12rem; 
+                    margin-top: .03rem;
+                }
+            }
+        }
+        .right{
+            float: right;
+            margin-right: .10rem;
+            margin-top: .23rem;
+            width: .10rem;
+            height: .11rem;
+            img{
+                width: .10rem;
+                height: .11rem;
+            }
+        }
+    }
+    .goods{
+        
+        padding-top: .10rem;
+        width: 3.39rem;   
+        margin: auto;
+        background: #ffffff;
+        border-radius: .08rem;
+        margin-top: .16rem;    
+        .title{
+            img{
+                width: .18rem;
+                height: .18rem;
+                border-radius: 50%;
+                margin-left: .10rem;
+                margin-right: .05rem;
+                float: left;
+            }
+            .name{
+                float: left;
+                height: .17rem;
+                line-height: .17rem;
+                font-size: .12rem; 
+                margin-right: .05rem;
+                img{
+                    width: .06rem;
+                    height: .11rem;
+                    margin-left: .10rem;
+                    margin-top: .03rem;
+                    float: right;
+                    
+                }
+            }
+        }
+        .shangpin{
+            padding-top: .17rem;
+            border-bottom: .01rem solid #E4E7F1;
+            width: 3.39rem;
+            margin: auto;
+            padding-bottom: .16rem;
+            .goodsimg{
+                float: left;
+                margin-left: .09rem;
+                width: .60rem;
+                height: .60rem;
+                img{
+                    width: .60rem;
+                    height: .60rem;
+                }
+            }
+            .right{
+                float: left;
+                margin-left: .10rem;
+                width: 2.47rem;
+                .goodsname{
+                    
+                    line-height: .17rem;
+                    font-size: .12rem;
+                    float: left;
+                }
+                .site{
+                    margin-top: .10rem;
+                    padding: 0 .06rem;
+                    height: .20rem;
+                    
+                    background: #F8F9FE;
+                    line-height: .20rem;
+                    color: #ADB2C6;
+                    border: 0;
+                    border-radius: .02rem;
+                    font-size: .12rem;
+                    
+                }
+                .mp{
+                    margin-top: .03rem;
+                    line-height: .20rem;
+                    float: left;
+                    font-size: .14rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content:space-between;
+                    color:rgba(173,178,198,1);
+                    font-weight:800;
+                    width: 2.47rem;
+                }
+                
+            }
+        }
+    
+        .xiangqing{
+            border-bottom: .01rem solid #E4E7F1;
+            width: 3.39rem;
+            margin: auto;
+            padding-bottom:.12rem;
+            li{
+                margin: auto;
+                margin-top: .12rem;
+                width: 3.19rem;
+                display: flex;
+                flex-direction: row;
+                justify-content:space-between;
+                height: .20rem; 
+                line-height: .20rem;
+                font-size: .14rem;
+                .goodsnum{
+                    float: right;
+                    border: .01rem solid #E4E7F1;
+                    border-radius: .02rem;
+                    font-size: .12rem;
+                    .reduce{
+                        width: .24rem;
+                        height: .20rem; 
+                        line-height: .20rem;
+                        text-align: center;
+                        border-right: .01rem solid #E4E7F1;
+                        color:#707070; 
+                        float: left;
+                        background:rgba(228,231,241,1);
+                        border-radius: .02rem 0 0.02rem;
+                    }
+                    .num{
+                        width: .35rem;
+                        height: .20rem; 
+                        line-height: .20rem;
+                        text-align: center;
+                        border-right: .01rem solid #E4E7F1;
+                        font-weight:800;
+                        float: left;
+                    }
+                    .add{
+                        width: .24rem;
+                        height: .20rem; 
+                        line-height: .20rem;
+                        text-align: center;
+                        float: left;
+                        color:#707070; 
+                        background:rgba(228,231,241,1);
+                        border-radius:  0 .02rem .02rem 0;
+                    }
+                }
+            }
+            .right{
+                color:rgba(99,104,125,1);
+            }
+        }
+    
+        .zj{
+            height: .35rem; 
+            line-height: .35rem;
+            font-weight:bold;
+            font-size: .14rem;
+            .total{
+                float: right;
+                margin-right: .10rem;
+            }
+            .num{
+                float: right;
+                margin-right: .18rem;
+            }
+        }
+    }
+
+
+    .youhui{
+        padding-top: .08rem;
+        padding-bottom: .08rem;
+        width: 3.39rem;   
+        margin: auto;
+        background: #ffffff;
+        border-radius: .08rem;
+        margin-top: .16rem;  
+        li{
+            margin: auto;
+           
+            width: 3.19rem;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            height: .20rem; 
+            line-height: .20rem;
+            font-size: .14rem;
+            .right{
+                color:rgba(99,104,125,1);
+            }
+            .check-box{
+                width: .16rem;
+                height: .16rem;
+            }
+        } 
+        li:nth-child(2){
+            margin-top: .12rem;
+        }
+    }
+
+    .foot{
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: .50rem;
+        display: flex;
+        flex-direction: row;
+        line-height: .50rem;
+        font-size: .16rem;
+        box-shadow:0px -1px 2px rgba(0,0,0,0.16);
+        .price{
+            width: 2.75rem;
+            font-weight:bold;
+            background:rgba(255,255,255,1);
+            .new{
+                color:rgba(255,48,83,1);
+                margin-left: .16rem;
+                float: left;
+            }
+            .old{
+                font-size: .12rem;
+                color:rgba(99,104,125,1);
+                margin-left: .18rem;
+                text-decoration:line-through;
+                float: left;
+            }
+        }
+        .btn{
+            background:rgba(255,48,83,1);
+            color:rgba(255,255,255,1);
+            text-align: center;
+            flex: 1;
+            font-weight:bold;
+        }
+    }
+}
+
+

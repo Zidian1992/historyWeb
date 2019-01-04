@@ -1,0 +1,247 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_info {
+  overflow: hidden;
+  position: absolute;
+  right: .24rem;
+  top: .2rem;
+}
+body .onlineHeader .orderDetail .orderDetail_info ul li {
+  width: .04rem;
+  height: .04rem;
+  background: #3d3d3d;
+  border-radius: 50%;
+  margin-right: .03rem;
+  float: left;
+}
+body .onlineHeader .orderDetail .orderDetail_list {
+  position: absolute;
+  right: .16rem;
+  top: .07rem;
+  width: .2rem;
+  height: .12rem;
+  border-radius: 3rem;
+  background: #ff3053;
+  line-height: .12rem;
+}
+body .onlineHeader .orderDetail .orderDetail_list span {
+  width: .12rem;
+  height: .14rem;
+  font-size: .1rem;
+  color: #f2f4f8;
+  font-family: 'PingFang SC';
+}
+body .evaluateCount {
+  margin-top: .44rem;
+  padding: 0 .18rem;
+}
+body .evaluateCount .evaluateCountUp {
+  padding: 0 .1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .76rem;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpLeft {
+  display: flex;
+  justify-content: space-around;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_avator {
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_avator img {
+  width: .4rem;
+  height: .4rem;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_txt span:nth-of-type(1) {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_txt span:nth-of-type(2) {
+  width: .22rem;
+  height: .13rem;
+  background: url('../img/online/矩形\ 837@2x.png');
+  font-size: .08rem;
+  font-weight: bold;
+  line-height: .11rem;
+  color: #6e1700;
+  text-align: center;
+  line-height: .13rem;
+}
+body .evaluateCount .evaluateCountUp .evaluateCountUpRight {
+  width: .6rem;
+  height: .22rem;
+  border: 0.01rem solid #454545;
+  border-radius: .11rem;
+  font-size: .12rem;
+  color: #454545;
+  font-weight: 500;
+  line-height: .22rem;
+  text-align: center;
+  white-space: nowrap;
+}
+body .evaluateCount .evaluateCountDown {
+  padding: 0 .1rem;
+  margin-top: .19rem;
+}
+body .evaluateCount .evaluateCountDown .evaluateCountDown_textarea {
+  height: .8rem;
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #adb2c6;
+}
+body .evaluateCategory {
+  margin-top: .06rem;
+}
+body .evaluateCategory .evaluateCategory_tab ul {
+  overflow: hidden;
+  display: flex;
+  height: .4rem;
+  text-align: center;
+  line-height: .4rem;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .evaluateCategory .evaluateCategory_tab ul li {
+  width: 33.33%;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll {
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp {
+  padding: 0 .16rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .76rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp .evaluateCountUpLeft {
+  display: flex;
+  justify-content: space-around;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_avator {
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_avator img {
+  width: .4rem;
+  height: .4rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_txt span:nth-of-type(1) {
+  font-size: .14rem;
+  line-height: .20rem;
+  color: #3d3d3d;
+  font-weight: 500;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_on .evaluateCountUp .evaluateCountUpLeft .evaluateCountUpLeft_txt span:nth-of-type(2) {
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #adb2c6;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_mid .tabAll_midTxt {
+  padding: 0 .2rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot {
+  margin-top: .17rem;
+  padding: 0 .18rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot .ppshops .ppshops_list {
+  position: relative;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot .ppshops .ppshops_list .ppshops_order img {
+  width: .7rem;
+  height: .7rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail {
+  width: 2.4rem;
+  font-size: .12rem;
+  font-weight: 400;
+  line-height: .17rem;
+  color: #3d3d3d;
+  position: absolute;
+  top: 0rem;
+  left: .9rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail .selfSupport_content {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #3d3d3d;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail span:nth-of-type(2) {
+  font-size: .12rem;
+  font-weight: 400;
+  line-height: .17rem;
+  color: #ff3053;
+  position: absolute;
+  top: .55rem;
+  right: .11rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_fot .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail span:nth-of-type(3) {
+  width: .60rem;
+  height: .22rem;
+  background: #ffffff;
+  border: 0.01rem solid #454545;
+  border-radius: .11rem;
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .22rem;
+  text-align: center;
+  color: #454545;
+  position: absolute;
+  bottom: -0.7rem;
+  right: 0rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_bot {
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #adb2c6;
+  display: flex;
+  padding: 0 .08rem;
+}
+body .evaluateCategory .evaluateCategory_content #tabAll .tabAll_bot div {
+  margin: .19rem .12rem;
+}

@@ -1,0 +1,282 @@
+
+.head{
+    width: 100%;
+    height: .44rem;
+    .left{
+        float: left;
+        margin-left: .16rem;
+        margin-top: .08rem;
+        img{
+            width: .26rem;
+            height: .26rem;
+        }
+    }
+    .content{
+        float: left;
+        margin-left: 2.52rem;
+        margin-top: .10rem;
+        img{
+            width: .24rem;
+            height: .24rem;
+        }
+    }
+    .right{
+        float: right;
+        margin-right: .15rem;
+        margin-top: .11rem;
+        img{
+            width: .22rem;
+            height: .22rem;
+        }
+    }
+}
+
+
+.xinxi{
+    width: 100%;
+    height: 1.45rem;
+    border-bottom: .01rem solid #E4E7F1;
+    .left{
+        float: left;
+        margin-left: .15rem;
+        img{
+            width: .86rem;
+            height: .86rem; 
+            margin-top: .05rem;
+            border-radius: 50%;
+        }
+        .vip{
+            margin-left: .82rem;
+            width: .22rem;
+            height: .13rem;
+            img{
+                width: .22rem;
+                height: .13rem; 
+                margin-top: 0;
+                border-radius: 0;
+            } 
+        }
+        .name{
+            line-height: .20rem;
+            font-size: .14rem;
+            font-weight: bold;
+            img{
+                width: .20rem;
+                height: .20rem; 
+                margin-left: .05rem;
+                margin-top: 0;
+            }
+        }
+        .kahao{
+            line-height: .14rem;
+            font-size: .10rem;
+        }
+    }
+    .right{
+        float: right;
+        .guanzhu{
+            margin-top: .12rem;
+            margin-right:.16rem;
+            li{
+                float: right;
+                font-size: .12rem;
+                line-height: .17rem;
+                font-weight: bold;
+                margin-left: .20rem;
+                text-align: center;
+            } 
+        }
+        .ul2{
+            margin-top: .15rem;
+            margin-right: .16rem;
+            li{
+                float: right;
+                padding: 0 .16rem;
+                border: .01rem solid #ADB2C6;
+                border-radius: .12rem;
+                height: .24rem;
+                line-height: .24rem;
+                text-align: center;
+                font-size: .12rem;
+                color: #454545;
+                font-weight: Medium;
+                margin-left: .10rem;
+                img{
+                    width: .14rem;
+                    height: .15rem;
+                    margin-top: .05rem;
+                }
+            }
+            
+        }
+        .huiyuan{
+            float: right;
+            margin-right:.16rem ;
+            margin-top: .19rem;
+            width: .73rem;
+            height: .24rem;
+            img{
+                width: .73rem;
+                height: .24rem;
+            }
+        }
+    }
+}
+
+.zhongxin{
+    width: 100%;
+    height: .96rem;
+    border-bottom: .06rem solid #F8F9FE;
+    
+    li{
+        float: left;
+        margin-top: .16rem;
+        margin-left: .36rem;
+        img{
+            width: .48rem;
+            height: .48rem;
+        }
+        div{
+            line-height: .17rem;
+            font-size: .12rem;
+            font-weight: bold;
+        }
+    }
+}
+.miandan{
+    width: 100%;
+    height: 1.25rem;
+    border-bottom: .01rem solid #E4E7F1;
+    .title{
+        margin-top: .13rem;
+        margin-left: .15rem;
+        line-height: .22rem;
+        font-size: .16rem;
+        font-weight: bold;
+    }
+    ul{
+        width: 100%;
+        li{
+            float: left;
+            margin-top: .13rem;
+            img{
+                width: .60rem;
+                height: .60rem;
+                margin-right: .10rem;
+                border-radius: 50%;
+            }
+            span{
+                line-height: .20rem;
+                font-size: .14rem;
+                font-weight: bold;
+                margin-top: .20rem;
+            }
+        }
+        li:nth-child(1){
+            margin-left: .36rem;
+        }
+        li:nth-child(2){
+            margin-left: .18rem;
+            margin-top: .13rem;
+            height: .25rem;
+            border-right: .01rem solid #F8F9FE;
+        }
+        li:nth-child(3){
+            margin-left: .26rem;
+            
+        }
+
+    }
+}
+
+
+
+.dingdan{
+    width: 100%;
+    height: 1.25rem;
+    
+    .title{
+        margin-top: .13rem;
+        margin-left: .15rem;
+        line-height: .22rem;
+        font-size: .16rem;
+        font-weight: bold;
+    }
+    ul{
+        width: 100%;
+        li{
+            float: left;
+            margin-top: .13rem;
+            img{
+                width: .60rem;
+                height: .60rem;
+                margin-right: .10rem;
+                border-radius: 50%;
+            }
+            span{
+                line-height: .20rem;
+                font-size: .14rem;
+                font-weight: bold;
+                margin-top: .20rem;
+            }
+        }
+        li:nth-child(1){
+            margin-left: .36rem;
+        }
+        li:nth-child(2){
+            margin-left: .18rem;
+            margin-top: .13rem;
+            height: .25rem;
+            border-right: .01rem solid #F8F9FE;
+        }
+        li:nth-child(3){
+            margin-left: .26rem;
+            
+        }
+
+    }
+}
+
+
+.fenlei{
+    width: 100%;
+    height: 2.22rem;
+    border-top: .06rem solid #F8F9FE;
+    margin-bottom: .83rem;
+    .title{
+        margin-top: .13rem;
+        margin-left: .15rem;
+        line-height: .22rem;
+        font-size: .16rem;
+        font-weight: bold;
+    }
+    ul{
+        width: 3.39rem;
+        margin: auto;
+        li{
+            width: 25%;
+            float: left;
+            line-height: .17rem;
+            font-size: .12rem;
+            font-weight: bold;
+            text-align: center;
+            margin-top: .15rem;
+            img{
+                width: .48rem;
+                height: .48rem;
+                border-radius: 50%;
+                margin-bottom: .02rem;
+            }
+        }
+    }
+}
+
+.xian{
+    position: fixed;
+    left: 1.21rem;
+    bottom: .09rem;
+    width: 1.34rem;
+    height: .05rem;
+    border-radius: 1rem;
+    background: #000;
+}

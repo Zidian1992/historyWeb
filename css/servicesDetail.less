@@ -1,0 +1,158 @@
+body{
+    background-color: #fff!important;
+    .onlineHeader{
+        height: .44rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index:999;
+        background-color: #fff;
+        text-align: center;
+        border-bottom: .01rem solid rgba(228,231,241,1);
+        .orderDetail{
+            .orderDetail_bc{    
+                img{
+                    width: .16rem;
+                    height: .17rem;
+                    position: absolute;
+                    left: .14rem;
+                    top: .14rem;
+                }
+            }
+            .orderDetail_p{
+                line-height: .44rem;
+                font-size: .18rem;
+                font-weight:bold;
+                color:rgba(61,61,61,1);
+            }
+            .orderDetail_info{
+                overflow: hidden;
+                position: absolute;
+                right: .24rem;
+                top: .2rem;
+                ul{
+                    li{
+                        width: .04rem;
+                        height: .04rem;
+                        background:rgba(61,61,61,1);
+                        border-radius: 50%;
+                        margin-right: .03rem;
+                        float: left;
+                    }
+                }
+            }
+            .orderDetail_list{
+                position: absolute;
+                right: .16rem;
+                top:.07rem;
+                width: .2rem;
+                height: .12rem;    
+                border-radius:3rem;
+                background:rgba(255,48,83,1);
+                line-height: .12rem;
+                span{
+                    width:.12rem;
+                    height:.14rem;
+                    font-size: .1rem;
+                    color:rgba(242,244,248,1);
+                    font-family:'PingFang SC';
+                }
+            }
+            .orderDetail_serv{
+                width: .24rem;
+                height: .24rem;
+                position: absolute;
+                top: .1rem;
+                left: 2.92rem;
+                img{
+                    width: .24rem;
+                    height: .24rem;
+                }
+            }
+            .orderDetail_share{
+                width: .2rem;
+                height: .2rem;
+                position: absolute;
+                top: .12rem;
+                left: 2.94rem;
+                color:rgba(61,61,61,1);
+                span.mui-icon{
+                    font-size: .24rem;
+                }
+            }
+        }
+    }
+    .ppshops{
+        padding: 0 .18rem;
+        margin-top: .6rem;
+        .ppshops_list{
+            padding:0 .1rem;
+            position: relative;
+            margin-top: .15rem;
+            margin-bottom: .20rem;
+            .ppshops_order{   
+                img{
+                    width: .6rem;
+                    height: .6rem;
+                }
+                .ppshops_orderDetail{
+                    width:2.47rem;
+                    font-size:.12rem;
+                    font-family:'PingFang SC';
+                    font-weight:400;
+                    line-height:.17rem;
+                    color:rgba(61,61,61,1);
+                    position: absolute;
+                    top: 0;
+                    left: .79rem;
+                }
+                p#black{
+                    position: absolute;
+                    top:.4rem;
+                    left: .79rem;
+                    font-size: .12rem;
+                }
+            }
+        }
+        
+    }
+    .handleList{
+        padding-left: .15rem;
+        &>ul{
+            li{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: .27rem;
+                position: relative;
+                .handleListCategory{
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        &:nth-of-type(1){
+                            position: absolute;
+                            top: 0;
+                            left: -.02rem;
+                        }
+                        &:nth-of-type(2){
+                            font-size:.14rem;
+                            font-weight:400;
+                            line-height:.20rem;
+                            color:rgba(61,61,61,1);
+                        }
+                        &:nth-of-type(3){
+                            font-size:.12rem;
+                            font-weight:400;
+                            line-height:.17rem;
+                            color:rgba(99,104,125,1);
+                        }
+                    }
+                }
+                img{
+                    width: .1rem;
+                    height: .1rem;
+                }
+            }            
+        }
+    }
+}

@@ -1,0 +1,231 @@
+.head {
+  width: 100%;
+  height: .44rem; }
+  .head .return {
+    float: left;
+    margin-left: .14rem;
+    margin-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    float: left;
+    margin-left: 1.07rem;
+    margin-top: .10rem;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold; }
+    .head .title p {
+      float: right; }
+  .head .manage {
+    float: right;
+    margin-right: .15rem;
+    margin-top: .13rem;
+    height: .20rem;
+    line-height: .20rem;
+    font-size: .18rem;
+    font-weight: bold; }
+
+.car {
+  width: 100%;
+  border-top: .01rem solid #F8F9FE; }
+  .car .dianming {
+    width: 3.48rem;
+    height: .34rem;
+    padding-top: .16rem;
+    margin: auto; }
+    .car .dianming .check-all {
+      width: .18rem;
+      height: .18rem;
+      border-radius: .18rem;
+      float: left;
+      margin-left: .16rem;
+      background: #fff; }
+    .car .dianming .check-all:checked {
+      background: #1673ff; }
+    .car .dianming .check-all {
+      margin-left: .16rem;
+      width: .18rem;
+      height: .18rem;
+      background-color: #ffffff;
+      border: solid 1px #D8D8D8;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      cursor: default;
+      -webkit-appearance: none;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-transition: background-color ease 0.1s;
+      transition: background-color ease 0.1s; }
+    .car .dianming .check-all:checked::after {
+      content: '';
+      top: .03rem;
+      left: .04rem;
+      position: absolute;
+      background: transparent;
+      border: #fff solid 2px;
+      border-top: none;
+      border-right: none;
+      height: 0.04rem;
+      width: .08rem;
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    .car .dianming .name {
+      float: left;
+      margin-left: .09rem;
+      height: .17rem;
+      line-height: .17rem;
+      font-size: .12rem;
+      font-weight: bold; }
+      .car .dianming .name img {
+        float: right;
+        width: .06rem;
+        height: .11rem;
+        margin-left: .05rem;
+        margin-top: .03rem; }
+    .car .dianming .quan {
+      float: right;
+      margin-right: .16rem;
+      height: .17rem;
+      line-height: .17rem;
+      font-size: .12rem;
+      font-weight: bold; }
+  .car .shangpin {
+    border-bottom: .01rem solid #F8F9FE;
+    width: 3.48rem;
+    margin: auto;
+    padding-bottom: .25rem; }
+    .car .shangpin .check {
+      float: left;
+      padding-top: .21rem; }
+    .car .shangpin .check-box {
+      width: .18rem;
+      height: .18rem;
+      border-radius: .18rem;
+      float: left;
+      margin-left: .16rem;
+      background: #fff;
+      margin-top: .21rem; }
+    .car .shangpin .check-box:checked {
+      background: #1673ff; }
+    .car .shangpin .check-box {
+      margin-left: .16rem;
+      width: .18rem;
+      height: .18rem;
+      background-color: #ffffff;
+      border: solid 1px #D8D8D8;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      cursor: default;
+      -webkit-appearance: none;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-transition: background-color ease 0.1s;
+      transition: background-color ease 0.1s; }
+    .car .shangpin .check-box:checked::after {
+      content: '';
+      top: .03rem;
+      left: .04rem;
+      position: absolute;
+      background: transparent;
+      border: #fff solid 2px;
+      border-top: none;
+      border-right: none;
+      height: 0.04rem;
+      width: .08rem;
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    .car .shangpin .goodsimg {
+      float: left;
+      margin-left: .09rem;
+      width: .60rem;
+      height: .60rem; }
+      .car .shangpin .goodsimg img {
+        width: .60rem;
+        height: .60rem; }
+    .car .shangpin .right {
+      float: left;
+      margin-left: .10rem;
+      width: 2.51rem; }
+      .car .shangpin .right .goodsname {
+        line-height: .17rem;
+        font-size: .12rem;
+        float: left; }
+      .car .shangpin .right .site {
+        margin-top: .08rem;
+        padding: 0 .06rem;
+        height: .20rem;
+        background: #F8F9FE;
+        line-height: .20rem;
+        color: #ADB2C6;
+        border: 0;
+        border-radius: .02rem;
+        font-size: .12rem; }
+      .car .shangpin .right .inventory {
+        margin-top: .05rem;
+        line-height: .14rem;
+        font-size: .10rem;
+        color: #FF3053; }
+      .car .shangpin .right .ps {
+        margin-top: .19rem; }
+        .car .shangpin .right .ps .goodsprice {
+          line-height: .20rem;
+          float: left;
+          font-size: .04rem;
+          color: #FF3053; }
+        .car .shangpin .right .ps .goodsnum {
+          float: right;
+          border: .01rem solid #D8D8D8;
+          border-radius: .02rem;
+          font-size: .12rem; }
+          .car .shangpin .right .ps .goodsnum .reduce {
+            width: .24rem;
+            height: .20rem;
+            line-height: .20rem;
+            text-align: center;
+            border-right: .01rem solid #D8D8D8;
+            color: #707070;
+            float: left; }
+          .car .shangpin .right .ps .goodsnum .num {
+            width: .35rem;
+            height: .20rem;
+            line-height: .20rem;
+            text-align: center;
+            border-right: .01rem solid #D8D8D8;
+            font-weight: Heavy;
+            float: left; }
+          .car .shangpin .right .ps .goodsnum .add {
+            width: .24rem;
+            height: .20rem;
+            line-height: .20rem;
+            text-align: center;
+            float: left;
+            color: #707070; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=xiaoxi-44gouwuche.css.map */

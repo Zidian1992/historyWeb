@@ -1,0 +1,165 @@
+body {
+  background-color: #fff;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  background: url('../img/online/member-bg-orange@2x.png');
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-family: 'PingFang SC';
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_c {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: .15rem;
+}
+body .vip_content {
+  background-color: #fff;
+  margin-bottom: .7rem;
+  margin-top: .44rem;
+}
+body .vip_content .vip_card {
+  height: 1.96rem;
+  width: 100%;
+  background: url('../img/online/member-bg-orange@2x.png') no-repeat 0 -0.9rem;
+  background-size: cover;
+}
+body .vip_content .vip_card .vip_cardSwiper {
+  width: 2.91rem;
+  height: 1.64rem;
+  position: absolute;
+  left: 50%;
+  margin-top: .32rem;
+  margin-left: -1.45rem;
+}
+body .vip_content .vip_card .vip_cardSwiper img {
+  width: 100%;
+  height: 100%;
+}
+body .vip_content .nineStyle {
+  display: flex;
+  margin-top: .26rem;
+  flex-wrap: wrap;
+}
+body .vip_content .nineStyle a {
+  display: inline-block;
+  color: #3d3d3d;
+  width: 33.3333%;
+  margin-bottom: .32rem;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount {
+  background-color: #fff!important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount span {
+  font-size: .20rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #3d3d3d;
+  margin-bottom: 0.06rem;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount span span.nineStyle_present {
+  width: .17rem;
+  height: .17rem;
+  background: linear-gradient(46deg, #fbd7bd 0%, #ffffff 100%);
+  border-radius: 50%;
+  font-size: .12rem;
+  position: absolute;
+  top: .03rem;
+  left: .8rem;
+  text-align: center;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount span img {
+  width: .26rem;
+  height: .26rem;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount .nineStyle_vipRight {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+  margin-bottom: 0.04rem;
+  height: .2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount .nineStyle_goldVipDiscount {
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #63687d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount span.waiting {
+  font-size: .20rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #d8d8d8;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount span.waiting span.nineStyle_waiting {
+  width: .17rem;
+  height: .17rem;
+  background: linear-gradient(46deg, #fbd7bd 0%, #ffffff 100%);
+  border-radius: 50%;
+  font-size: .1rem;
+  color: #d8d8d8;
+  position: absolute;
+  top: .03rem;
+  left: .78rem;
+  text-align: center;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount .nineStyle_waitingPay {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #d8d8d8;
+}
+body .vip_content .nineStyle a .nineStyle_vipDiscount .nineStyle_waitingFree {
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #d8d8d8;
+}
+body .vip_content .ImmediateOpening {
+  margin-top: 1.03rem;
+  margin-left: .11rem;
+}
+body .vip_content .ImmediateOpening a {
+  display: inline-block;
+}
+body .vip_content .ImmediateOpening a img {
+  width: 3.47rem;
+  height: .54rem;
+  background: #eebc97;
+  opacity: 1;
+  border-radius: .56rem;
+}

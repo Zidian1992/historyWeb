@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/gonggong.css">
+    <link rel="stylesheet" href="../css/evaluate.css">
+    <!-- <link rel="stylesheet" href="../css/mui-icons-extra.ttf"> -->
+    <!-- <link rel="stylesheet" href="../css/icons-extra.css"> -->
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../lib/jquery.raty.js"></script>
+    <title>评价</title>
+</head>
+<body>
+    <header class="onlineHeader">
+        <div class="orderDetail">
+            <div class="orderDetail_bc">
+                <img src="../img/online/back@2x.png" alt="">
+            </div>
+            <div class="orderDetail_p">有料世家（花桥店）</div>
+            <div class="orderDetail_c">发布</div>
+        </div>
+    </header>
+    <div class="publicationEvaluation_content">
+        <div class="publicationEvaluation_contentOn">
+            <div class="publicationEvaluation_contentOnLeft">
+                <img src="../img/online/5711111.jpg" alt="">
+                <span class="publicationEvaluation_contentOnDesc">描述相符</span>
+            </div>
+            <div class="star">
+                <div id="function-star" class="target-demo"></div>
+                <div id="function-hint" class="hint"></div>
+            </div>
+        </div>
+        <div class="evaluate_content">
+            <div class="evaluate_contentTop">
+                <div class="evaluate_contentTopList">
+                    <div>环境优雅</div>
+                    <div>价格实惠</div>
+                    <div>干净卫生</div>
+                </div>
+                <div class="evaluate_contentTopListwo">
+                    <div>健康</div>
+                    <div>满意</div>
+                </div>
+            </div>
+            <div class="evaluate_contentDon">
+                <div class="evaluate_contentDonPay">
+                    人均  ¥
+                </div>
+                <input type="text" placeholder="请输入消费金额" style="border:0;padding:0;height: .2rem;margin:0;line-height: .2rem;">
+            </div>
+        </div>
+        <div class="publicationEvaluation_contentMid">
+            <div class="publicationEvaluation_contentMidTextarea">      
+                    菜品口味如何，服务周到吗，环境如何？（听说写够15字的人都， 会升职加薪哟~）          
+                <!-- <input type="textarea" placeholder="菜品口味如何，服务周到吗，环境如何？（听说写够15字的人都， 会升职加薪哟~）"> -->
+            </div>
+            <div class="publicationEvaluation_contentMidUploadpic">
+                <div class="uploadVideo"></div>
+                <div class="uploadPic"></div>
+            </div>
+        </div>
+        <div class="publicationEvaluation_contentDon">      
+            <div class="isAnonymous">
+                <input name="isAnonymous" type="checkbox">
+                <label>匿名评价</label>
+            </div>
+        </div>    
+    </div>
+    <div class="footer_AnonymousEvaluation">
+        <span></span>
+        <span>匿名评价说明</span>
+    </div>
+    <script>
+        $(function(){
+            // $.fn.raty.defaults.path = 'lib/img';
+            $('#function-star').raty({
+                number: 5, //多少个星星设置
+                targetType: 'hint', //类型选择，number是数字值，hint，是设置的数组值
+                path: 'lib/images',
+                hints: ['不推荐', '一般', '好', '非常好', '强烈推荐'],
+                cancelOff: 'cancel-off.png',
+                cancelOn: 'cancel-on.png',
+                size: 24,
+                starHalf: 'star-half.png',
+                starOff: 'star-off-s.png',
+                starOn: 'star-on-s.png',
+                target: '#function-hint',
+                cancel: false,
+                targetKeep: true,
+                targetText: '请选择评分',
+                click: function(score, evt) {
+                    // alert('ID: ' + $(this).attr('id') + "\nscore: " + score + "\nevent: " + evt.type);
+                }
+            })
+        })
+    </script>
+</body>
+</html>

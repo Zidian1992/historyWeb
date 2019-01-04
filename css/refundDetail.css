@@ -1,0 +1,306 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_serv {
+  width: .24rem;
+  height: .24rem;
+  position: absolute;
+  top: .1rem;
+  left: 2.92rem;
+}
+body .onlineHeader .orderDetail .orderDetail_serv img {
+  width: .24rem;
+  height: .24rem;
+}
+body .onlineHeader .orderDetail .orderDetail_share {
+  width: .2rem;
+  height: .2rem;
+  position: absolute;
+  top: .1rem;
+  left: 3.42rem;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_share span.mui-icon-extra {
+  font-size: .24rem;
+}
+body .refundDetail_content {
+  margin-top: .44rem;
+  margin-bottom: .5rem;
+  padding: 0 .16rem;
+}
+body .refundDetail_content ul li {
+  margin-left: -0.16rem;
+  margin-right: -0.16rem;
+  padding: 0 .16rem;
+}
+body .refundDetail_content ul li:nth-of-type(1) {
+  height: 1.1rem;
+  border-bottom: 0.01rem solid #e4e7f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .refundDetail_content ul li:nth-of-type(1) .waitingHandle {
+  display: flex;
+  flex-direction: column;
+}
+body .refundDetail_content ul li:nth-of-type(1) .waitingHandle div:nth-of-type(1) {
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+  margin-bottom: .04rem;
+}
+body .refundDetail_content ul li:nth-of-type(1) .waitingHandle div:nth-last-of-type(1) {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+body .refundDetail_content ul li:nth-of-type(1) .cancelRefund {
+  width: .70rem;
+  height: .22rem;
+  background: #ffffff;
+  border: 0.01rem solid #454545;
+  border-radius: .11rem;
+  font-size: .12rem;
+  font-weight: 500;
+  color: #454545;
+  text-align: center;
+  line-height: .22rem;
+}
+body .refundDetail_content ul li:nth-of-type(2),
+body .refundDetail_content ul li:nth-of-type(3) {
+  border-bottom: 0.01rem solid #e4e7f1;
+  height: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .14rem;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+body .refundDetail_content ul li:nth-of-type(2) .cashWeChat,
+body .refundDetail_content ul li:nth-of-type(3) .cashWeChat {
+  font-size: .14rem;
+  font-weight: 500;
+  color: #63687d;
+}
+body .refundDetail_content ul li:nth-of-type(4) {
+  height: 2.5rem;
+  padding-top: .13rem;
+  padding-bottom: .13rem;
+  font-size: .16rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet {
+  position: relative;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .pinkCircle {
+  border: 0.02rem solid #ffc7d0;
+  background-color: #ff637d;
+  border-radius: 50%;
+  width: .15rem;
+  height: .15rem;
+  position: absolute;
+  top: .02rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircle {
+  background-color: #3d3d3d;
+  width: .13rem;
+  height: .13rem;
+  position: absolute;
+  border-radius: 50%;
+  top: .85rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCirclew {
+  background-color: #3d3d3d;
+  width: .13rem;
+  height: .13rem;
+  position: absolute;
+  border-radius: 50%;
+  top: .48rem;
+  left: 0;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .string {
+  position: absolute;
+  width: .01rem;
+  height: .4rem;
+  background-color: #3d3d3d;
+  top: .97rem;
+  left: .07rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .stringss {
+  position: absolute;
+  width: .01rem;
+  height: 4.1rem;
+  background-color: #3d3d3d;
+  top: .15rem;
+  left: .07rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .stringw {
+  position: absolute;
+  width: .01rem;
+  height: .4rem;
+  background-color: #3d3d3d;
+  top: .15rem;
+  left: .07rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .stringxx {
+  position: absolute;
+  width: .01rem;
+  height: .7rem;
+  background-color: #3d3d3d;
+  top: .15rem;
+  left: .07rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCirclexx {
+  background-color: #3d3d3d;
+  width: .13rem;
+  height: .13rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 1.3rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless1,
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless2,
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless3,
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless4,
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless5 {
+  background-color: #3d3d3d;
+  width: .13rem;
+  height: .13rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 1.08rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless2 {
+  position: absolute;
+  top: 1.9rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless3 {
+  position: absolute;
+  top: 2.73rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless4 {
+  position: absolute;
+  top: 3.76rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBar .blackCircless5 {
+  position: absolute;
+  top: 4.18rem;
+  left: 0rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt {
+  margin-left: .27rem;
+  margin-top: .12rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .dealerRefuseRefund {
+  margin-bottom: .2rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .dealerRefuseRefund .refundReasonHasSub {
+  font-size: .14rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .dealerRefuseRefund .refundReason,
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .dealerRefuseRefund .refundDate {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #63687d;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .waitingDealersHandle {
+  font-size: .14rem;
+  margin-bottom: .23rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .refundReason {
+  font-size: .14rem;
+}
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .refundReason .refundReason,
+body .refundDetail_content ul li:nth-of-type(4) .refundProDet .refundProgressBarTxt .refundReason .refundDate {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #63687d;
+}
+body .refundDetail_content ul li:nth-of-type(5) .refundInfo {
+  font-size: .16rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .refundDetail_content ul li:nth-of-type(5) .ppshops .ppshops_list {
+  padding: 0 .1rem;
+  position: relative;
+  margin-top: .15rem;
+  margin-bottom: .20rem;
+}
+body .refundDetail_content ul li:nth-of-type(5) .ppshops .ppshops_list .ppshops_order img {
+  width: .6rem;
+  height: .6rem;
+}
+body .refundDetail_content ul li:nth-of-type(5) .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail {
+  width: 2.47rem;
+  font-size: .12rem;
+  font-family: 'PingFang SC';
+  font-weight: 400;
+  line-height: .17rem;
+  color: #3d3d3d;
+  position: absolute;
+  top: 0;
+  left: .79rem;
+}
+body .refundDetail_content ul li:nth-of-type(5) .ppshops .ppshops_list .ppshops_order p#black {
+  position: absolute;
+  top: .4rem;
+  left: .79rem;
+  font-size: .12rem;
+}
+body .refundDetail_content ul li:nth-of-type(5) .ppshops .ppshops_list .ppshops_order span.countStyle {
+  font-size: .16rem;
+  font-weight: 500;
+  color: #adb2c6;
+  position: absolute;
+  top: .4rem;
+  left: 3rem;
+}
+body .footer {
+  position: fixed;
+  bottom: 0;
+  height: .5rem;
+  background-color: #63687d;
+  width: 100%;
+}
+body .footer .footerDealTel {
+  text-align: center;
+  line-height: .5rem;
+  font-size: .14rem;
+  font-weight: 500;
+  color: #ffffff;
+}

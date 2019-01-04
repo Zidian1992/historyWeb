@@ -1,0 +1,214 @@
+html, body {
+  background: #F8F9FE; }
+
+.head {
+  width: 100%;
+  height: .44rem; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    height: .25rem;
+    line-height: .25rem;
+    color: #3D3D3D;
+    font-size: .18rem;
+    font-weight: bold;
+    padding-top: .14rem;
+    margin-left: 1.22rem;
+    float: left; }
+  .head .search {
+    float: left;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-left: .69rem; }
+    .head .search img {
+      width: .20rem;
+      height: .20rem; }
+  .head .information {
+    float: left;
+    padding-top: .20rem;
+    margin-left: .20rem;
+    position: relative; }
+    .head .information li {
+      width: .04rem;
+      height: .04rem;
+      float: left;
+      margin-right: .03rem;
+      background: #3D3D3D;
+      border-radius: 50%; }
+    .head .information div {
+      position: absolute;
+      top: .07rem;
+      left: .06rem;
+      width: .20rem;
+      height: .12rem;
+      border-radius: .03rem;
+      background: #FF3053;
+      color: #ffffff;
+      font-size: .10rem;
+      text-align: center;
+      line-height: .12rem; }
+
+.nav {
+  width: 100%;
+  height: .40rem;
+  line-height: .40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: .14rem;
+  font-weight: bold;
+  color: #454545; }
+
+.shangpin {
+  width: 100%;
+  border-top: .01rem solid #E4E7F1; }
+  .shangpin .module {
+    width: 3.39rem;
+    margin: auto;
+    background: white;
+    border-radius: .08rem;
+    margin-top: .16rem; }
+    .shangpin .module .goods {
+      width: 3.39rem;
+      margin: auto; }
+      .shangpin .module .goods .title {
+        width: 3.19rem;
+        margin: auto;
+        height: .18rem;
+        line-height: .18rem;
+        font-size: .12rem;
+        padding-top: 0.18rem; }
+        .shangpin .module .goods .title .img1 {
+          float: left;
+          width: .18rem;
+          height: .18rem;
+          border-radius: 50%;
+          margin-right: .10rem; }
+          .shangpin .module .goods .title .img1 img {
+            width: .18rem;
+            height: .18rem;
+            border-radius: 50%; }
+        .shangpin .module .goods .title span {
+          float: left; }
+        .shangpin .module .goods .title .img2 {
+          float: left;
+          width: .06rem;
+          height: .12rem;
+          margin-top: .04rem;
+          margin-left: .05rem; }
+          .shangpin .module .goods .title .img2 img {
+            width: .06rem;
+            height: .11rem; }
+        .shangpin .module .goods .title .deal {
+          color: #ff3053;
+          font-size: .10rem;
+          float: right; }
+      .shangpin .module .goods .shangpin1 {
+        width: 3.19rem;
+        margin: auto;
+        padding-top: .16rem; }
+        .shangpin .module .goods .shangpin1 .check {
+          float: left;
+          padding-top: .21rem; }
+        .shangpin .module .goods .shangpin1 .goodsimg {
+          float: left;
+          width: .60rem;
+          height: .60rem;
+          border-radius: .02rem;
+          margin-top: .03rem; }
+          .shangpin .module .goods .shangpin1 .goodsimg img {
+            width: .60rem;
+            height: .60rem;
+            border-radius: .02rem; }
+        .shangpin .module .goods .shangpin1 .center {
+          float: left;
+          margin-left: .10rem;
+          width: 1.80rem; }
+          .shangpin .module .goods .shangpin1 .center .goodsname {
+            height: .40rem;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            line-height: .20rem;
+            font-size: .14rem; }
+          .shangpin .module .goods .shangpin1 .center .site {
+            margin-top: .10rem;
+            padding: 0 .06rem;
+            height: .20rem;
+            background: #f8f9fe;
+            line-height: .20rem;
+            color: #ADB2C6;
+            border: 0;
+            border-radius: .02rem;
+            font-size: .12rem; }
+          .shangpin .module .goods .shangpin1 .center .welfare {
+            margin-top: .10rem;
+            padding: 0 .06rem;
+            height: .14rem;
+            border-radius: .02rem;
+            font-size: .08rem;
+            line-height: .14rem; }
+            .shangpin .module .goods .shangpin1 .center .welfare li {
+              float: left;
+              margin-right: .10rem;
+              background: #ffe9ed;
+              color: #ff3053; }
+        .shangpin .module .goods .shangpin1 .right {
+          float: right; }
+          .shangpin .module .goods .shangpin1 .right .goodsprice {
+            line-height: .20rem;
+            float: right;
+            font-size: .12rem;
+            text-decoration: line-through; }
+          .shangpin .module .goods .shangpin1 .right .num {
+            margin-top: .42rem;
+            line-height: .20rem;
+            text-align: right;
+            font-size: .14rem;
+            color: #ADB2C6; }
+      .shangpin .module .goods .total {
+        width: 3.19rem;
+        margin: auto;
+        border-bottom: .01rem dashed #ADB2C6;
+        text-align: right;
+        padding-top: .20rem;
+        font-size: .12rem;
+        line-height: .17rem;
+        text-align: right;
+        color: #454545;
+        padding-bottom: .10rem; }
+    .shangpin .module .al {
+      width: 100%;
+      padding-bottom: .10rem;
+      padding-top: .10rem; }
+      .shangpin .module .al .btn {
+        float: right;
+        margin-right: .20rem;
+        width: .60rem;
+        height: .22rem;
+        border: .01rem solid #454545;
+        border-radius: .11rem;
+        line-height: .22rem;
+        text-align: center;
+        font-weight: 500;
+        font-size: .12rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-59xianshangdingdan.css.map */

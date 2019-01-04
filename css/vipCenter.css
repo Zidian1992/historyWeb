@@ -1,0 +1,335 @@
+.onlineHeader {
+  height: .44rem;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  background: url('../img/online/member-bg-rainbow@2x.png');
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+.onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-family: 'PingFang SC';
+  font-weight: bold;
+  color: #3d3d3d;
+}
+.onlineHeader .orderDetail .orderDetail_info {
+  overflow: hidden;
+  position: absolute;
+  right: .24rem;
+  top: .2rem;
+}
+.onlineHeader .orderDetail .orderDetail_info ul li {
+  width: .04rem;
+  height: .04rem;
+  background: #3d3d3d;
+  border-radius: 50%;
+  margin-right: .03rem;
+  float: left;
+}
+.onlineHeader .orderDetail .orderDetail_list {
+  position: absolute;
+  right: .16rem;
+  top: .07rem;
+  width: .2rem;
+  height: .12rem;
+  border-radius: 3rem;
+  background: #ff3053;
+  line-height: .12rem;
+}
+.onlineHeader .orderDetail .orderDetail_list span {
+  width: .12rem;
+  height: .14rem;
+  font-size: .1rem;
+  color: #f2f4f8;
+  font-family: 'PingFang SC';
+}
+.vip_content {
+  background-color: #fff;
+  margin-bottom: .7rem;
+  margin-top: .44rem;
+}
+.vip_content .vip_card {
+  height: 1.96rem;
+  width: 100%;
+  background: url('../img/online/member-bg-rainbow@2x.png') no-repeat 0 -0.9rem;
+  background-size: cover;
+}
+.vip_content .vip_card .vip_cardSwiper {
+  width: 2.91rem;
+  height: 1.64rem;
+  position: absolute;
+  left: 50%;
+  margin-top: .32rem;
+  margin-left: -1.45rem;
+}
+.vip_content .vip_card .vip_cardSwiper img {
+  width: 100%;
+  height: 100%;
+}
+.vip_content .vip_list {
+  margin-top: .23rem;
+  margin-bottom: .26rem;
+  padding: 0 .11rem;
+}
+.vip_content .vip_list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.vip_content .vip_list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vip_content .vip_list li div:nth-of-type(1) {
+  width: .26rem;
+  height: .26rem;
+}
+.vip_content .vip_list li div:nth-of-type(1) img {
+  width: .26rem;
+  height: .26rem;
+}
+.vip_content .vip_list li div:nth-of-type(2) {
+  font-size: .12rem;
+  font-weight: 400;
+  line-height: .17rem;
+  color: #3d3d3d;
+  margin-top: .04rem;
+}
+.vip_content .vip_discount {
+  margin-bottom: .35rem;
+}
+.vip_content .vip_discount .vip_discountTitle {
+  position: relative;
+  padding: 0 .16rem;
+  height: .22rem;
+  width: 100%;
+}
+.vip_content .vip_discount .vip_discountTitle .vip_discountTitleCircle {
+  width: .10rem;
+  height: .10rem;
+  background: linear-gradient(231deg, #ff3053 0%, #ffe8ec 100%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.vip_content .vip_discount .vip_discountTitle .vip_discountTitletitle {
+  font-size: .16rem;
+  font-weight: bold;
+  line-height: .22rem;
+  color: #3d3d3d;
+  position: absolute;
+  top: 0;
+  left: .36rem;
+}
+.vip_content .vip_discount .vip_discountTitle .vip_discountTitleMore span {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #63687d;
+  position: absolute;
+  top: 0;
+  left: 3.17rem;
+}
+.vip_content .vip_discount .vip_discountTitle .vip_discountTitleMore img {
+  width: .10rem;
+  height: .10rem;
+  float: right;
+  margin-top: .02rem;
+}
+.vip_content .vip_discount .modelCard.mui-card {
+  width: 1.18rem;
+  height: 1.78rem;
+}
+.vip_content .vip_discount .modelCard.mui-card .mui-card-footer {
+  display: flex;
+  flex-direction: column;
+}
+.vip_content .vip_discount .modelCard.mui-card .mui-card-footer .vip_discountContent {
+  height: .28rem;
+  width: 1.07rem;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: .05rem;
+  font-size: .1rem;
+}
+.vip_content .vip_discount .modelCard.mui-card .mui-card-footer .vip_descountPric {
+  display: flex;
+  justify-content: space-between;
+  width: .8rem;
+}
+.vip_content .vip_discount .mui-scroll-wrapper.mui-slider-indicatorcode.mui-segmented-control .mui-scroll .mui-card.mui-control-item {
+  padding: 0;
+  line-height: 0.13rem;
+}
+.vip_content .vip_discount .vip_rightFourContent {
+  padding-left: .05rem;
+}
+.vip_content .vip_discount .vip_rightFourContent img {
+  width: 3.61rem;
+  height: 1.68rem;
+}
+.vip_content .SimilarCecommendation {
+  padding: 0 .18rem;
+  margin-top: .12rem;
+  position: relative;
+  margin-bottom: .13rem;
+}
+.vip_content .SimilarCecommendation .SimilarCecommendation_title span {
+  font-size: .16rem;
+  font-weight: bold;
+  line-height: .22rem;
+  height: .22rem;
+  color: #3d3d3d;
+}
+.vip_content .SimilarCecommendation .SimilarCecommendation_title span:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 3.1rem;
+}
+.vip_content .SimilarCecommendation .SimilarCecommendation_title img {
+  position: absolute;
+  top: .05rem;
+  right: .22rem;
+  width: .1rem;
+  height: .1rem;
+}
+.vip_content .ppshops .ppshops_list {
+  padding: 0 .1rem;
+  position: relative;
+  height: 1.44rem;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order img {
+  width: 1rem;
+  height: 1rem;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail {
+  width: 2.47rem;
+  font-size: .12rem;
+  font-family: 'PingFang SC';
+  font-weight: 400;
+  line-height: .17rem;
+  color: #3d3d3d;
+  position: absolute;
+  top: 0rem;
+  left: 1.2rem;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail .selfSupport {
+  width: .26rem;
+  height: .15rem;
+  line-height: .15rem;
+  background: #ff3053;
+  border: 0.01rem solid #ff3053;
+  color: #ffffff;
+  border-radius: .04rem;
+  font-size: .10rem;
+  text-align: center;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail .selfSupport_content {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #3d3d3d;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail p {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #3d3d3d;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .selfSupport_price span {
+  width: .22rem;
+  height: .2rem;
+  position: absolute;
+  left: 1.2rem;
+  top: .4rem;
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .selfSupport_price del {
+  height: .14rem;
+  position: absolute;
+  left: 1.5rem;
+  top: .43rem;
+  font-size: .10rem;
+  font-weight: bold;
+  line-height: .14rem;
+  color: #adb2c6;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order .selfSupport_person {
+  height: .14rem;
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #63687d;
+  position: absolute;
+  left: 1.2rem;
+  top: .66rem;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order #calcSaveImmid {
+  background: #ffffff;
+  border: 0.01rem solid #ff3053;
+  border-radius: .12rem;
+  text-align: center;
+  width: .80rem;
+  height: .24rem;
+  line-height: .24rem;
+  position: absolute;
+  top: 1.15rem;
+  left: 2.22rem;
+}
+.vip_content .ppshops .ppshops_list .ppshops_order #calcSaveImmid span {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #ff3053;
+  vertical-align: top;
+}
+.footer {
+  width: 100%;
+  height: .5rem;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  z-index: 9999;
+}
+.footer .footer_left {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #3d3d3d;
+}
+.footer .footer_right {
+  width: 1.38rem;
+  height: 100%;
+  background: linear-gradient(115deg, #ff4c26 0%, #ff4b28 8%, #fc332f 51%, #fe08a0 100%);
+  box-shadow: 0rem -1rem 2rem rgba(0, 0, 0, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .16rem;
+  font-weight: 500;
+  line-height: .22rem;
+  color: #ffffff;
+}

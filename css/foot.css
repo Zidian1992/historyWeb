@@ -1,0 +1,140 @@
+
+*{padding: 0;margin: 0;}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif; }
+
+img{border: 0;vertical-align: top}
+a{text-decoration: none;}
+html{font-family: "微软雅黑"；}
+textarea{resize:none;}
+li{list-style: none;}
+input:focus{
+    outline: none;
+}
+.cl:after {content: "";display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
+.cl{zoom: 1;}
+html{font-size: calc(100vw/3.73);}
+body{font-size: .24rem;}
+html,body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+footer{
+    background: #fff;
+    height: 0.83rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background:#FFFFFF;
+    box-shadow:0 -1px 0 #D9D1CF
+}
+.foot1{
+    width: 100%;
+    height: .69rem;
+    position: relative
+}
+.foot1 .sy{
+    float: left;
+    margin-top: .09rem;
+    margin-left: .27rem;
+}
+.foot1 .sy img{
+    width: .22rem;
+    height: .22rem;
+}
+.foot1 .sy div{
+    line-height: .14rem;
+    font-size: .10rem;
+    text-align: center;
+    color: #FC127A;
+    
+}
+.foot1 .zp{
+    float: left;
+    margin-top: .08rem;
+    margin-left: .55rem;
+}
+.foot1 .zp img{
+    width: .24rem;
+    height: .24rem;
+}
+.foot1 .zp div{
+    line-height: .14rem;
+    font-size: .10rem;
+    text-align: center;
+    color: #000000;
+    
+}
+.foot1 .wd{
+    float: right;
+    margin-top: .09rem;
+    margin-right: .26rem;
+}
+.foot1 .wd img{
+    width: .24rem;
+    height: .24rem;
+}
+.foot1 .wd div{
+    line-height: .14rem;
+    font-size: .10rem;
+    text-align: center;
+    color: #000000;
+    
+}
+.foot1 .xx{
+    float: right;
+    margin-top: .09rem;
+    margin-right: .55rem;
+}
+.foot1 .xx img{
+    width: .24rem;
+    height: .24rem;
+}
+.foot1 .xx div{
+    line-height: .14rem;
+    font-size: .10rem;
+    text-align: center;
+    color: #000000;
+    
+}
+.zj{
+    position: absolute;
+    left: 1.59rem;
+    top: -.10rem;
+    width: .58rem;
+    height: .58rem;
+}
+.zj img{
+    width: .58rem;
+    height: .58rem;
+}
+.foot2{
+    width: 1.24rem;
+    height: .05rem;
+    background: #000000;
+    border-radius: 1rem;
+    margin-left: 1.21rem;
+}

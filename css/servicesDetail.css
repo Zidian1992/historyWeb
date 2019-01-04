@@ -1,0 +1,145 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_info {
+  overflow: hidden;
+  position: absolute;
+  right: .24rem;
+  top: .2rem;
+}
+body .onlineHeader .orderDetail .orderDetail_info ul li {
+  width: .04rem;
+  height: .04rem;
+  background: #3d3d3d;
+  border-radius: 50%;
+  margin-right: .03rem;
+  float: left;
+}
+body .onlineHeader .orderDetail .orderDetail_list {
+  position: absolute;
+  right: .16rem;
+  top: .07rem;
+  width: .2rem;
+  height: .12rem;
+  border-radius: 3rem;
+  background: #ff3053;
+  line-height: .12rem;
+}
+body .onlineHeader .orderDetail .orderDetail_list span {
+  width: .12rem;
+  height: .14rem;
+  font-size: .1rem;
+  color: #f2f4f8;
+  font-family: 'PingFang SC';
+}
+body .onlineHeader .orderDetail .orderDetail_serv {
+  width: .24rem;
+  height: .24rem;
+  position: absolute;
+  top: .1rem;
+  left: 2.92rem;
+}
+body .onlineHeader .orderDetail .orderDetail_serv img {
+  width: .24rem;
+  height: .24rem;
+}
+body .onlineHeader .orderDetail .orderDetail_share {
+  width: .2rem;
+  height: .2rem;
+  position: absolute;
+  top: .12rem;
+  left: 2.94rem;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_share span.mui-icon {
+  font-size: .24rem;
+}
+body .ppshops {
+  padding: 0 .18rem;
+  margin-top: .6rem;
+}
+body .ppshops .ppshops_list {
+  padding: 0 .1rem;
+  position: relative;
+  margin-top: .15rem;
+  margin-bottom: .20rem;
+}
+body .ppshops .ppshops_list .ppshops_order img {
+  width: .6rem;
+  height: .6rem;
+}
+body .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail {
+  width: 2.47rem;
+  font-size: .12rem;
+  font-family: 'PingFang SC';
+  font-weight: 400;
+  line-height: .17rem;
+  color: #3d3d3d;
+  position: absolute;
+  top: 0;
+  left: .79rem;
+}
+body .ppshops .ppshops_list .ppshops_order p#black {
+  position: absolute;
+  top: .4rem;
+  left: .79rem;
+  font-size: .12rem;
+}
+body .handleList {
+  padding-left: .15rem;
+}
+body .handleList > ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: .27rem;
+  position: relative;
+}
+body .handleList > ul li .handleListCategory {
+  display: flex;
+  flex-direction: column;
+}
+body .handleList > ul li .handleListCategory span:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  left: -0.02rem;
+}
+body .handleList > ul li .handleListCategory span:nth-of-type(2) {
+  font-size: .14rem;
+  font-weight: 400;
+  line-height: .20rem;
+  color: #3d3d3d;
+}
+body .handleList > ul li .handleListCategory span:nth-of-type(3) {
+  font-size: .12rem;
+  font-weight: 400;
+  line-height: .17rem;
+  color: #63687d;
+}
+body .handleList > ul li img {
+  width: .1rem;
+  height: .1rem;
+}

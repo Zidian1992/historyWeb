@@ -1,0 +1,178 @@
+body{
+    background-color: #fff!important;
+    .onlineHeader{
+        height: .44rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index:999;
+        background-color: #fff;
+        text-align: center;
+        border-bottom: .01rem solid rgba(228,231,241,1);
+        .orderDetail{
+            .orderDetail_bc{    
+                img{
+                    width: .16rem;
+                    height: .17rem;
+                    position: absolute;
+                    left: .14rem;
+                    top: .14rem;
+                }
+            }
+            .orderDetail_p{
+                line-height: .44rem;
+                font-size: .18rem;
+                font-weight:bold;
+                color:rgba(61,61,61,1);
+            }
+            .orderDetail_serv{
+                width: .24rem;
+                height: .24rem;
+                position: absolute;
+                top: .1rem;
+                left: 2.92rem;
+                img{
+                    width: .24rem;
+                    height: .24rem;
+                }
+            }
+            .orderDetail_share{
+                width: .2rem;
+                height: .2rem;
+                position: absolute;
+                top: .1rem;
+                left: 3.42rem;
+                color:rgba(61,61,61,1);
+                span.mui-icon-extra{
+                    font-size: .24rem;
+                }
+            }
+        }
+    }
+    .applyRefund_content{
+        margin-top: .57rem;
+        margin-bottom: .5rem;
+        .applyRefund_contentOrderPad{
+            ul{
+                margin-bottom: .22rem;
+                .order_pas{
+                    font-size:.16rem;
+                    font-weight:bold;
+                    line-height:.22rem;
+                    color:rgba(61,61,61,1);
+                    margin-bottom: .17rem;   
+                    margin-left: .22rem;                 
+                }
+                .order_password{
+                    font-size:.14rem;
+                    font-weight:500;
+                    line-height:.20rem;
+                    color:rgba(0,0,0,1);  
+                    margin-left: .22rem;
+                    span.refundCash{
+                        color:rgba(255,48,83,1);
+                    }                      
+                }
+                .mui-input-row label.order_password{
+                    padding: 0;
+                    height: .2rem;
+                    margin-left: .11rem;
+                }
+                input[type=checkbox].defaultChecked{
+                    width: .14rem;
+                    height: .14rem;
+                    text-align: center;
+                    &:before{
+                        color:rgba(99,104,125,1);
+                        font-size: .14rem;
+                        opacity: 1;
+                    }
+                }
+                .mui-input-row.mui-checkbox.refundCause{
+                    font-size:.14rem;
+                    font-weight:500;
+                    line-height:.49rem;
+                    color:rgba(61,61,61,1);
+                    height: .49rem;
+                    border-bottom: .01rem solid rgba(228,231,241,1);
+                    label{
+                        margin-left: .22rem;
+                    }
+                    input[name='refundCause'].modifyCauses{
+                        position: absolute;
+                        top:50%;
+                        transform: translateY(-50%);
+                        font-size: .14rem;
+                        text-align: center;
+                        width: .14rem;
+                        height: .14rem;
+                        &:before{
+                            color:rgba(99,104,125,1);
+                            font-size: .14rem;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }           
+        }
+    }
+    .marginLeft{
+        margin-left: .22rem!important;
+    }
+    // .applyRefund_content {       
+    //     margin-top:  .44rem;
+    //     width: 100%;
+    //     padding: 0.15rem;
+    //     >h3 {
+    //         height: 0.4rem;
+    //         line-height: 0.4rem;
+    //         font-size:.16rem;
+    //         font-weight:bold;
+    //         color:rgba(61,61,61,1);
+    //         margin-top: 0;
+    //         margin-bottom: 0;
+    //     }
+    //     p {
+    //         height: 0.4rem;
+    //         line-height: 0.4rem;
+    //         margin-bottom: 0;
+    //         color:rgba(0,0,0,1);
+    //         span.refundCash{
+    //             color:rgba(255,48,83,1);
+    //         }
+    //     }
+    //     input[type='checkbox']{
+    //         float: right;
+    //         transform: translateY(110%);
+    //         &:before{
+    //             background-color:#fff;
+    //         }
+    //     }
+    //     .ulReason{           
+    //         li {
+    //             border-bottom: 1px solid #ccc;
+    //             height:.40rem;
+    //             line-height: .40rem;
+    //             margin: 0 -.15rem;
+    //             padding:0  0.15rem;
+    //             p{
+    //                 float: left;
+    //             }              
+    //         }
+    //     }
+    // }
+    .footer{
+        width: 100%;
+        height: .5rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background:rgba(99,104,125,1);
+        font-size:.14rem;
+        font-weight:500;
+        line-height:.20rem;
+        color:rgba(255,255,255,1);
+        text-align: center;
+        line-height: .5rem;
+    }
+}

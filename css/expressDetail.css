@@ -1,0 +1,231 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_c {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: .15rem;
+}
+body .expressDetail_content {
+  padding: 0 .16rem;
+  margin-top: .62rem;
+}
+body .expressDetail_content .expressInfo li {
+  display: flex;
+}
+body .expressDetail_content .expressInfo li .expressInfo_com {
+  margin-right: .3rem;
+  font-size: .14rem;
+  font-weight: 300;
+  color: #3d3d3d;
+  margin-bottom: .04rem;
+}
+body .expressDetail_content .expressInfo li .num {
+  font-weight: bold;
+}
+body .expressDetail_content .logis-detail {
+  margin-top: .28rem;
+}
+body .expressDetail_content .logis-detail .hidden {
+  height: 1.2rem;
+}
+body .expressDetail_content .logis-detail .hidden ul li {
+  display: inline-block;
+}
+body .expressDetail_content .logis-detail .hidden ul li .logis-detail-d {
+  position: relative;
+  border-left: 0.02rem solid #d8d8d8;
+  padding: .03rem 0 .03rem .18rem;
+}
+body .expressDetail_content .logis-detail .hidden ul li .logis-detail-d p {
+  margin: 0;
+}
+body .expressDetail_content .logis-detail .hidden ul li .logis-detail-d::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -0.06rem;
+  top: .03rem;
+  width: .06rem;
+  height: .06rem;
+  -webkit-border-radius: .10rem;
+  background: #BDBDBD;
+  border: .02rem solid #EEE;
+}
+body .expressDetail_content .logis-detail .hidden ul li .logis-detail-first::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -0.06rem;
+  top: .03rem;
+  width: .06rem;
+  height: .06rem;
+  -webkit-border-radius: .10rem;
+  background: #ff3053;
+  border: 0.02rem solid #ffd5dc;
+}
+body .expressDetail_content .logis-detail .lookMore {
+  margin-top: .36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .14rem;
+  font-weight: bold;
+  color: #63687d;
+}
+body .expressDetail_content .logis-detail .lookMore .look_moreImg {
+  width: .12rem;
+  height: .12rem;
+  line-height: .12rem;
+  margin-left: .09rem;
+}
+body .expressDetail_content .logis-detail .lookMore .look_moreImg img {
+  vertical-align: middle;
+  width: 100%;
+}
+body .expressDetail_footer .SimilarCecommendation {
+  padding: 0 .18rem;
+  margin-top: .12rem;
+  position: relative;
+  margin-bottom: .13rem;
+}
+body .expressDetail_footer .SimilarCecommendation .SimilarCecommendation_title span {
+  font-size: .16rem;
+  font-weight: bold;
+  line-height: .22rem;
+  height: .22rem;
+  color: #3d3d3d;
+}
+body .expressDetail_footer .SimilarCecommendation .SimilarCecommendation_title span:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 3.1rem;
+}
+body .expressDetail_footer .SimilarCecommendation .SimilarCecommendation_title img {
+  position: absolute;
+  top: .05rem;
+  right: .22rem;
+  width: .1rem;
+  height: .1rem;
+}
+body .expressDetail_footer .ppshops .ppshops_list {
+  padding: 0 .1rem;
+  position: relative;
+  height: 1.44rem;
+  margin-bottom: .16rem;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order img {
+  width: 1rem;
+  height: 1rem;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail {
+  width: 2.47rem;
+  font-size: .12rem;
+  font-family: 'PingFang SC';
+  font-weight: 400;
+  line-height: .17rem;
+  color: #3d3d3d;
+  position: absolute;
+  top: 0rem;
+  left: 1.2rem;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail .selfSupport {
+  width: .26rem;
+  height: .15rem;
+  line-height: .15rem;
+  background: #ff3053;
+  border: 0.01rem solid #ff3053;
+  color: #ffffff;
+  border-radius: .04rem;
+  font-size: .10rem;
+  text-align: center;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail .selfSupport_content {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #3d3d3d;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .ppshops_orderDetail p {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #3d3d3d;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .selfSupport_price span {
+  width: .22rem;
+  height: .2rem;
+  position: absolute;
+  left: 1.2rem;
+  top: .4rem;
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .selfSupport_price del {
+  height: .14rem;
+  position: absolute;
+  left: 1.5rem;
+  top: .43rem;
+  font-size: .10rem;
+  font-weight: bold;
+  line-height: .14rem;
+  color: #adb2c6;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order .selfSupport_person {
+  height: .14rem;
+  font-size: .10rem;
+  font-weight: 500;
+  line-height: .14rem;
+  color: #63687d;
+  position: absolute;
+  left: 1.2rem;
+  top: .66rem;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order #calcSaveImmid {
+  background: #ffffff;
+  border: 0.01rem solid #ff3053;
+  border-radius: .12rem;
+  text-align: center;
+  width: .80rem;
+  height: .24rem;
+  line-height: .24rem;
+  position: absolute;
+  top: 1.15rem;
+  right: 0.16rem;
+}
+body .expressDetail_footer .ppshops .ppshops_list .ppshops_order #calcSaveImmid span {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #ff3053;
+  vertical-align: top;
+}

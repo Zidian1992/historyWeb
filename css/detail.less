@@ -1,0 +1,76 @@
+body{
+    background-color: #fff!important;
+    .onlineHeader{
+        height: .44rem;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        border-bottom: .01rem solid rgba(228,231,241,1);
+        .orderDetail{
+            .orderDetail_bc{    
+                img{
+                    width: .16rem;
+                    height: .17rem;
+                    position: absolute;
+                    left: .14rem;
+                    top: .14rem;
+                }
+            }
+            .orderDetail_p{
+                line-height: .44rem;
+                font-size: .18rem;
+                font-weight:bold;
+                color:rgba(61,61,61,1);
+            }
+        }
+    }
+    .detail_content{
+        margin-top: .44rem;
+        padding: 0 .16rem;
+        ul{
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: .9rem;
+                .detail_contentLeft{
+                    display: flex;
+                    .avator{
+                        margin-right: .1rem;
+                        width: .2rem;
+                        height: .2rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .excludeAvator{
+                        .rechargeSuccess{
+                            font-size:.14rem;
+                            font-weight:bold;
+                            color:rgba(61,61,61,1);
+                        }
+                        .rechargeWay{
+                            font-size:.12rem;
+                            font-weight:500;
+                            color:rgba(61,61,61,1);
+                        }
+                        .rechargeDate{
+                            font-size:.12rem;
+                            font-weight:500;
+                            color:rgba(173,178,198,1);
+                        }
+                    }
+                }
+                .detail_contentRight{
+                    font-size:.20rem;
+                    font-weight:bold;
+                    color:rgba(61,61,61,1);
+                }
+            }
+        }
+    }
+}

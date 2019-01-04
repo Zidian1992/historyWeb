@@ -1,0 +1,92 @@
+.head{
+    width: 100%;
+    height: .44rem;
+    .return{
+        float: left;
+        margin-left: .14rem;
+        margin-top: .14rem;
+        img{
+            width: .16rem;
+            height: .17rem;
+        }
+    }
+    .list{
+        float: left;
+        margin-left: 1.31rem;
+        margin-top: .10rem;
+        height: .25rem;
+        font-size: .18rem;
+        font-weight: bold;
+    }
+}
+.num{
+    line-height: .17rem;
+    font-size: .12rem;
+    font-weight: bold;
+    margin-top: .09rem;
+    margin-left: .15rem;
+}
+.content{
+    width: 100%;
+    border-top: .01rem solid #E4E7F1;
+    li{
+        width: 100%;
+        height: .93rem;
+        display: flex;
+        flex-direction: row;
+        img{
+            width: .56rem;
+            height: .56rem;
+            margin-left:.16rem;
+            margin-top: .17rem;
+            float: left; 
+        }
+        .centent{
+            float: left;
+            margin-left: .10rem;
+            .name{
+                height: .20rem;
+                line-height: .20rem;
+                margin-top: .24rem;
+                font-size: .14rem;
+                font-weight: bold
+            }
+            .tishi{
+                margin-top: .02rem;
+                font-size: .12rem;
+                height: .17rem;
+                line-height: .17rem;
+                color:#ADB2C6; 
+            }
+            
+        }
+        .right{
+            float: right;
+            margin-top: .31rem;
+            margin-left: 1.75rem;
+            width: .53rem;
+            height: .20rem; 
+            border: .01rem solid #3D3D3D;
+            border-radius: .12rem;
+            line-height: .20rem;
+            text-align: center;
+            
+            font-size: .12rem;
+            font-weight: bold;
+        }
+    }
+}
+.xian{
+    position: fixed;
+    left: 1.21rem;
+    bottom: .09rem;
+    width: 1.34rem;
+    height: .05rem;
+    border-radius: 1rem;
+    background: #000;
+}
+
+.guanzhu{
+    color: #FF3053;
+    border: .01rem solid #FF3053;
+}

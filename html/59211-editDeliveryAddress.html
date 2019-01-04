@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/gonggong.css">
+    <link rel="stylesheet" href="../css/editDeliveryAddress.css">
+    <!-- <link rel="stylesheet" href="../css/mui-icons-extra.ttf"> -->
+    <!-- <link rel="stylesheet" href="../css/icons-extra.css"> -->
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link href="./lib/css/mui.picker.css" rel="stylesheet" />
+	<link href="./lib/css/mui.poppicker.css" rel="stylesheet" />
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/mui.picker.js"></script>
+    <script src="../js/mui.poppicker.js"></script>
+    <script src="../js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+    <title>编辑收货地址</title>
+</head>
+<body>
+    <header class="onlineHeader">
+        <div class="orderDetail">
+            <div class="orderDetail_bc">
+                <img src="../img/online/back@2x.png" alt="">
+            </div>
+            <div class="orderDetail_p">编辑收货地址</div>
+            <div class="orderDetail_c">保存</div>
+        </div>
+    </header>
+    <div class="editDeliveryAddress_content">
+        <ul>
+            <li>
+                <input type="text">
+                <div class="clearName">
+                    <img src="../img/online/5711117.png" alt="">
+                </div>
+            </li>
+            <li>
+                <input type="text">
+                <div class="clearName">
+                    <img src="../img/online/组 2904@2x.png" alt="" class="editDeliveryAddress_contentMore">
+                </div>              
+            </li>
+            <li>
+                <input type="text">
+                <span class="fromMailList">通讯录导入</span>
+                <div class="clearName">
+                    <img src="../img/online/组 2904@2x.png" alt="" class="editDeliveryAddress_contentMore">
+                </div>  
+            </li>
+            <li>
+                <div id='showCityPicker3' class="mui-btn mui-btn-block clearName">
+                    <img src="../img/online/组 2904@2x.png" alt="" class="editDeliveryAddress_contentMore">
+                </div>  
+                <div id='cityResult3' class="ui-alert"></div>
+            </li>
+            <li>
+                <!-- <input type="textarea"> -->
+                <textarea id="TextArea1" cols="1" rows="2" style="border:none;margin-bottom:-28px;padding:0"></textarea>
+                <div class="clearName">
+                    <!-- <img src="../img/online/组 2904@2x.png" alt="" class="editDeliveryAddress_contentMore"> -->
+                </div>              
+            </li>
+            <li style="height:1rem;">
+                <div class="editDeliveryAddress_contentTitle">标签</div>            
+                <div class="editDeliveryAddress_contentSelect">
+                    <span>家</span>
+                    <span>公司</span>
+                    <span>学校</span>
+                    <span>其他</span>
+                </div>            
+            </li>
+            <li>
+                <div class="editDeliveryAddress_contentFot">
+                    设为默认地址
+                </div>
+                <div class="mui-switch mui-switch-blue mui-switch-mini mui-active">
+                    <div class="mui-switch-handle"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        (function($, doc) {
+				$.init();
+				$.ready(function() {
+					/**
+					 * 获取对象属性的值
+					 * 主要用于过滤三级联动中，可能出现的最低级的数据不存在的情况，实际开发中需要注意这一点；
+					 * @param {Object} obj 对象
+					 * @param {String} param 属性名
+					 */
+					var _getParam = function(obj, param) {
+						return obj[param] || '';
+					};
+					//-----------------------------------------
+					//					//级联示例
+					var cityPicker3 = new $.PopPicker({
+						layer: 3
+					});
+					cityPicker3.setData(cityData3);
+					var showCityPickerButton = doc.getElementById('showCityPicker3');
+					var cityResult3 = doc.getElementById('cityResult3');
+					showCityPickerButton.addEventListener('tap', function(event) {
+						cityPicker3.show(function(items) {
+							cityResult3.innerText = _getParam(items[0], 'text') + " " + _getParam(items[1], 'text') + " " + _getParam(items[2], 'text');
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+				});
+			})(mui, document);
+    </script>
+</body>
+</html>

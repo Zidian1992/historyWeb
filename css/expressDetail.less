@@ -1,0 +1,253 @@
+body{
+    background-color: #fff!important;
+    .onlineHeader{
+        height: .44rem;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        border-bottom: .01rem solid rgba(228,231,241,1);
+        .orderDetail{
+            .orderDetail_bc{    
+                img{
+                    width: .16rem;
+                    height: .17rem;
+                    position: absolute;
+                    left: .14rem;
+                    top: .14rem;
+                }
+            }
+            .orderDetail_p{
+                line-height: .44rem;
+                font-size: .18rem;
+                font-weight:bold;
+                color:rgba(61,61,61,1);
+            }
+            .orderDetail_c{
+                font-size:.14rem;
+                font-weight:bold;
+                line-height:.20rem;
+                color:rgba(61,61,61,1);
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                right: .15rem;
+            }
+        }
+    }
+    .expressDetail_content{
+        padding: 0 .16rem;
+        margin-top: .62rem;
+        .expressInfo{
+            li{
+                display: flex;
+                .expressInfo_com{
+                    margin-right: .3rem;
+                    font-size:.14rem;
+                    font-weight:300;
+                    color:rgba(61,61,61,1);
+                    margin-bottom: .04rem;
+                }
+                .num{
+                    font-weight:bold;
+                }
+            }
+        }
+        .logis-detail{
+            margin-top: .28rem;
+            .hidden{
+                height: 1.2rem;
+                ul{
+                    li{
+                        display: inline-block;
+                        .logis-detail-d{
+                            position: relative;
+                            border-left: .02rem solid rgba(216,216,216,1);
+                            padding: .03rem 0 .03rem .18rem;
+                            p{
+                                margin: 0;
+                            }
+                            &::after{
+                                content: '';
+                                display: inline-block;
+                                position: absolute;
+                                left: -.06rem;
+                                top: .03rem;
+                                width: .06rem;
+                                height: .06rem;
+                                -webkit-border-radius: .10rem;
+                                background: #BDBDBD;
+                                border: .02rem solid #EEE;
+                            }
+                        }
+                        .logis-detail-first{
+                            &::after{
+                                content: '';
+                                display: inline-block;
+                                position: absolute;
+                                left: -.06rem;
+                                top: .03rem;
+                                width: .06rem;
+                                height: .06rem;
+                                -webkit-border-radius: .10rem;
+                                background: rgba(255,48,83,1);
+                                border: .02rem solid rgba(255,213,220,1);
+                            }
+                        }
+                    }
+                }
+            }
+            .lookMore{
+                margin-top: .36rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size:.14rem;
+                font-weight:bold;
+                color:rgba(99,104,125,1);
+                .look_moreImg{
+                    width: .12rem;
+                    height: .12rem;
+                    line-height: .12rem;
+                    margin-left: .09rem;
+                    img{
+                        vertical-align:middle;
+                        width: 100%;
+                    }
+                }               
+            }
+        }
+    }   
+    .expressDetail_footer{
+        .SimilarCecommendation{
+            padding: 0 .18rem;
+            margin-top: .12rem;
+            position: relative;
+            margin-bottom: .13rem;
+            .SimilarCecommendation_title{
+                span{
+                    font-size:.16rem;
+                    font-weight:bold;
+                    line-height:.22rem;
+                    height:.22rem;
+                    color:rgba(61,61,61,1);
+                    &:nth-of-type(2){
+                        position: absolute;
+                        top: 0;
+                        left: 3.1rem;
+                    }               
+                }
+                img{
+                    position: absolute;
+                    top: .05rem;
+                    right: .22rem;
+                    width: .1rem;
+                    height: .1rem;
+                }
+            }
+        }
+        .ppshops{
+            .ppshops_list{
+                padding: 0 .1rem;
+                position: relative;
+                height: 1.44rem;
+                margin-bottom: .16rem;
+                // border-bottom: .01rem solid rgba(228,231,241,1);
+                .ppshops_order{
+                    img{
+                        width: 1rem;
+                        height: 1rem;
+                    }
+                    .ppshops_orderDetail{
+                        width:2.47rem;
+                        font-size:.12rem;
+                        font-family:'PingFang SC';
+                        font-weight:400;
+                        line-height:.17rem;
+                        color:rgba(61,61,61,1);
+                        position: absolute;
+                        top: 0rem;
+                        left: 1.2rem;
+                        .selfSupport{
+                            width:.26rem;
+                            height:.15rem;
+                            line-height: .15rem;
+                            background:rgba(255,48,83,1);
+                            border:.01rem solid rgba(255,48,83,1);
+                            color:rgba(255,255,255,1);
+                            border-radius:.04rem;
+                            font-size:.10rem;
+                            text-align: center;
+                        }
+                        .selfSupport_content{
+                            font-size:.12rem;
+                            font-weight:500;
+                            line-height:.17rem;
+                            color:rgba(61,61,61,1);     
+                        }
+                        p{
+                            font-size:.12rem;
+                            font-weight:500;
+                            line-height:.17rem;
+                            color:rgba(61,61,61,1);
+                        }
+                    }   
+                    .selfSupport_price{
+                        span{
+                            width: .22rem;
+                            height: .2rem;
+                            position: absolute;
+                            left: 1.2rem;
+                            top: .4rem;
+                            font-size:.14rem;
+                            font-weight:bold;
+                            line-height:.20rem;
+                            color:rgba(61,61,61,1);
+                        }
+                        del{
+                            height: .14rem;
+                            position: absolute;
+                            left: 1.5rem;
+                            top: .43rem;
+                            font-size:.10rem;
+                            font-weight:bold;
+                            line-height:.14rem;
+                            color:rgba(173,178,198,1);
+                        }
+                    }
+                    .selfSupport_person{
+                        height:.14rem;
+                        font-size:.10rem;
+                        font-weight:500;
+                        line-height:.14rem;
+                        color:rgba(99,104,125,1);
+                        position: absolute;
+                        left: 1.2rem;
+                        top: .66rem;
+                    }   
+                    #calcSaveImmid{
+                        background:rgba(255,255,255,1);
+                        border:.01rem solid rgba(255,48,83,1);
+                        border-radius:.12rem;
+                        text-align: center;
+                        width:.80rem;
+                        height:.24rem;
+                        line-height: .24rem;
+                        position: absolute;
+                        top: 1.15rem;
+                        // left: 2.22rem;
+                        right: 0.16rem;
+                        span{
+                            font-size:.12rem;
+                            font-weight:500;
+                            color:rgba(255,48,83,1);
+                            vertical-align: top;
+                        }
+                    }                            
+                }                                   
+            }
+        }
+    }
+}

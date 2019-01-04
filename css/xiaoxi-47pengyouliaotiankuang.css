@@ -1,0 +1,152 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    margin-left: .14rem;
+    margin-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+
+.chat {
+  width: 100%;
+  border-top: .01rem solid #F8F9FE;
+  position: relative; }
+  .chat .chat1 {
+    width: 3.45rem;
+    height: 100%;
+    margin: auto; }
+    .chat .chat1 .right {
+      margin-top: .16rem;
+      float: right; }
+      .chat .chat1 .right img {
+        width: .56rem;
+        height: .56rem;
+        float: right;
+        margin-left: .10rem;
+        border-radius: 50%; }
+      .chat .chat1 .right .xiaoxi {
+        float: right;
+        margin-top: .17rem; }
+        .chat .chat1 .right .xiaoxi .xiaoxi1 {
+          max-width: 2.04rem;
+          background: #45A1E8;
+          border-radius: 0 0 .08rem 0;
+          padding: .05rem .12rem .05rem .10rem;
+          line-height: .20rem;
+          color: #ffffff;
+          font-size: .14rem;
+          font-weight: bold; }
+        .chat .chat1 .right .xiaoxi .tishi {
+          margin-top: .02rem;
+          line-height: .14rem;
+          font-size: .10rem;
+          color: #ADB2C6;
+          text-align: right; }
+    .chat .chat1 .left {
+      margin-top: .16rem;
+      float: left; }
+      .chat .chat1 .left img {
+        width: .56rem;
+        height: .56rem;
+        float: left;
+        margin-right: .10rem;
+        border-radius: 50%; }
+      .chat .chat1 .left .xiaoxi {
+        float: left;
+        margin-top: .17rem; }
+        .chat .chat1 .left .xiaoxi .xiaoxi1 {
+          max-width: 2.04rem;
+          background: #F8F9FE;
+          border-radius: 0 0 0 .08rem;
+          padding: .05rem .08rem;
+          line-height: .20rem;
+          font-size: .14rem;
+          font-weight: bold; }
+
+.liaotian {
+  width: 100%;
+  background: #D8D8D8;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: .50rem; }
+  .liaotian .liaotian1 {
+    width: 3.41rem;
+    margin: auto; }
+    .liaotian .liaotian1 .left {
+      float: left;
+      width: .28rem;
+      height: .28rem;
+      margin-top: .12rem;
+      border-radius: 50%; }
+      .liaotian .liaotian1 .left img {
+        width: .28rem;
+        height: .28rem;
+        border-radius: 50%; }
+    .liaotian .liaotian1 .center {
+      margin-top: .09rem;
+      float: left;
+      margin-left: .38rem;
+      width: 2.63rem;
+      height: .32rem;
+      background: #ffffff;
+      border-radius: .20rem;
+      position: absolute;
+      overflow: hidden; }
+      .liaotian .liaotian1 .center input {
+        width: 2.32rem;
+        height: .32rem;
+        background: #ffffff;
+        border-radius: .20rem;
+        border: 0;
+        float: left;
+        line-height: .32rem;
+        outline: none;
+        border: 0; }
+      .liaotian .liaotian1 .center img {
+        width: .26rem;
+        height: .26rem;
+        border-radius: 50%;
+        float: left;
+        margin-top: .03rem; }
+    .liaotian .liaotian1 .right {
+      float: right;
+      width: .28rem;
+      height: .28rem;
+      margin-top: .12rem;
+      border-radius: 50%; }
+      .liaotian .liaotian1 .right img {
+        width: .28rem;
+        height: .28rem;
+        border-radius: 50%; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=xiaoxi-47pengyouliaotiankuang.css.map */

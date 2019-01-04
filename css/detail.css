@@ -1,0 +1,68 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .detail_content {
+  margin-top: .44rem;
+  padding: 0 .16rem;
+}
+body .detail_content ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .9rem;
+}
+body .detail_content ul li .detail_contentLeft {
+  display: flex;
+}
+body .detail_content ul li .detail_contentLeft .avator {
+  margin-right: .1rem;
+  width: .2rem;
+  height: .2rem;
+}
+body .detail_content ul li .detail_contentLeft .avator img {
+  width: 100%;
+  height: 100%;
+}
+body .detail_content ul li .detail_contentLeft .excludeAvator .rechargeSuccess {
+  font-size: .14rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .detail_content ul li .detail_contentLeft .excludeAvator .rechargeWay {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+body .detail_content ul li .detail_contentLeft .excludeAvator .rechargeDate {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #adb2c6;
+}
+body .detail_content ul li .detail_contentRight {
+  font-size: .20rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}

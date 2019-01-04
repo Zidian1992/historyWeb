@@ -1,0 +1,147 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_c {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: .15rem;
+}
+body .cashWithdrawal_content {
+  margin-top: .44rem;
+}
+body .cashWithdrawal_content .cashWithdrawal_banner {
+  height: 1.86rem;
+  background: linear-gradient(334deg, #5eb3ff 0%, #b07dff 100%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .cashWithdrawal_content .cashWithdrawal_banner .cashWithdrawal_bannerCash {
+  font-size: .14rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+body .cashWithdrawal_content .cashWithdrawal_banner .cashWithdrawal_bannerCashMore {
+  font-size: .40rem;
+  font-weight: 500;
+  color: #ffffff;
+  width: .72rem;
+  height: .56rem;
+  line-height: .56rem;
+}
+body .cashWithdrawal_content .cashWithdrawal_card {
+  background: #ffffff;
+  border-radius: .24rem .24rem 0rem 0rem;
+  margin-top: -0.45rem;
+  padding: 0 .16rem;
+}
+body .cashWithdrawal_content .cashWithdrawal_card .cashWithdrawal_cardTitle {
+  display: flex;
+  justify-content: space-between;
+  height: .5rem;
+  align-items: center;
+}
+body .cashWithdrawal_content .cashWithdrawal_card .cashWithdrawal_cardTitle .cashWithdrawal_cardWay {
+  font-size: .16rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .cashWithdrawal_content .cashWithdrawal_card .cashWithdrawal_cardTitle .cashWithdrawal_cardWayDetail {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .7rem;
+  border-bottom: 0.01rem solid #e4e7f1;
+  margin-left: -0.16rem;
+  margin-right: -0.16rem;
+  padding: 0 .16rem;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentLeft {
+  display: flex;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentLeft .avator {
+  width: .24rem;
+  height: .24rem;
+  margin-right: .1rem;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentLeft .avator img {
+  width: 100%;
+  height: 100%;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentLeft .excludeAvator .rechargeSuccess {
+  font-size: .14rem;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentLeft .excludeAvator .rechargeWay {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #63687d;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentRight {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #63687d;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentRight .chargeChange {
+  line-height: .1rem;
+}
+body .cashWithdrawal_content .cashWithdrawal_card ul li .detail_contentRight .chargeChange img {
+  width: .1rem;
+  height: .1rem;
+}
+body .cashWithdrawal_footer .diyCheckBox.mui-checkbox label {
+  font-size: .12rem;
+  font-weight: 500;
+  color: #63687d;
+  margin: 0;
+  padding: .08rem 0 .1rem .4rem;
+}
+body .cashWithdrawal_footer .diyCheckBox.mui-checkbox input.agreeItems {
+  width: .14rem;
+  height: .14rem;
+  text-align: center;
+  line-height: .14rem;
+  top: .06rem;
+}
+body .cashWithdrawal_footer .diyCheckBox.mui-checkbox input.agreeItems::before {
+  width: .14rem;
+  height: .14rem;
+  font-size: .16rem;
+  color: #FF3366;
+}

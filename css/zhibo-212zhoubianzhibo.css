@@ -1,0 +1,265 @@
+.head {
+  width: 100%;
+  height: .44rem; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .site {
+    float: left;
+    margin-left: .92rem;
+    padding-top: .10rem; }
+    .head .site img {
+      width: .20rem;
+      height: .20rem;
+      margin-top: .03rem;
+      margin-right: .03rem;
+      float: left; }
+    .head .site span {
+      float: left;
+      height: .25rem;
+      line-height: .25rem;
+      font-size: .18rem;
+      font-weight: bold; }
+  .head .information {
+    float: right;
+    padding-top: .20rem;
+    margin-right: .24rem;
+    position: relative; }
+    .head .information li {
+      width: .04rem;
+      height: .04rem;
+      float: left;
+      margin-right: .03rem;
+      background: #3D3D3D;
+      border-radius: 50%; }
+    .head .information div {
+      position: absolute;
+      top: .07rem;
+      left: .06rem;
+      width: .20rem;
+      height: .12rem;
+      border-radius: .03rem;
+      background: #FF3053;
+      color: #ffffff;
+      font-size: .10rem;
+      text-align: center;
+      line-height: .12rem; }
+  .head .search {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .20rem; }
+    .head .search img {
+      width: .20rem;
+      height: .20rem; }
+
+.cort {
+  width: 100%;
+  height: .40rem; }
+  .cort li {
+    float: left;
+    font-size: .14rem;
+    margin-top: .08rem;
+    line-height: .20rem; }
+  .cort li:nth-child(1) {
+    margin-left: .25rem; }
+    .cort li:nth-child(1) .btn1 {
+      width: .10rem;
+      height: .10rem;
+      margin-left: .05rem;
+      float: right;
+      margin-top: .05rem; }
+      .cort li:nth-child(1) .btn1 img {
+        width: .10rem;
+        height: .10rem; }
+  .cort li:nth-child(2) {
+    margin-left: .51rem; }
+    .cort li:nth-child(2) .btn2 {
+      width: .10rem;
+      height: .10rem;
+      margin-left: .05rem;
+      float: right;
+      margin-top: .05rem; }
+      .cort li:nth-child(2) .btn2 img {
+        width: .10rem;
+        height: .10rem; }
+  .cort li:nth-child(3) {
+    margin-left: .37rem; }
+    .cort li:nth-child(3) .btn3 {
+      width: .10rem;
+      height: .10rem;
+      margin-left: .05rem;
+      float: right;
+      margin-top: .05rem; }
+      .cort li:nth-child(3) .btn3 img {
+        width: .10rem;
+        height: .10rem; }
+  .cort li:nth-child(4) {
+    margin-left: .36rem; }
+    .cort li:nth-child(4) .btn4 {
+      width: .12rem;
+      height: .12rem;
+      margin-left: .05rem;
+      float: right;
+      margin-top: .05rem; }
+      .cort li:nth-child(4) .btn4 img {
+        width: .12rem;
+        height: .12rem; }
+
+.dianjia {
+  width: 100%;
+  border-top: .01rem solid #F8F9FE; }
+  .dianjia .dianjia1 {
+    margin-top: .16rem; }
+    .dianjia .dianjia1 .tupian {
+      width: 3.43rem;
+      height: 2.11rem;
+      margin: auto;
+      position: relative;
+      border-radius: .02rem .02rem 0 0; }
+      .dianjia .dianjia1 .tupian img {
+        width: 3.43rem;
+        height: 2.11rem;
+        border-radius: .02rem .02rem 0 0; }
+      .dianjia .dianjia1 .tupian .average {
+        position: absolute;
+        top: .10rem;
+        right: .09rem;
+        height: .20rem;
+        line-height: .20rem;
+        border-radius: .10rem;
+        padding: 0  .07rem;
+        font-size: .08rem;
+        color: #ffffff;
+        background-image: -webkit-linear-gradient(left, rgba(255, 76, 38, 0.7), rgba(255, 1, 193, 0.7)); }
+      .dianjia .dianjia1 .tupian .zb {
+        z-index: 30;
+        position: absolute;
+        top: 1.15rem;
+        left: .12rem;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: .02rem;
+        height: .16rem;
+        padding: 0 .06rem 0 .05rem; }
+        .dianjia .dianjia1 .tupian .zb li {
+          float: left;
+          font-size: .10rem;
+          color: #ffffff; }
+        .dianjia .dianjia1 .tupian .zb li:nth-child(1) {
+          width: .05rem;
+          height: .05rem;
+          background: #FF3053;
+          border-radius: 50%;
+          margin-top: .06rem;
+          margin-right: 0.06rem; }
+        .dianjia .dianjia1 .tupian .zb li:nth-child(2) {
+          height: .16rem;
+          line-height: .16rem;
+          margin-right: 0.06rem; }
+        .dianjia .dianjia1 .tupian .zb li:nth-child(3) {
+          height: .08rem;
+          border-right: .01rem solid #ffffff;
+          margin-top: .05rem;
+          margin-right: 0.06rem; }
+        .dianjia .dianjia1 .tupian .zb li:nth-child(4) {
+          width: .08rem;
+          height: .10rem;
+          margin-top: .03rem;
+          margin-right: .04rem; }
+          .dianjia .dianjia1 .tupian .zb li:nth-child(4) img {
+            width: .08rem;
+            height: .10rem; }
+        .dianjia .dianjia1 .tupian .zb li:nth-child(4) {
+          height: .16rem;
+          line-height: .16rem; }
+      .dianjia .dianjia1 .tupian .name {
+        position: absolute;
+        top: 1.36rem;
+        left: .10rem;
+        height: .25rem;
+        line-height: .25rem;
+        font-size: .18rem;
+        color: #ffffff;
+        font-weight: bold; }
+      .dianjia .dianjia1 .tupian .dingwei {
+        position: absolute;
+        top: 1.67rem;
+        right: .10rem; }
+        .dianjia .dianjia1 .tupian .dingwei span {
+          line-height: .14rem;
+          font-size: .10rem;
+          color: #ffffff;
+          margin-left: .03rem;
+          float: right; }
+        .dianjia .dianjia1 .tupian .dingwei img {
+          width: .14rem;
+          height: .14rem;
+          float: right; }
+      .dianjia .dianjia1 .tupian .chakan {
+        position: absolute;
+        top: 1.84rem;
+        right: 0; }
+        .dianjia .dianjia1 .tupian .chakan li {
+          float: right;
+          line-height: .17rem;
+          color: #ffffff;
+          font-size: .10rem;
+          padding: 0 .10rem; }
+        .dianjia .dianjia1 .tupian .chakan li:nth-child(1) img {
+          width: .14rem;
+          height: .14rem;
+          float: left;
+          margin-right: .05rem;
+          margin-top: .01rem; }
+        .dianjia .dianjia1 .tupian .chakan li:nth-child(1) span {
+          float: left; }
+        .dianjia .dianjia1 .tupian .chakan li:nth-child(2) {
+          height: .08rem;
+          border-right: .01rem solid #ffffff;
+          padding: 0;
+          margin-top: .04rem; }
+        .dianjia .dianjia1 .tupian .chakan li:nth-child(3) img {
+          width: .17rem;
+          height: .17rem;
+          float: left;
+          margin-right: .05rem; }
+        .dianjia .dianjia1 .tupian .chakan li:nth-child(3) span {
+          float: left; }
+      .dianjia .dianjia1 .tupian .tubiao {
+        position: absolute;
+        top: 1.75rem;
+        left: .10rem;
+        border-radius: 50%;
+        height: .30rem; }
+        .dianjia .dianjia1 .tupian .tubiao img {
+          width: .30rem;
+          height: .30rem;
+          border-radius: 50%;
+          float: left;
+          margin-right: .06rem; }
+        .dianjia .dianjia1 .tupian .tubiao span {
+          margin-top: .10rem;
+          float: left;
+          height: .17rem;
+          line-height: .17rem;
+          font-size: .12rem;
+          color: #ffffff;
+          font-weight: bold; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #ffffff; }
+
+/*# sourceMappingURL=zhibo-212zhoubianzhibo.css.map */

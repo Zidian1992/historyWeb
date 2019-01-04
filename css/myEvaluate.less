@@ -1,0 +1,271 @@
+body{
+    background-color: #fff!important;
+    .onlineHeader{
+        height: .44rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index:999;
+        background-color: #fff;
+        text-align: center;
+        border-bottom: .01rem solid rgba(228,231,241,1);
+        .orderDetail{
+            .orderDetail_bc{    
+                img{
+                    width: .16rem;
+                    height: .17rem;
+                    position: absolute;
+                    left: .14rem;
+                    top: .14rem;
+                }
+            }
+            .orderDetail_p{
+                line-height: .44rem;
+                font-size: .18rem;
+                font-weight:bold;
+                color:rgba(61,61,61,1);
+            }
+            .orderDetail_info{
+                overflow: hidden;
+                position: absolute;
+                right: .24rem;
+                top: .2rem;
+                ul{
+                    li{
+                        width: .04rem;
+                        height: .04rem;
+                        background:rgba(61,61,61,1);
+                        border-radius: 50%;
+                        margin-right: .03rem;
+                        float: left;
+                    }
+                }
+            }
+            .orderDetail_list{
+                position: absolute;
+                right: .16rem;
+                top:.07rem;
+                width: .2rem;
+                height: .12rem;    
+                border-radius:3rem;
+                background:rgba(255,48,83,1);
+                line-height: .12rem;
+                span{
+                    width:.12rem;
+                    height:.14rem;
+                    font-size: .1rem;
+                    color:rgba(242,244,248,1);
+                    font-family:'PingFang SC';
+                }
+            }
+        }
+    }
+    .evaluateCount{
+        margin-top: .44rem;
+        padding: 0 .18rem;
+        .evaluateCountUp{
+            padding: 0 .1rem;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            height: .76rem;
+            .evaluateCountUpLeft{
+                display: flex;
+                justify-content: space-around;
+                .evaluateCountUpLeft_avator{
+                    width: .4rem;
+                    height: .4rem;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: .4rem;
+                        height: .4rem;
+                    }
+                }
+                .evaluateCountUpLeft_txt{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    span{
+                        &:nth-of-type(1){
+                            font-size:.14rem;
+                            font-weight:bold;
+                            line-height:.20rem;
+                            color:rgba(61,61,61,1);
+                        }
+                        &:nth-of-type(2){
+                            width: .22rem;
+                            height: .13rem;
+                            background: url('../img/online/矩形\ 837@2x.png');
+                            font-size:.08rem;
+                            font-weight:bold;
+                            line-height:.11rem;
+                            color:rgba(110,23,0,1);
+                            text-align: center;
+                            line-height: .13rem;
+                        }                       
+                    }
+                }
+            }
+            .evaluateCountUpRight{
+                width: .6rem;
+                height: .22rem;
+                border:.01rem solid rgba(69,69,69,1);
+                border-radius:.11rem;
+                font-size:.12rem;
+                color:rgba(69,69,69,1);
+                font-weight:500;
+                line-height: .22rem;
+                text-align: center;
+                white-space:nowrap;
+            }
+        }
+        .evaluateCountDown{
+            padding: 0 .1rem;
+            margin-top: .19rem;
+            .evaluateCountDown_textarea{
+                height: .8rem;
+                font-size:.12rem;
+                font-weight:500;
+                line-height:.17rem;
+                color:rgba(173,178,198,1);
+            }
+            .evaluateCountDown_loadPic{}
+        }
+    }
+    .evaluateCategory{
+        margin-top: .06rem;
+        .evaluateCategory_tab{
+            ul{
+                overflow: hidden;
+                display: flex;
+                height: .4rem;
+                text-align: center;
+                line-height: .4rem;
+                border-bottom: .01rem solid rgba(228,231,241,1);
+                li{
+                    width: 33.33%;
+
+                }
+            }            
+        }
+        .evaluateCategory_content{
+            #tabAll{
+                border-bottom: .01rem solid rgba(228,231,241,1);
+                .tabAll_on{
+                    .evaluateCountUp{
+                        padding: 0 .16rem;
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: .76rem;
+                        .evaluateCountUpLeft{
+                            display: flex;
+                            justify-content: space-around;
+                            .evaluateCountUpLeft_avator{
+                                width: .4rem;
+                                height: .4rem;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                img{
+                                    width: .4rem;
+                                    height: .4rem;
+                                }
+                            }
+                            .evaluateCountUpLeft_txt{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                span{
+                                    &:nth-of-type(1){
+                                        font-size:.14rem;
+                                        line-height:.20rem;
+                                        color:rgba(61,61,61,1);
+                                        font-weight:500;
+                                    }
+                                    &:nth-of-type(2){
+                                        font-size:.10rem;
+                                        font-weight:500;
+                                        line-height:.14rem;
+                                        color:rgba(173,178,198,1);
+                                    }                       
+                                }
+                            }
+                        }
+                    }
+                }
+                .tabAll_mid{
+                    .tabAll_midTxt{
+                        padding:0 .2rem;
+                    }
+                }
+                .tabAll_fot{
+                    margin-top: .17rem;
+                    padding: 0 .18rem;
+                    .ppshops{
+                        .ppshops_list{
+                            position: relative;
+                            .ppshops_order{
+                                img{
+                                    width: .7rem;
+                                    height: .7rem;
+                                }
+                                .ppshops_orderDetail{
+                                    width:2.4rem;
+                                    font-size:.12rem;
+                                    font-weight:400;
+                                    line-height:.17rem;
+                                    color:rgba(61,61,61,1);
+                                    position: absolute;
+                                    top: 0rem;
+                                    left: .9rem;
+                                    .selfSupport_content{
+                                        font-size:.12rem;
+                                        font-weight:500;
+                                        line-height:.17rem;
+                                        color:rgba(61,61,61,1);     
+                                    }
+                                    span:nth-of-type(2){
+                                        font-size:.12rem;
+                                        font-weight:400;
+                                        line-height:.17rem;
+                                        color:rgba(255,48,83,1);
+                                        position: absolute;
+                                        top: .55rem;
+                                        right: .11rem;
+                                    }
+                                    span:nth-of-type(3){
+                                        width:.60rem;
+                                        height:.22rem;
+                                        background:rgba(255,255,255,1);
+                                        border:.01rem solid rgba(69,69,69,1);
+                                        border-radius:.11rem;
+                                        font-size:.12rem;
+                                        font-weight:500;
+                                        line-height:.22rem;
+                                        text-align: center;
+                                        color:rgba(69,69,69,1);
+                                        position: absolute;
+                                        bottom: -.7rem;
+                                        right: 0rem;
+                                    }
+                                }                           
+                            }                                   
+                        }
+                    }
+                }
+                .tabAll_bot{
+                    font-size:.10rem;
+                    font-weight:500;
+                    line-height:.14rem;
+                    color:rgba(173,178,198,1);
+                    display: flex;
+                    padding: 0 .08rem;
+                    div{
+                        margin: .19rem .12rem;
+                    }
+                }
+            }
+        }
+    }
+}

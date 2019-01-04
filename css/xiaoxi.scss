@@ -1,0 +1,121 @@
+.head{
+    width: 100%;
+    height: .44rem;
+    .information{
+        float: left;
+        margin-left: 1.71rem;
+        font-size: .18rem;
+        font-weight: bold;
+        line-height: .44rem;
+    }
+    .linkman{
+        float: right;
+        margin-right: .16rem;
+        font-size: .14rem;
+        font-weight: bold;
+        line-height: .44rem;
+    }
+}
+
+
+.fenlei{
+    width: 100%;
+    height: .95rem;
+    border-top: 1px solid #F8F9FE;
+    border-bottom: 2px solid #F8F9FE;
+    .fenlei1{
+        margin-left: .38rem;
+        margin-top: .16rem;
+        li{
+            float: left;
+            width: .48rem;
+            height: .48rem;
+            margin-right: .36rem;
+            border-radius: 50%;
+            img{
+                width: .48rem;
+                height: .48rem;
+                border-radius: 50%;
+            }
+            div{
+                width: .48rem;
+                height: .14rem;
+                line-height: .14rem;
+                font-size: .10rem;
+                text-align: center;
+                margin-top: .03rem;
+            }
+        }
+        li:nth-child(4){
+            margin-right: .35rem;
+        }
+    }
+}
+
+
+.xiaoxi{
+    width: 100%;
+    ul{
+        width: 100%;
+       li{
+        width: 100%;
+        height:  .80rem;
+        img{
+            width: .48rem;
+            height: .48rem;
+            margin-left: .16rem;
+            margin-top: .16rem;
+            float: left;
+        }
+        .content{
+            float: left;
+            width: 2.99rem;
+            margin-top: .24rem;
+            margin-left: .10rem;
+            border-bottom: .01rem solid #F8F9FE;
+            .content1{
+                .name{
+                    height: .20rem;
+                    line-height: .20rem;
+                    font-size: .14rem;
+                    font-weight: bold;
+                    float: left;
+                }
+                .time{
+                    height: .14rem;
+                    line-height: .14rem;
+                    font-size: .10rem;
+                    color: #ADB2C6;
+                    float: right;
+                    margin-right: .16rem;
+                }
+            }
+            .content2{
+                margin-top: .02rem;
+                margin-bottom: .17rem;
+                .name{
+                    width: 2.62rem;
+                    height: .17rem;
+                    line-height: .17rem;
+                    font-size: .12rem;
+                    font-weight: bold;
+                    color: #ADB2C6;
+                    float: left;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow:ellipsis;
+                }
+                .tishi{
+                    float: right;
+                    margin-right: .15rem;
+                    margin-top: .06rem;
+                    width: .08rem;
+                    height: .08rem;
+                    background: #FF3053;
+                    border-radius: 50%;
+                }
+            }
+        }
+       } 
+    }
+}

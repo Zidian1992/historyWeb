@@ -1,0 +1,111 @@
+body {
+  background-color: #fff!important;
+}
+body .onlineHeader {
+  height: .44rem;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 0.01rem solid #e4e7f1;
+}
+body .onlineHeader .orderDetail .orderDetail_bc img {
+  width: .16rem;
+  height: .17rem;
+  position: absolute;
+  left: .14rem;
+  top: .14rem;
+}
+body .onlineHeader .orderDetail .orderDetail_p {
+  line-height: .44rem;
+  font-size: .18rem;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+body .onlineHeader .orderDetail .orderDetail_c {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: .15rem;
+}
+body .deliveryAddrs_content {
+  margin-top: .66rem;
+  padding: 0 .16rem;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .25rem;
+  position: relative;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft {
+  display: flex;
+  align-items: center;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft img {
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo {
+  width: 2.28rem;
+  margin-left: .1rem;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo .deliveryAddrs_contentLeftName {
+  margin-bottom: .09rem;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo .deliveryAddrs_contentLeftName span:nth-of-type(1) {
+  font-size: .14rem;
+  font-weight: bold;
+  line-height: .20rem;
+  color: #3d3d3d;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo .deliveryAddrs_contentLeftName span:nth-of-type(2) {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #63687d;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo > span {
+  width: .01rem;
+  height: .20rem;
+  background: #ffffff;
+  border: 0.01rem solid #63687d;
+  position: absolute;
+  top: .22rem;
+  right: .35rem;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo .deliveryAddrs_contentLeftDefault span.default {
+  width: .30rem;
+  height: .16rem;
+  background: #ff3053;
+  border: 0.01rem solid #ff3053;
+  border-radius: .08rem;
+  font-size: .10rem;
+  font-weight: 400;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  line-height: .16rem;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentLeft .deliveryAddrs_contentLeftInfo .deliveryAddrs_contentLeftDefault span.detailAddress {
+  font-size: .12rem;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #3d3d3d;
+}
+body .deliveryAddrs_content .deliveryAddrs_contentList .deliveryAddrs_contentRight {
+  font-size: .12rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: .17rem;
+  color: #63687d;
+}

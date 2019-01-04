@@ -1,0 +1,328 @@
+.search{
+    width:3.42rem;
+    height:.30rem;
+    border-radius: .15rem;
+    margin:auto;
+    margin-top: .10rem;
+    background: #F0F0F0;
+    margin-top: .54rem;
+    position: relative;
+    img{
+        width: .14rem;
+        height:.14rem;
+        position: absolute;
+        left: 1.24rem;
+        top: .08rem;
+    }
+    span{
+        height: .20rem;
+        line-height: .20rem;
+        color:#A6A6A6;
+        font-size: .14rem; 
+        position: absolute;
+        top: .05rem;
+        left: 1.48rem;
+        
+    }
+}
+
+
+
+
+.nav{
+    width: 100%;
+    height:.54rem;
+    ul{
+        width: 100%;
+        li{
+            width: 25%;
+            float: left;
+            line-height: .54rem;
+            text-align: center;
+            font-size: .18rem;
+            color: #3D3D3D;
+        }
+    }
+
+}
+
+.neirong{
+    width: 100%;
+    margin-bottom: .90rem;
+    .tupian{
+        width: 100%;
+        border-top: .01rem solid #F8F9FE;
+        .yonghu{
+            width: 100%;
+            img{
+                float: left;
+                margin-left: .16rem;
+                margin-top: .16rem;
+                width: .56rem;
+                height:.56rem;
+            }
+            .center{
+                margin-left: .10rem;
+                margin-top: .34rem;
+                float: left;
+                .name{
+                    line-height: .20rem;
+                    font-size: .14rem;
+                    color: #3D3D3D;
+                }
+                .time{
+                    line-height: .14rem;
+                    font-size: .10rem;
+                    color: #3D3D3D;
+                    margin-top: .02rem;
+                }
+
+            }
+            .right{
+                float: right;
+                width: .53rem;
+                height:.20rem;
+                border-radius: .12rem;
+                border:.01rem solid  #FF3053;
+                color: #FF3053;
+                font-weight: bold;
+                line-height: .20rem;
+                text-align: center;
+                font-size: .12rem;
+                margin-right: .17rem;
+                margin-top: .34rem;
+            }
+        }
+        .title{
+            margin-top: .07rem;
+            margin-left: .16rem;
+            line-height: .17rem;
+            font-size: .12rem;
+            color: #3D3D3D;
+        }
+        .pltupian{
+            margin-top: .13rem;
+            margin-left: .18rem;
+            margin-bottom: .16rem;
+            li{
+                float: left;
+                margin-right: .05rem;
+                width: 1.10rem;
+                height:1.10rem;
+                img{
+                    width: 1.10rem;
+                    height:1.10rem;
+                }
+            }
+        }
+
+
+        .plshipin{
+            width: 3.43rem;
+            height:1.93rem;
+            margin: auto;
+            position: relative;
+            margin-top: .09rem;
+            img{
+                width: 3.43rem;
+                height:1.93rem;
+                border-radius: .02rem .02rem 0 0;
+            }
+            .btn{
+                position: absolute;
+                top: .65rem;
+                left: 1.48rem;
+                img{
+                    width: .48rem;
+                    height:.48rem;
+                }
+            }
+            .wenzhi{
+                position: absolute;
+                top: .99rem;
+                left: .10rem;
+                width: 1rem;
+                height:.16rem; 
+                background: rgba(0, 0,0, .3);
+                line-height: .16rem;
+                border-radius: .02rem;
+                font-size: .10rem;
+                color: #F8F9FE;
+                padding: 0 .09rem;
+            }
+            .tu{
+                position: absolute;
+                top:1.23rem;
+                left:.10rem;
+                li{
+                    float: left;
+                    width: .60rem;
+                    height:.60rem; 
+                    margin-right: .05rem;
+                    img{
+                        width: .60rem;
+                        height:.60rem; 
+                    }
+                }  
+            }
+            .chakan{
+                position: absolute;
+                top:1.73rem;
+                right:.09rem;
+                li{
+                    float: right;
+                    line-height: .17rem;
+                    color: #ffffff;
+                    font-size: .10rem;
+                    padding: 0 .10rem;
+                }  
+                li:nth-child(2){
+                    height: .08rem;
+                    border-right: .01rem solid #ffffff;
+                    padding: 0 ;
+                    margin-top: .04rem;
+                }
+                li:nth-child(3){
+                    img{
+                        width: .17rem;
+                        height: .17rem;
+                        float: left;
+                        margin-right: .05rem;
+                    }
+                    span{
+                        float: left;
+                    }
+                }
+            }
+        }
+
+
+        .dianzan{
+            width:3.44rem;
+            border-top: .01rem solid  #F8F9FE;
+            margin-left: .15rem;
+            li{
+                font-size: .10rem;
+                color: #000000;
+                line-height: .14rem;
+            }
+            li:nth-child(1){
+                float: left;
+                width: .89rem;
+                height:.22rem;
+                background:#F8F9FE;
+                border-radius: .13rem;
+                margin-top: .14rem;
+                img{
+                    float: left;
+                    width: .14rem;
+                    height:.14rem;
+                    margin-top: .04rem;
+                    margin-left: .10rem;
+                }
+                span{
+                    float: left;
+                    line-height: .22rem;
+                    margin-left: .05rem;
+                    font-size: .10rem;
+                    color: #ADB2C6
+                }
+            }
+            li:nth-child(2){
+                float: right;
+                font-weight: bold;
+               
+                width: .20rem;
+                height: .20rem;
+                img{
+                    width: .20rem;
+                    height: .20rem;
+                    margin-top: .12rem; 
+                }
+            }
+            li:nth-child(3){
+                float: right;
+                margin-right: .20rem; 
+                margin-top: .15rem;  
+            }
+            li:nth-child(4){
+                float: right;
+                margin-right: .05rem;
+                img{
+                    width: .20rem;
+                    height: .20rem; 
+                    margin-top: .12rem; 
+                }  
+            }
+            li:nth-child(5){
+                float: right;
+                margin-right: .28rem; 
+                margin-top: .15rem;  
+            }
+            li:nth-child(6){
+                float: right;
+                margin-right: .05rem;
+                img{
+                    width: .20rem;
+                    height: .20rem; 
+                    margin-top: .11rem; 
+                }  
+            }
+        }
+
+
+
+        .pl{
+            width: 100%; 
+            margin-top: .11rem;
+            margin-bottom: .10rem;
+            .commenter{
+                margin-left: .15rem;
+                img{
+                    float: left;
+                    width: .40rem;
+                    height: .40rem;
+                }
+                .center{
+                    float: left;
+                    margin-left: .10rem;
+                    .name{
+                        line-height: .17rem;
+                        font-size: .12rem;
+                        color:#808AB8 
+                    }
+                    .content{
+                        line-height: .17rem;
+                        font-size: .12rem;
+                        color:#3D3D3D;
+                        margin-top:.03rem;
+                    }
+                }
+                .right{
+                    float: right;
+                    margin-right:.16rem;
+                    img{
+                        width: .16rem;
+                        height: .16rem;
+                    } 
+                    div{
+                        line-height: .14rem;
+                        font-size: .10rem;
+                        color: #000000;
+                        text-align: center;
+                        width: .16rem;
+                    }
+                }
+            }
+            .time{
+                margin-top: .15rem;
+                margin-left: .15rem;
+                line-height: .14rem;
+                font-size: .10rem;
+                color:#3D3D3D;
+            }
+        }
+
+        
+    }
+}

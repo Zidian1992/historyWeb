@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/gonggong.css">
+    <link rel="stylesheet" href="../css/publicationEvaluation.css">
+    <!-- <link rel="stylesheet" href="../css/mui-icons-extra.ttf"> -->
+    <!-- <link rel="stylesheet" href="../css/icons-extra.css"> -->
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../lib/jquery.raty.js"></script>
+    <title>发表评价</title>
+</head>
+<body>
+    <header class="onlineHeader">
+        <div class="orderDetail">
+            <div class="orderDetail_bc">
+                <img src="../img/online/back@2x.png" alt="">
+            </div>
+            <div class="orderDetail_p">发表评价</div>
+            <div class="orderDetail_c">发布</div>
+        </div>
+    </header>
+    <div class="publicationEvaluation_content">
+        <div class="publicationEvaluation_contentOn">
+            <div class="publicationEvaluation_contentOnLeft">
+                <img src="../img/online/5711111.jpg" alt="">
+                <span class="publicationEvaluation_contentOnDesc">描述相符</span>
+            </div>
+            <div class="star">
+                <div id="function-star" class="target-demo"></div>
+                <div id="function-hint" class="hint"></div>
+            </div>
+        </div>
+        <div class="publicationEvaluation_contentMid">
+            <div class="publicationEvaluation_contentMidTextarea">
+                宝贝满足你的期待吗？说说你的心得
+            </div>
+            <div class="publicationEvaluation_contentMidUploadpic">
+                <div class="uploadVideo"></div>
+                <div class="uploadPic"></div>
+            </div>
+        </div>
+        <div class="publicationEvaluation_contentDon">      
+            <div class="isAnonymous">
+                <input name="isAnonymous" type="checkbox">
+                <label>匿名评价</label>
+            </div>
+            <span>你写的评价会以匿名的形式展现</span>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_title">
+            <div><img src="../img/online/5711116.png" alt=""></div>
+            <div>人人咖官方旗舰店</div>
+        </div>
+        <div class="footer_starRaty">
+            <div class="expressRaty">
+                <span>物流评分：</span>
+                <div class="expressStar">
+                    <div id="express-star" class="express-target"></div>
+                    <div id="express-hint" class="express-hint"></div>
+                </div>
+            </div>
+            <div class="expressRaty">
+                <span>服务态度：</span>
+                <div class="expressStar">
+                    <div id="service-star" class="service-target"></div>
+                    <div id="service-hint" class="service-hint"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            // $.fn.raty.defaults.path = 'lib/img';
+            $('#function-star').raty({
+                number: 5, //多少个星星设置
+                targetType: 'hint', //类型选择，number是数字值，hint，是设置的数组值
+                path: 'lib/images',
+                hints: ['不推荐', '一般', '好', '非常好', '强烈推荐'],
+                cancelOff: 'cancel-off.png',
+                cancelOn: 'cancel-on.png',
+                size: 24,
+                starHalf: 'star-half.png',
+                starOff: 'star-off-s.png',
+                starOn: 'star-on-s.png',
+                target: '#function-hint',
+                cancel: false,
+                targetKeep: true,
+                targetText: '请选择评分',
+                click: function(score, evt) {
+                    // alert('ID: ' + $(this).attr('id') + "\nscore: " + score + "\nevent: " + evt.type);
+                }
+            })
+            $('#express-star').raty({
+                number: 5, //多少个星星设置
+                targetType: 'hint', //类型选择，number是数字值，hint，是设置的数组值
+                path: 'lib/images',
+                hints: ['不推荐', '一般', '好', '非常好', '强烈推荐'],
+                cancelOff: 'cancel-off.png',
+                cancelOn: 'cancel-on.png',
+                size: 24,
+                starHalf: 'star-half.png',
+                starOff: 'star-off-s.png',
+                starOn: 'star-on-s.png',
+                target: '#express-hint',
+                cancel: false,
+                targetKeep: true,
+                targetText: '',
+                click: function(score, evt) {
+                    // alert('ID: ' + $(this).attr('id') + "\nscore: " + score + "\nevent: " + evt.type);
+                }
+            })
+            $('#service-star').raty({
+                number: 5, //多少个星星设置
+                targetType: 'hint', //类型选择，number是数字值，hint，是设置的数组值
+                path: 'lib/images',
+                hints: ['不推荐', '一般', '好', '非常好', '强烈推荐'],
+                cancelOff: 'cancel-off.png',
+                cancelOn: 'cancel-on.png',
+                size: 24,
+                starHalf: 'star-half.png',
+                starOff: 'star-off-s.png',
+                starOn: 'star-on-s.png',
+                target: '#service-hint',
+                cancel: false,
+                targetKeep: true,
+                targetText: '',
+                click: function(score, evt) {
+                    // alert('ID: ' + $(this).attr('id') + "\nscore: " + score + "\nevent: " + evt.type);
+                }
+            })
+        })
+    </script>
+</body>
+</html>

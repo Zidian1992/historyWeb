@@ -1,0 +1,159 @@
+.head {
+  width: 100%;
+  height: .44rem; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .name {
+    float: left;
+    margin-left: 1.22rem;
+    height: .25rem;
+    line-height: .25rem;
+    padding-top: .10rem;
+    font-size: .18rem;
+    font-weight: bold; }
+  .head .information {
+    float: right;
+    padding-top: .20rem;
+    margin-right: .24rem;
+    position: relative; }
+    .head .information li {
+      width: .04rem;
+      height: .04rem;
+      float: left;
+      margin-right: .03rem;
+      background: #3D3D3D;
+      border-radius: 50%; }
+    .head .information div {
+      position: absolute;
+      top: .07rem;
+      left: .06rem;
+      width: .20rem;
+      height: .12rem;
+      border-radius: .03rem;
+      background: #FF3053;
+      color: #ffffff;
+      font-size: .10rem;
+      text-align: center;
+      line-height: .12rem; }
+  .head .search {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .20rem; }
+    .head .search img {
+      width: .20rem;
+      height: .20rem; }
+
+.content {
+  width: 100%;
+  padding-top: .11rem; }
+  .content .nav {
+    width: 1rem;
+    margin-top: .02rem; }
+    .content .nav li {
+      width: 1rem;
+      height: .40rem;
+      line-height: .40rem;
+      text-align: center;
+      font-size: .14rem;
+      color: #3D3D3D;
+      background: #F8F9FE;
+      position: relative; }
+      .content .nav li .brand {
+        position: absolute;
+        top: 0;
+        right: -2.73rem;
+        width: 2.73rem; }
+        .content .nav li .brand .fenlei {
+          margin-left: .16rem; }
+          .content .nav li .brand .fenlei li {
+            width: .75rem;
+            height: .98rem;
+            float: left;
+            margin-right: .09rem;
+            background: #ffffff;
+            margin-bottom: .17rem;
+            border-radius: .02rem; }
+            .content .nav li .brand .fenlei li img {
+              width: .75rem;
+              height: .75rem;
+              border-radius: .02rem; }
+            .content .nav li .brand .fenlei li div {
+              width: .68rem;
+              height: .17rem;
+              margin-top: .06rem;
+              line-height: .17rem; }
+          .content .nav li .brand .fenlei li:nth-child(3n) {
+            margin-right: 0; }
+          .content .nav li .brand .fenlei li:nth-child(4) {
+            margin-bottom: .14rem; }
+          .content .nav li .brand .fenlei li:nth-child(5) {
+            margin-bottom: .14rem; }
+          .content .nav li .brand .fenlei li:nth-child(6) {
+            margin-bottom: .14rem; }
+        .content .nav li .brand .tuijian {
+          width: 100%; }
+          .content .nav li .brand .tuijian .title {
+            width: 100%; }
+            .content .nav li .brand .tuijian .title .title1 {
+              float: left;
+              height: .17rem;
+              line-height: .17rem;
+              margin-top: .10rem;
+              font-size: .12rem;
+              color: #3D3D3D;
+              margin-left: .26rem;
+              text-align: left; }
+            .content .nav li .brand .tuijian .title .title2 {
+              float: right;
+              right: .34rem;
+              margin-top: .12rem; }
+              .content .nav li .brand .tuijian .title .title2 span {
+                height: .14rem;
+                line-height: .14rem;
+                font-size: .10rem;
+                color: #ADB2C6;
+                float: right; }
+              .content .nav li .brand .tuijian .title .title2 img {
+                width: .10rem;
+                height: .10rem;
+                float: right;
+                margin-left: .03rem;
+                margin-right: .34rem;
+                margin-top: .03rem; }
+          .content .nav li .brand .tuijian ul {
+            width: 100%;
+            margin-left: .27rem; }
+            .content .nav li .brand .tuijian ul li {
+              float: left;
+              width: .68rem;
+              margin-right: .09rem;
+              margin-top: .20rem;
+              height: .61rem;
+              background: #ffffff; }
+              .content .nav li .brand .tuijian ul li img {
+                width: .68rem;
+                height: .38rem; }
+              .content .nav li .brand .tuijian ul li div {
+                width: .68rem;
+                height: .17rem;
+                margin-top: .06rem;
+                line-height: .17rem; }
+            .content .nav li .brand .tuijian ul li:nth-child(3n) {
+              margin-right: 0; }
+            .content .nav li .brand .tuijian ul li:nth-child(1) {
+              margin-top: .08rem; }
+            .content .nav li .brand .tuijian ul li:nth-child(2) {
+              margin-top: .08rem; }
+            .content .nav li .brand .tuijian ul li:nth-child(3) {
+              margin-top: .08rem; }
+
+/*# sourceMappingURL=home-12fujingengduo.css.map */
