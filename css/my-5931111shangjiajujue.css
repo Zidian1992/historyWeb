@@ -1,0 +1,214 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: fixed;
+  background: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-bottom: .01rem solid #E4E7F1; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .head .share {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .16rem; }
+    .head .share img {
+      width: .20rem;
+      height: .20rem; }
+  .head .service {
+    float: right;
+    width: .24rem;
+    height: .24rem;
+    padding-top: .10rem;
+    margin-right: .25rem; }
+    .head .service img {
+      width: .24rem;
+      height: .24rem; }
+
+.box {
+  width: 100%; }
+  .box .result {
+    padding: .80rem 0 .30rem .19rem;
+    border-bottom: .01rem solid #E4E7F1; }
+    .box .result .d1 {
+      height: .25rem;
+      line-height: .25rem;
+      font-size: .18rem;
+      font-weight: bold; }
+    .box .result .d2 {
+      margin-top: .02rem;
+      height: .17rem;
+      line-height: .17rem;
+      font-size: .12rem;
+      color: #3d3d3d; }
+  .box .apply {
+    width: 3.43rem;
+    margin: auto;
+    padding-bottom: 0.15rem; }
+    .box .apply .agreement li:nth-child(1) {
+      margin-left: 0;
+      list-style: none;
+      height: .20rem;
+      line-height: .20rem;
+      font-size: .14rem;
+      color: #3d3d3d;
+      margin-top: .15rem; }
+    .box .apply .agreement li:nth-child(2) {
+      margin-left: 0;
+      list-style: none;
+      height: .20rem;
+      line-height: .20rem;
+      font-size: .14rem;
+      color: #3d3d3d;
+      margin-top: .05rem;
+      margin-bottom: .15rem; }
+    .box .apply .agreement li:nth-child(3) {
+      margin-top: 0; }
+    .box .apply .agreement li {
+      list-style: disc;
+      line-height: .17rem;
+      font-size: .12rem;
+      margin-left: .16rem;
+      color: #63687d;
+      margin-top: .05rem; }
+    .box .apply .btn {
+      margin-top: .17rem; }
+      .box .apply .btn li {
+        float: right;
+        margin-left: .10rem;
+        height: .20rem;
+        line-height: .20rem;
+        font-size: .12rem;
+        padding: 0 .10rem;
+        border: 0.01rem solid #454545;
+        border-radius: .11rem; }
+  .box .liebiao {
+    width: 100%;
+    border-top: .01rem solid #E4E7F1; }
+    .box .liebiao li {
+      height: .50rem;
+      line-height: .50rem;
+      font-size: .14rem;
+      border-bottom: .06rem solid #F8F9FE; }
+      .box .liebiao li .left {
+        margin-left: .16rem;
+        float: left; }
+      .box .liebiao li .center {
+        margin-left: .10rem;
+        float: left; }
+      .box .liebiao li .right {
+        float: right;
+        margin-right: .16rem; }
+        .box .liebiao li .right img {
+          width: .10rem;
+          height: .11rem;
+          margin-top: .20rem; }
+  .box .refund {
+    width: 3.43rem;
+    margin: auto; }
+    .box .refund .title {
+      height: .40rem;
+      line-height: .40rem;
+      font-size: .16rem;
+      font-weight: bold; }
+    .box .refund .goods {
+      width: 3.19rem;
+      margin: auto;
+      background: #f8f9fe;
+      border-radius: .08rem;
+      padding: .07rem .10rem .10rem .10rem; }
+      .box .refund .goods .goodsimg {
+        float: left;
+        width: .60rem;
+        height: .60rem;
+        border-radius: .02rem;
+        margin-top: .03rem; }
+        .box .refund .goods .goodsimg img {
+          width: .60rem;
+          height: .60rem;
+          border-radius: .02rem; }
+      .box .refund .goods .center {
+        float: left;
+        margin-left: .10rem;
+        width: 2.49rem; }
+        .box .refund .goods .center .goodsname {
+          height: .34rem;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          line-height: .17rem;
+          font-size: .12rem; }
+        .box .refund .goods .center .site {
+          margin-top: .10rem;
+          height: .20rem;
+          background: #f8f9fe;
+          line-height: .20rem;
+          color: #ADB2C6;
+          border: 0;
+          border-radius: .02rem;
+          font-size: .12rem; }
+  .box .details {
+    width: 3.37rem;
+    margin: auto;
+    margin-top: .06rem; }
+    .box .details li {
+      height: .20rem;
+      line-height: .20rem;
+      font-size: .14rem;
+      margin-top: .04rem;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+
+.phone {
+  position: fixed;
+  left: 0;
+  bottom: .34rem;
+  margin-top: .87rem;
+  width: 100%;
+  height: .50rem;
+  background: #63687d;
+  border-radius: .02rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: .50rem;
+  font-size: .14rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-5931111shangjiajujue.css.map */

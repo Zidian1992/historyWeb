@@ -1,0 +1,206 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    margin-left: .14rem;
+    margin-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+
+.nav {
+  width: 100%;
+  height: .40rem;
+  line-height: .40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: .14rem;
+  font-weight: bold;
+  color: #454545; }
+
+.neirong {
+  width: 100%; }
+  .neirong .tupian {
+    width: 100%;
+    border-top: .01rem solid #F8F9FE; }
+    .neirong .tupian .yonghu {
+      width: 100%; }
+      .neirong .tupian .yonghu img {
+        float: left;
+        margin-left: .16rem;
+        margin-top: .16rem;
+        width: .56rem;
+        height: .56rem; }
+      .neirong .tupian .yonghu .center {
+        margin-left: .10rem;
+        margin-top: .34rem;
+        float: left; }
+        .neirong .tupian .yonghu .center .name {
+          line-height: .20rem;
+          font-size: .14rem;
+          color: #3D3D3D; }
+        .neirong .tupian .yonghu .center .time {
+          line-height: .14rem;
+          font-size: .10rem;
+          color: #3D3D3D;
+          margin-top: .02rem; }
+      .neirong .tupian .yonghu .right {
+        float: right;
+        width: .53rem;
+        height: .20rem;
+        border-radius: .12rem;
+        border: .01rem solid  #FF3053;
+        color: #FF3053;
+        font-weight: bold;
+        line-height: .20rem;
+        text-align: center;
+        font-size: .12rem;
+        margin-right: .17rem;
+        margin-top: .34rem; }
+    .neirong .tupian .title {
+      margin-top: .07rem;
+      margin-left: .16rem;
+      line-height: .17rem;
+      font-size: .12rem;
+      color: #3D3D3D; }
+    .neirong .tupian .pltupian {
+      margin-top: .13rem;
+      margin-left: .18rem;
+      margin-bottom: .16rem; }
+      .neirong .tupian .pltupian li {
+        float: left;
+        margin-right: .05rem;
+        width: 1.10rem;
+        height: 1.10rem; }
+        .neirong .tupian .pltupian li img {
+          width: 1.10rem;
+          height: 1.10rem; }
+    .neirong .tupian .dianzan {
+      width: 3.44rem;
+      border-top: .01rem solid  #F8F9FE;
+      margin-left: .15rem; }
+      .neirong .tupian .dianzan li {
+        font-size: .10rem;
+        color: #000000;
+        line-height: .14rem; }
+      .neirong .tupian .dianzan li:nth-child(1) {
+        float: left;
+        width: .89rem;
+        height: .22rem;
+        background: #F8F9FE;
+        border-radius: .13rem;
+        margin-top: .14rem; }
+        .neirong .tupian .dianzan li:nth-child(1) img {
+          float: left;
+          width: .14rem;
+          height: .14rem;
+          margin-top: .04rem;
+          margin-left: .10rem; }
+        .neirong .tupian .dianzan li:nth-child(1) span {
+          float: left;
+          line-height: .22rem;
+          margin-left: .05rem;
+          font-size: .10rem;
+          color: #ADB2C6; }
+      .neirong .tupian .dianzan li:nth-child(2) {
+        float: right;
+        font-weight: bold;
+        width: .20rem;
+        height: .20rem; }
+        .neirong .tupian .dianzan li:nth-child(2) img {
+          width: .20rem;
+          height: .20rem;
+          margin-top: .12rem; }
+      .neirong .tupian .dianzan li:nth-child(3) {
+        float: right;
+        margin-right: .20rem;
+        margin-top: .15rem; }
+      .neirong .tupian .dianzan li:nth-child(4) {
+        float: right;
+        margin-right: .05rem; }
+        .neirong .tupian .dianzan li:nth-child(4) img {
+          width: .20rem;
+          height: .20rem;
+          margin-top: .12rem; }
+      .neirong .tupian .dianzan li:nth-child(5) {
+        float: right;
+        margin-right: .28rem;
+        margin-top: .15rem; }
+      .neirong .tupian .dianzan li:nth-child(6) {
+        float: right;
+        margin-right: .05rem; }
+        .neirong .tupian .dianzan li:nth-child(6) img {
+          width: .20rem;
+          height: .20rem;
+          margin-top: .11rem; }
+    .neirong .tupian .pl {
+      width: 100%;
+      margin-top: .11rem;
+      margin-bottom: .10rem; }
+      .neirong .tupian .pl .commenter {
+        margin-left: .15rem; }
+        .neirong .tupian .pl .commenter img {
+          float: left;
+          width: .40rem;
+          height: .40rem; }
+        .neirong .tupian .pl .commenter .center {
+          float: left;
+          margin-left: .10rem; }
+          .neirong .tupian .pl .commenter .center .name {
+            line-height: .17rem;
+            font-size: .12rem;
+            color: #808AB8; }
+          .neirong .tupian .pl .commenter .center .content {
+            line-height: .17rem;
+            font-size: .12rem;
+            color: #3D3D3D;
+            margin-top: .03rem; }
+        .neirong .tupian .pl .commenter .right {
+          float: right;
+          margin-right: .16rem; }
+          .neirong .tupian .pl .commenter .right img {
+            width: .16rem;
+            height: .16rem; }
+          .neirong .tupian .pl .commenter .right div {
+            line-height: .14rem;
+            font-size: .10rem;
+            color: #000000;
+            text-align: center;
+            width: .16rem; }
+      .neirong .tupian .pl .time {
+        margin-top: .15rem;
+        margin-left: .15rem;
+        line-height: .14rem;
+        font-size: .10rem;
+        color: #3D3D3D; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-612tuwen.css.map */

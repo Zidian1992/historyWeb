@@ -1,0 +1,159 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .search {
+    float: left;
+    width: 2.63rem;
+    height: .30rem;
+    border-radius: .15rem;
+    margin-left: .20rem;
+    margin-top: .07rem;
+    background: #F0F0F0;
+    position: relative; }
+    .head .search img {
+      width: .14rem;
+      height: .14rem;
+      margin-left: .30rem;
+      margin-top: .08rem;
+      float: left; }
+    .head .search input {
+      height: .30rem;
+      line-height: .30rem;
+      color: #A6A6A6;
+      font-size: .14rem;
+      margin-left: .10rem;
+      width: 1.9rem;
+      float: left;
+      border: 0;
+      background: #F0F0F0; }
+  .head .information {
+    float: left;
+    padding-top: .20rem;
+    margin-left: .20rem;
+    position: relative; }
+    .head .information li {
+      width: .04rem;
+      height: .04rem;
+      float: left;
+      margin-right: .03rem;
+      background: #3D3D3D;
+      border-radius: 50%; }
+    .head .information div {
+      position: absolute;
+      top: .07rem;
+      left: .06rem;
+      width: .20rem;
+      height: .12rem;
+      border-radius: .03rem;
+      background: #FF3053;
+      color: #ffffff;
+      font-size: .10rem;
+      text-align: center;
+      line-height: .12rem; }
+
+.nav {
+  width: 3.43rem;
+  margin: auto;
+  padding: .53rem 0 .07rem 0;
+  height: .22rem;
+  line-height: .22rem;
+  font-size: .16rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .nav li {
+    border-bottom: .02rem solid #FF4C26; }
+
+.sort {
+  width: 100%;
+  border-top: .01rem solid #E4E7F1; }
+  .sort .grade {
+    width: 3.43rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: .10rem 0; }
+    .sort .grade li {
+      padding: 0 .10rem;
+      line-height: .30rem;
+      height: .30rem;
+      font-size: .14rem;
+      background: #f8f9fe;
+      border-radius: .02rem; }
+    .sort .grade img {
+      width: .10rem;
+      height: .10rem;
+      margin-top: .10rem;
+      margin-left: .05rem; }
+
+.box {
+  width: 100%;
+  border-top: .01rem solid #E4E7F1; }
+  .box ul {
+    width: 100%; }
+    .box ul li {
+      width: 100%;
+      height: .86rem;
+      display: flex;
+      flex-direction: row;
+      border-bottom: .01rem solid #F8F9FE; }
+      .box ul li .left {
+        width: .56rem;
+        height: .56rem;
+        margin-left: .16rem;
+        margin-top: .17rem; }
+        .box ul li .left img {
+          width: .56rem;
+          height: .56rem; }
+      .box ul li .centent {
+        margin-left: .10rem;
+        width: 2.17rem; }
+        .box ul li .centent .name {
+          height: .20rem;
+          line-height: .20rem;
+          margin-top: .18rem;
+          font-size: .14rem;
+          font-weight: bold; }
+        .box ul li .centent .kahao {
+          margin-top: .03rem;
+          font-size: .10rem;
+          height: .14rem;
+          line-height: .14rem;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+        .box ul li .centent .fans {
+          margin-top: .03rem;
+          font-size: .10rem;
+          height: .14rem;
+          line-height: .14rem;
+          color: #ADB2C6; }
+      .box ul li .right {
+        margin-top: .32rem;
+        border: 0.01rem solid #ff3053;
+        width: .55rem;
+        height: .22rem;
+        border-radius: .11rem;
+        color: #ff3053;
+        font-size: .12rem;
+        height: .22rem;
+        line-height: .22rem;
+        text-align: center; }
+
+/*# sourceMappingURL=sousuo6.css.map */

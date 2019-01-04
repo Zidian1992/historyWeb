@@ -1,0 +1,184 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .head .information {
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    font-weight: bold;
+    float: right;
+    margin-right: .16rem; }
+
+.box {
+  border-top: .01rem solid #E4E7F1;
+  width: 100%; }
+  .box .box1 {
+    padding-top: .13rem;
+    border-bottom: .06rem solid #F8F9FE; }
+    .box .box1 .time {
+      width: 3.43rem;
+      margin: auto;
+      height: .20rem;
+      line-height: .20rem;
+      font-size: .14rem;
+      font-weight: bold; }
+    .box .box1 ul li {
+      border-bottom: .01rem solid #F8F9FE;
+      padding: .10rem 0; }
+    .box .box1 ul .shangpin1 {
+      width: 3.20rem;
+      margin: auto; }
+      .box .box1 ul .shangpin1 .check {
+        float: left;
+        padding-top: .21rem; }
+      .box .box1 ul .shangpin1 .goodsimg {
+        float: left;
+        width: .70rem;
+        height: .70rem;
+        border-radius: .02rem;
+        margin-top: .04rem; }
+        .box .box1 ul .shangpin1 .goodsimg img {
+          width: .70rem;
+          height: .70rem;
+          border-radius: .02rem; }
+      .box .box1 ul .shangpin1 .center {
+        float: left;
+        margin-left: .10rem;
+        width: 2.40rem; }
+        .box .box1 ul .shangpin1 .center .goodsname {
+          height: .40rem;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          line-height: .20rem;
+          font-size: .14rem; }
+        .box .box1 ul .shangpin1 .center .site {
+          margin-top: .01rem;
+          height: .14rem;
+          line-height: .14rem;
+          color: #ADB2C6;
+          font-size: .10rem; }
+        .box .box1 ul .shangpin1 .center .welfare {
+          margin-top: .08rem;
+          height: .14rem;
+          border-radius: .02rem;
+          font-size: .08rem;
+          line-height: .14rem; }
+          .box .box1 ul .shangpin1 .center .welfare li {
+            float: left;
+            margin-right: .10rem;
+            background: #ffe9ed;
+            color: #ff3053;
+            padding: 0 .04rem; }
+      .box .box1 ul .shangpin1 .right {
+        float: right; }
+        .box .box1 ul .shangpin1 .right .goodsprice {
+          line-height: .17rem;
+          float: right;
+          font-size: .12rem;
+          color: #ff3053; }
+    .box .box1 ul .shangpin2 {
+      width: 3.20rem;
+      margin: auto; }
+      .box .box1 ul .shangpin2 .check {
+        float: left;
+        padding-top: .21rem; }
+      .box .box1 ul .shangpin2 .goodsimg {
+        float: left;
+        width: .70rem;
+        height: .70rem;
+        border-radius: .02rem;
+        margin-top: .04rem; }
+        .box .box1 ul .shangpin2 .goodsimg img {
+          width: .70rem;
+          height: .70rem;
+          border-radius: .02rem; }
+      .box .box1 ul .shangpin2 .center {
+        float: left;
+        margin-left: .10rem;
+        width: 2.40rem; }
+        .box .box1 ul .shangpin2 .center .d1 {
+          height: .20rem; }
+          .box .box1 ul .shangpin2 .center .d1 .goodsname {
+            float: left;
+            width: 1.49rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            line-height: .20rem;
+            font-size: .14rem; }
+          .box .box1 ul .shangpin2 .center .d1 .location {
+            float: right;
+            line-height: .20rem;
+            font-size: .12rem; }
+        .box .box1 ul .shangpin2 .center .site {
+          margin-top: .04rem;
+          height: .14rem;
+          line-height: .14rem;
+          color: #ADB2C6;
+          font-size: .10rem; }
+        .box .box1 ul .shangpin2 .center .welfare {
+          margin-top: .08rem;
+          height: .14rem;
+          border-radius: .02rem;
+          font-size: .08rem;
+          line-height: .14rem; }
+          .box .box1 ul .shangpin2 .center .welfare li {
+            float: left;
+            margin-right: .10rem;
+            background: #ffe9ed;
+            color: #ff3053;
+            padding: 0 .04rem; }
+      .box .box1 ul .shangpin2 .right {
+        float: right;
+        margin-top: .13rem; }
+        .box .box1 ul .shangpin2 .right .goodsprice {
+          line-height: .17rem;
+          float: right;
+          font-size: .12rem;
+          color: #ff3053; }
+        .box .box1 ul .shangpin2 .right .old {
+          line-height: .17rem;
+          float: right;
+          font-size: .10rem;
+          color: #adb2c6;
+          margin-right: .10rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-65wodezuji.css.map */

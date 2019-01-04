@@ -1,0 +1,80 @@
+.head{
+    width: 100%;
+    height: .44rem;
+    position: relative;
+    .return{
+        float: left;
+        margin-left: .14rem;
+        margin-top: .14rem;
+        img{
+            width: .16rem;
+            height: .17rem;
+        }
+    }
+    .title{
+        position: absolute;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width:1.98rem;
+        text-align: center;
+        height: .25rem;
+        line-height: .25rem;
+        font-size: .18rem;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    }
+    
+}
+
+.express{
+    width: 100%;
+    border-top: .01rem solid #E4E7F1;
+    padding: .16rem 0;
+    li{
+        height: .20rem;
+        line-height: .20rem;
+        font-size: .14rem;
+        margin-left: .16rem;
+        .left{
+            float: left;
+            margin-right: .30rem;
+        }
+        .right{
+            float: left;
+        }
+    }
+}
+.flow{
+    width: 100%;
+    border-top: .06rem solid #F8F9FE;
+    .dh{
+        width: 3.43rem;
+        border-bottom: .01rem solid #E4E7F1;
+        height: .50rem;
+        line-height: .50rem;
+        font-size: .14rem;
+        margin-left: .16rem;
+        .left{
+            float: left;
+            margin-right: .30rem;
+        }
+        .right{
+            float: left;
+            font-weight:bold;
+        }
+    }
+    .flow1{
+        margin-top: .20rem;
+        li{
+            margin-left: .26rem;
+            border-left: .01rem solid #D8D8D8;
+            padding: .15rem 0 .15rem
+        }
+    }
+}

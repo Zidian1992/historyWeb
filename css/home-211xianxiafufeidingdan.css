@@ -1,0 +1,214 @@
+html, body {
+  background: #f8f9fe; }
+
+.indent {
+  width: 100%; }
+  .indent .head {
+    width: 100%;
+    height: .44rem;
+    position: relative; }
+    .indent .head .return {
+      float: left;
+      margin-left: .14rem;
+      margin-top: .14rem; }
+      .indent .head .return img {
+        width: .16rem;
+        height: .17rem; }
+    .indent .head .title {
+      position: absolute;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      max-width: 1.98rem;
+      text-align: center;
+      height: .25rem;
+      line-height: .25rem;
+      font-size: .18rem;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+  .indent .goods {
+    padding-top: .10rem;
+    width: 3.39rem;
+    margin: auto;
+    background: #ffffff;
+    border-radius: .08rem;
+    margin-top: .16rem; }
+    .indent .goods .title img {
+      width: .18rem;
+      height: .18rem;
+      border-radius: 50%;
+      margin-left: .10rem;
+      margin-right: .05rem;
+      float: left; }
+    .indent .goods .title .name {
+      float: left;
+      height: .17rem;
+      line-height: .17rem;
+      font-size: .12rem;
+      margin-right: .05rem; }
+      .indent .goods .title .name img {
+        width: .06rem;
+        height: .11rem;
+        margin-left: .10rem;
+        margin-top: .03rem;
+        float: right; }
+    .indent .goods .shangpin {
+      padding-top: .17rem;
+      border-bottom: .01rem solid #E4E7F1;
+      width: 3.39rem;
+      margin: auto;
+      padding-bottom: .16rem; }
+      .indent .goods .shangpin .goodsimg {
+        float: left;
+        margin-left: .09rem;
+        width: .60rem;
+        height: .60rem; }
+        .indent .goods .shangpin .goodsimg img {
+          width: .60rem;
+          height: .60rem; }
+      .indent .goods .shangpin .right {
+        float: left;
+        margin-left: .10rem;
+        width: 2.47rem; }
+        .indent .goods .shangpin .right .goodsname {
+          line-height: .17rem;
+          font-size: .12rem;
+          float: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical; }
+        .indent .goods .shangpin .right .mp {
+          margin-top: .13rem;
+          line-height: .20rem;
+          float: left;
+          font-size: .14rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          color: #adb2c6;
+          font-weight: 800;
+          width: 2.47rem; }
+    .indent .goods .xiangqing {
+      border-bottom: .01rem solid #E4E7F1;
+      width: 3.39rem;
+      margin: auto;
+      padding-bottom: .12rem; }
+      .indent .goods .xiangqing li {
+        margin: auto;
+        margin-top: .12rem;
+        width: 3.19rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: .20rem;
+        line-height: .20rem;
+        font-size: .14rem; }
+        .indent .goods .xiangqing li .goodsnum {
+          float: right;
+          border: .01rem solid #E4E7F1;
+          border-radius: .02rem;
+          font-size: .12rem; }
+          .indent .goods .xiangqing li .goodsnum .reduce {
+            width: .24rem;
+            height: .20rem;
+            line-height: .20rem;
+            text-align: center;
+            border-right: .01rem solid #E4E7F1;
+            color: #707070;
+            float: left;
+            background: #e4e7f1;
+            border-radius: .02rem 0 0.02rem; }
+          .indent .goods .xiangqing li .goodsnum .num {
+            width: .35rem;
+            height: .20rem;
+            line-height: .20rem;
+            text-align: center;
+            border-right: .01rem solid #E4E7F1;
+            font-weight: 800;
+            float: left; }
+          .indent .goods .xiangqing li .goodsnum .add {
+            width: .24rem;
+            height: .20rem;
+            line-height: .20rem;
+            text-align: center;
+            float: left;
+            color: #707070;
+            background: #e4e7f1;
+            border-radius: 0 .02rem .02rem 0; }
+      .indent .goods .xiangqing .right {
+        color: #63687d; }
+    .indent .goods .zj {
+      height: .35rem;
+      line-height: .35rem;
+      font-weight: bold;
+      font-size: .14rem; }
+      .indent .goods .zj .total {
+        float: right;
+        margin-right: .10rem; }
+      .indent .goods .zj .num {
+        float: right;
+        margin-right: .18rem; }
+  .indent .youhui {
+    padding-top: .08rem;
+    padding-bottom: .08rem;
+    width: 3.39rem;
+    margin: auto;
+    background: #ffffff;
+    border-radius: .08rem;
+    margin-top: .16rem; }
+    .indent .youhui li {
+      margin: auto;
+      width: 3.19rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: .20rem;
+      line-height: .20rem;
+      font-size: .14rem; }
+      .indent .youhui li .right {
+        color: #63687d; }
+      .indent .youhui li .check-box {
+        width: .16rem;
+        height: .16rem; }
+    .indent .youhui li:nth-child(2) {
+      margin-top: .12rem; }
+  .indent .foot {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: .50rem;
+    display: flex;
+    flex-direction: row;
+    line-height: .50rem;
+    font-size: .16rem;
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.16); }
+    .indent .foot .price {
+      width: 2.75rem;
+      font-weight: bold;
+      background: white; }
+      .indent .foot .price .new {
+        color: #ff3053;
+        margin-left: .16rem;
+        float: left; }
+      .indent .foot .price .old {
+        font-size: .12rem;
+        color: #63687d;
+        margin-left: .18rem;
+        text-decoration: line-through;
+        float: left; }
+    .indent .foot .btn {
+      background: #ff3053;
+      color: white;
+      text-align: center;
+      flex: 1;
+      font-weight: bold; }
+
+/*# sourceMappingURL=home-211xianxiafufeidingdan.css.map */

@@ -1,0 +1,256 @@
+.head{
+    width: 100%;
+    height: .44rem;
+    position: relative;
+    .return{
+        float: left;
+        margin-left: .14rem;
+        margin-top: .14rem;
+        img{
+            width: .16rem;
+            height: .17rem;
+        }
+    }
+    .title{
+        position: absolute;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width:1.98rem;
+        text-align: center;
+        height: .25rem;
+        line-height: .25rem;
+        font-size: .18rem;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    }
+    
+}
+
+.nav{
+    width: 100%;
+    height: .40rem;
+    line-height: .40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: .14rem;
+    font-weight: bold;
+    color:rgba(69,69,69,1);
+    
+}
+
+
+.neirong{
+    width: 100%;
+    .tupian{
+        width: 100%;
+        border-top: .01rem solid #F8F9FE;
+        .yonghu{
+            width: 100%;
+            img{
+                float: left;
+                margin-left: .16rem;
+                margin-top: .16rem;
+                width: .56rem;
+                height:.56rem;
+            }
+            .center{
+                margin-left: .10rem;
+                margin-top: .34rem;
+                float: left;
+                .name{
+                    line-height: .20rem;
+                    font-size: .14rem;
+                    color: #3D3D3D;
+                }
+                .time{
+                    line-height: .14rem;
+                    font-size: .10rem;
+                    color: #3D3D3D;
+                    margin-top: .02rem;
+                }
+
+            }
+            .right{
+                float: right;
+                width: .53rem;
+                height:.20rem;
+                border-radius: .12rem;
+                border:.01rem solid  #FF3053;
+                color: #FF3053;
+                font-weight: bold;
+                line-height: .20rem;
+                text-align: center;
+                font-size: .12rem;
+                margin-right: .17rem;
+                margin-top: .34rem;
+            }
+        }
+        .title{
+            margin-top: .07rem;
+            margin-left: .16rem;
+            line-height: .17rem;
+            font-size: .12rem;
+            color: #3D3D3D;
+        }
+        .pltupian{
+            margin-top: .13rem;
+            margin-left: .18rem;
+            margin-bottom: .16rem;
+            li{
+                float: left;
+                margin-right: .05rem;
+                width: 1.10rem;
+                height:1.10rem;
+                img{
+                    width: 1.10rem;
+                    height:1.10rem;
+                }
+            }
+        }
+        .dianzan{
+            width:3.44rem;
+            border-top: .01rem solid  #F8F9FE;
+            margin-left: .15rem;
+            li{
+                font-size: .10rem;
+                color: #000000;
+                line-height: .14rem;
+            }
+            li:nth-child(1){
+                float: left;
+                width: .89rem;
+                height:.22rem;
+                background:#F8F9FE;
+                border-radius: .13rem;
+                margin-top: .14rem;
+                img{
+                    float: left;
+                    width: .14rem;
+                    height:.14rem;
+                    margin-top: .04rem;
+                    margin-left: .10rem;
+                }
+                span{
+                    float: left;
+                    line-height: .22rem;
+                    margin-left: .05rem;
+                    font-size: .10rem;
+                    color: #ADB2C6
+                }
+            }
+            li:nth-child(2){
+                float: right;
+                font-weight: bold;
+               
+                width: .20rem;
+                height: .20rem;
+                img{
+                    width: .20rem;
+                    height: .20rem;
+                    margin-top: .12rem; 
+                }
+            }
+            li:nth-child(3){
+                float: right;
+                margin-right: .20rem; 
+                margin-top: .15rem;  
+            }
+            li:nth-child(4){
+                float: right;
+                margin-right: .05rem;
+                img{
+                    width: .20rem;
+                    height: .20rem; 
+                    margin-top: .12rem; 
+                }  
+            }
+            li:nth-child(5){
+                float: right;
+                margin-right: .28rem; 
+                margin-top: .15rem;  
+            }
+            li:nth-child(6){
+                float: right;
+                margin-right: .05rem;
+                img{
+                    width: .20rem;
+                    height: .20rem; 
+                    margin-top: .11rem; 
+                }  
+            }
+        }
+
+
+
+        .pl{
+            width: 100%; 
+            margin-top: .11rem;
+            margin-bottom: .10rem;
+            .commenter{
+                margin-left: .15rem;
+                img{
+                    float: left;
+                    width: .40rem;
+                    height: .40rem;
+                }
+                .center{
+                    float: left;
+                    margin-left: .10rem;
+                    .name{
+                        line-height: .17rem;
+                        font-size: .12rem;
+                        color:#808AB8 
+                    }
+                    .content{
+                        line-height: .17rem;
+                        font-size: .12rem;
+                        color:#3D3D3D;
+                        margin-top:.03rem;
+                    }
+                }
+                .right{
+                    float: right;
+                    margin-right:.16rem;
+                    img{
+                        width: .16rem;
+                        height: .16rem;
+                    } 
+                    div{
+                        line-height: .14rem;
+                        font-size: .10rem;
+                        color: #000000;
+                        text-align: center;
+                        width: .16rem;
+                    }
+                }
+            }
+            .time{
+                margin-top: .15rem;
+                margin-left: .15rem;
+                line-height: .14rem;
+                font-size: .10rem;
+                color:#3D3D3D;
+            }
+        }
+
+        
+    }
+}
+
+
+.xian{
+    position: fixed;
+    left: 1.21rem;
+    bottom: .09rem;
+    width: 1.34rem;
+    height: .05rem;
+    border-radius: 1rem;
+    background: #000;
+}

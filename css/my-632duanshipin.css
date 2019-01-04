@@ -1,0 +1,125 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .head .search {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .20rem; }
+    .head .search img {
+      width: .20rem;
+      height: .20rem; }
+  .head .information {
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    font-weight: bold;
+    float: right;
+    margin-right: .16rem; }
+
+.nav {
+  width: 3.43rem;
+  margin: auto;
+  padding: .09rem 0 .07rem 0;
+  height: .22rem;
+  line-height: .22rem;
+  font-size: .16rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .nav li {
+    border-bottom: .02rem solid #FF4C26; }
+
+.box {
+  width: 100%;
+  border-top: .01rem solid #E4E7F1; }
+  .box li {
+    padding: .22rem .16rem .13rem .16rem;
+    border-bottom: .01rem solid #F8F9FE; }
+    .box li .yonghu {
+      width: 100%; }
+      .box li .yonghu img {
+        float: left;
+        width: .56rem;
+        height: .56rem;
+        border-radius: 50%; }
+      .box li .yonghu .center {
+        margin-left: .10rem;
+        margin-top: .13rem;
+        float: left; }
+        .box li .yonghu .center .name {
+          line-height: .20rem;
+          font-size: .14rem;
+          color: #3D3D3D;
+          font-weight: bold; }
+        .box li .yonghu .center .time {
+          line-height: .14rem;
+          font-size: .10rem; }
+      .box li .yonghu .delete {
+        float: right;
+        color: #ff3053;
+        font-size: .12rem;
+        margin-top: .15rem;
+        line-height: .17rem; }
+    .box li .shangpin {
+      margin-left: .66rem; }
+      .box li .shangpin .goodsimg {
+        float: left;
+        width: .70rem;
+        height: .70rem;
+        border-radius: .02rem; }
+        .box li .shangpin .goodsimg img {
+          width: .70rem;
+          height: .70rem;
+          border-radius: .02rem; }
+      .box li .shangpin .goodsname {
+        float: left;
+        margin-left: .10rem;
+        width: 1.94rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        line-height: .20rem;
+        font-size: .14rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-632duanshipin.css.map */

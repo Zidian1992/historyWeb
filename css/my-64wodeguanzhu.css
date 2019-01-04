@@ -1,0 +1,101 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .head .search {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .16rem; }
+    .head .search img {
+      width: .20rem;
+      height: .20rem; }
+
+.center {
+  width: 100%;
+  border-top: .01rem solid #E4E7F1; }
+  .center ul {
+    width: 100%; }
+    .center ul li {
+      width: 100%;
+      height: .86rem;
+      border-bottom: .01rem solid #F8F9FE; }
+      .center ul li .left {
+        width: .56rem;
+        height: .56rem;
+        margin-left: .16rem;
+        margin-top: .16rem;
+        float: left; }
+        .center ul li .left img {
+          width: .56rem;
+          height: .56rem; }
+      .center ul li .centent {
+        float: left;
+        margin-left: .10rem; }
+        .center ul li .centent .name {
+          height: .20rem;
+          line-height: .20rem;
+          margin-top: .18rem;
+          font-size: .14rem;
+          font-weight: bold; }
+        .center ul li .centent .number {
+          margin-top: .03rem;
+          font-size: .10rem;
+          height: .14rem;
+          line-height: .14em; }
+        .center ul li .centent .fans {
+          margin-top: .03rem;
+          font-size: .10rem;
+          height: .14rem;
+          line-height: .14rem;
+          color: #adb2c6; }
+      .center ul li .right {
+        float: right;
+        margin-top: .29rem;
+        margin-right: .16rem;
+        width: .55rem;
+        height: .22rem;
+        line-height: .22rem;
+        text-align: center;
+        border-radius: .11rem;
+        border: 0.01rem solid #adb2c6;
+        color: #adb2c6;
+        font-size: .12rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-64wodeguanzhu.css.map */

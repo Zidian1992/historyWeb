@@ -1,0 +1,77 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-bottom: .01rem solid #E4E7F1; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .search {
+    float: left;
+    width: 2.63rem;
+    height: .30rem;
+    border-radius: .15rem;
+    margin-left: .20rem;
+    margin-top: .07rem;
+    background: #F0F0F0;
+    position: relative; }
+    .head .search img {
+      width: .14rem;
+      height: .14rem;
+      margin-left: .30rem;
+      margin-top: .08rem;
+      float: left; }
+    .head .search input {
+      height: .30rem;
+      line-height: .30rem;
+      color: #A6A6A6;
+      font-size: .14rem;
+      margin-left: .10rem;
+      width: 1.9rem;
+      float: left;
+      border: 0;
+      background: #F0F0F0; }
+  .head .btn {
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    margin-right: .16rem;
+    font-weight: bold;
+    float: right; }
+
+.box {
+  width: 100%;
+  padding-top: .58rem; }
+  .box .content {
+    width: 3.31rem;
+    margin: auto; }
+    .box .content .title {
+      height: .22rem;
+      line-height: .22rem;
+      font-size: .16rem;
+      font-weight: bold;
+      margin-top: .13rem;
+      margin-bottom: .03rem; }
+    .box .content .goods li {
+      float: left;
+      padding: 0 .23rem;
+      background: #f8f9fe;
+      border-radius: 2px;
+      height: .30rem;
+      line-height: .30rem;
+      font-size: .16rem;
+      font-weight: bold;
+      margin-right: .10rem;
+      margin-top: .10rem;
+      color: #adb2c6; }
+
+/*# sourceMappingURL=sousuo.css.map */

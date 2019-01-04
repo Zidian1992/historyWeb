@@ -1,0 +1,280 @@
+.head{
+    width: 100%;
+    height: .44rem;
+    position: relative;
+    .return{
+        float: left;
+        width: .16rem;
+        height: .17rem;
+        margin-left: .14rem;
+        padding-top: .14rem;
+        img{
+            width: .16rem;
+            height: .17rem; 
+        }
+    }
+    .title{
+        position: absolute;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width:1.98rem;
+        text-align: center;
+        height: .25rem;
+        line-height: .25rem;
+        font-size: .18rem;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    }
+    .search{
+        float: right;
+        width: .20rem;
+        height: .20rem; 
+        padding-top: .12rem;
+        margin-right: .20rem; 
+        img{
+            width: .20rem;
+            height: .20rem;
+        }
+    }
+    .information{
+        height: .44rem; 
+        line-height: .44rem;
+        font-size: .14rem;
+        font-weight: bold;
+        float: right;
+        margin-right: .16rem;
+    }
+}
+
+
+.nav{
+    
+    width: 3.43rem;
+    margin: auto;
+    padding: .09rem 0 .07rem 0;
+    height: .22rem;
+    line-height: .22rem;
+    font-size: .16rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    li{
+        border-bottom: .02rem solid #FF4C26;
+    }
+}
+
+.box{
+    width: 100%;
+    border-top: .01rem solid #E4E7F1;
+    .cort{
+        width: 3.43rem;
+        margin: auto;
+        padding-bottom: .20rem;
+        
+        li{
+            float: left;
+            font-size: .12rem;  
+            margin-top: .12rem;
+            line-height: .17rem; 
+            margin-right: .30rem;  
+            div{
+                float: right;
+                width: .10rem;
+                height: .10rem;
+                margin-top: .04rem;
+                margin-left: .03rem;
+                img{
+                    width: .10rem;
+                    height: .10rem;
+                }
+            }
+        }      
+    }
+    
+    .content{
+        width: 3.20rem;
+        margin: auto;
+        .shangpin1{
+            width: 3.20rem;
+            margin: auto;
+            padding-bottom: .29rem;      
+            .check{
+                float: left;
+                padding-top: .21rem;
+            }
+            .goodsimg{
+                float: left;
+                width: .70rem;
+                height: .70rem;
+                border-radius: .02rem;
+                margin-top: .04rem;
+                img{
+                    width: .70rem;
+                    height: .70rem;
+                    border-radius: .02rem;
+                }
+            }
+            .center{
+                float: left;
+                margin-left: .10rem;
+                width: 2.40rem;
+                 
+                 
+                .goodsname{
+                    height: .40rem;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    line-height: .20rem;
+                    font-size: .14rem;
+                    
+                }
+                .site{
+                    margin-top: .01rem;
+                    height: .14rem;
+                    line-height: .14rem;
+                    color: #ADB2C6;
+                    font-size: .10rem;
+                    
+                }
+                .welfare{
+                    margin-top: .08rem;
+                    height: .14rem;
+                    border-radius: .02rem;
+                    font-size: .08rem;
+                    line-height: .14rem;
+                    
+                    li{
+                        float: left;
+                        margin-right: .10rem;
+                        background:rgba(255,233,237,1);
+                        color:rgba(255,48,83,1);
+                        padding: 0 .04rem;
+                    }
+                }     
+    
+            }
+            .right{
+                 float: right;
+                .goodsprice{
+                    line-height: .17rem;
+                    float: right;
+                    font-size: .12rem;
+                    color:rgba(255,48,83,1);
+                    
+                }
+                
+            }
+             
+    
+        }
+        .shangpin2{
+            width: 3.20rem;
+            margin: auto;
+            padding-bottom: .29rem;      
+            .check{
+                float: left;
+                padding-top: .21rem;
+            }
+            .goodsimg{
+                float: left;
+                width: .70rem;
+                height: .70rem;
+                border-radius: .02rem;
+                margin-top: .04rem;
+                img{
+                    width: .70rem;
+                    height: .70rem;
+                    border-radius: .02rem;
+                }
+            }
+            .center{
+                float: left;
+                margin-left: .10rem;
+                width: 2.40rem;
+                 
+                .d1{
+                    height: .20rem;
+                    .goodsname{   
+                        float: left;
+                        width: 1.49rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow:ellipsis;
+                        line-height: .20rem;
+                        font-size: .14rem;
+                        
+                    }
+                    .location{
+                        float: right;
+                        line-height: .20rem;
+                        font-size: .12rem;
+                    }
+                } 
+                .site{
+                    margin-top: .04rem;
+                    height: .14rem;
+                    line-height: .14rem;
+                    color: #ADB2C6;
+                    font-size: .10rem;
+                    
+                }
+                .welfare{
+                    margin-top: .08rem;
+                    height: .14rem;
+                    border-radius: .02rem;
+                    font-size: .08rem;
+                    line-height: .14rem;
+                    
+                    li{
+                        float: left;
+                        margin-right: .10rem;
+                        background:rgba(255,233,237,1);
+                        color:rgba(255,48,83,1);
+                        padding: 0 .04rem;
+                    }
+                }     
+    
+            }
+            .right{
+                 float: right;
+                 margin-top: .13rem;  
+                .goodsprice{
+                    line-height: .17rem;
+                    float: right;
+                    font-size: .12rem;
+                    color:rgba(255,48,83,1);
+                    
+                }
+                .old{
+                    line-height: .17rem;
+                    float: right;
+                    font-size: .10rem;
+                    color:rgba(173,178,198,1);
+                    margin-right: .10rem;
+                }
+            }
+             
+    
+        }
+    }
+    
+}
+
+.xian{
+    position: fixed;
+    left: 1.21rem;
+    bottom: .09rem;
+    width: 1.34rem;
+    height: .05rem;
+    border-radius: 1rem;
+    background: #000;
+}

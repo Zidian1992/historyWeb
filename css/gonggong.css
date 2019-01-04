@@ -1,6 +1,6 @@
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,span{margin:0;padding:0;border:0;position: 0;}
 img{border: 0;vertical-align: top}
-a{text-decoration: none;}
+a{text-decoration: none;color:#fff;}
 html{font-family: "微软雅黑"；}
 textarea{resize:none;}
 li{list-style: none;}

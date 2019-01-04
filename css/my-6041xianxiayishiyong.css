@@ -1,0 +1,454 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: fixed;
+  background: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 99; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .head .share {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .16rem; }
+    .head .share img {
+      width: .20rem;
+      height: .20rem; }
+  .head .service {
+    float: right;
+    width: .24rem;
+    height: .24rem;
+    padding-top: .10rem;
+    margin-right: .25rem; }
+    .head .service img {
+      width: .24rem;
+      height: .24rem; }
+
+.order {
+  width: 100%;
+  margin-top: .44rem; }
+  .order .goods {
+    width: 3.19rem;
+    margin: auto;
+    padding: .10rem .10rem .14rem .10rem;
+    background: #f8f9fe;
+    border-radius: .08rem; }
+    .order .goods .title {
+      width: 2.99rem;
+      margin: auto;
+      height: .18rem;
+      line-height: .18rem;
+      font-size: .12rem; }
+      .order .goods .title .img1 {
+        float: left;
+        width: .18rem;
+        height: .18rem;
+        border-radius: 50%;
+        margin-right: .10rem; }
+        .order .goods .title .img1 img {
+          width: .18rem;
+          height: .18rem;
+          border-radius: 50%; }
+      .order .goods .title span {
+        float: left; }
+      .order .goods .title .img2 {
+        float: left;
+        width: .06rem;
+        height: .12rem;
+        margin-top: .04rem;
+        margin-left: .05rem; }
+        .order .goods .title .img2 img {
+          width: .06rem;
+          height: .11rem; }
+    .order .goods .goods1 {
+      margin-top: .16rem; }
+      .order .goods .goods1 .left {
+        float: left;
+        width: .60rem;
+        height: .60rem;
+        border-radius: .02rem;
+        margin-right: .10rem;
+        margin-top: .03rem; }
+        .order .goods .goods1 .left img {
+          width: .60rem;
+          height: .60rem;
+          border-radius: .02rem; }
+      .order .goods .goods1 .right {
+        float: left; }
+        .order .goods .goods1 .right .name {
+          width: 2.49rem;
+          height: .34rem;
+          line-height: .17rem;
+          font-size: .12rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical; }
+        .order .goods .goods1 .right .d1 {
+          margin-top: .10rem;
+          height: .20rem;
+          line-height: .20rem; }
+          .order .goods .goods1 .right .d1 .time {
+            float: left;
+            height: .20rem;
+            line-height: .20rem;
+            font-size: .12rem;
+            color: #adb2c6; }
+            .order .goods .goods1 .right .d1 .time li {
+              float: left; }
+            .order .goods .goods1 .right .d1 .time li:nth-child(2) {
+              width: .01rem;
+              height: .10rem;
+              margin: .05rem  .10rem; }
+              .order .goods .goods1 .right .d1 .time li:nth-child(2) img {
+                width: .01rem;
+                height: .10rem; }
+          .order .goods .goods1 .right .d1 .num {
+            float: right;
+            line-height: .20rem;
+            font-size: .14rem;
+            color: #adb2c6;
+            font-weight: 800; }
+        .order .goods .goods1 .right .refund {
+          height: .17rem;
+          line-height: .17rem;
+          font-size: .12rem;
+          color: #adb2c6; }
+          .order .goods .goods1 .right .refund li {
+            float: left; }
+          .order .goods .goods1 .right .refund li:nth-child(2) {
+            width: .01rem;
+            height: .10rem;
+            margin: .05rem  .10rem; }
+            .order .goods .goods1 .right .refund li:nth-child(2) img {
+              width: .01rem;
+              height: .10rem; }
+        .order .goods .goods1 .right .price {
+          width: 2.49rem;
+          height: .20rem;
+          line-height: .20rem;
+          font-size: .14rem;
+          font-weight: bold;
+          text-align: right;
+          margin-top: .13rem; }
+          .order .goods .goods1 .right .price img {
+            width: .10rem;
+            height: .11rem;
+            margin-top: .04rem;
+            margin-left: .11rem; }
+  .order .ticket {
+    width: 3.19rem;
+    margin: auto;
+    padding: .10rem .10rem .14rem .10rem;
+    background: #f8f9fe;
+    border-radius: .08rem;
+    margin-top: .16rem; }
+    .order .ticket .title {
+      height: .22rem;
+      line-height: .22rem;
+      font-size: .16rem;
+      font-weight: bold; }
+      .order .ticket .title img {
+        width: .03rem;
+        height: .15rem;
+        margin-top: .04rem;
+        margin-right: .05rem; }
+    .order .ticket .num {
+      height: .14rem;
+      line-height: .14rem;
+      font-size: .10rem;
+      color: #63687d;
+      text-decoration: line-through;
+      margin-left: .14rem;
+      margin-top: .05rem; }
+  .order .merchant {
+    width: 3.19rem;
+    margin: auto;
+    padding: .10rem .10rem .14rem .10rem;
+    background: #f8f9fe;
+    border-radius: .08rem;
+    margin-top: .16rem;
+    position: relative; }
+    .order .merchant .title {
+      height: .22rem;
+      line-height: .22rem;
+      font-size: .16rem;
+      font-weight: bold; }
+      .order .merchant .title img {
+        width: .03rem;
+        height: .15rem;
+        margin-top: .04rem;
+        margin-right: .05rem; }
+    .order .merchant .content {
+      margin-left: .13rem;
+      margin-top: .09rem; }
+      .order .merchant .content .name {
+        height: .17rem;
+        line-height: .17rem;
+        font-size: .12rem;
+        font-weight: bold; }
+      .order .merchant .content .refund {
+        height: .14rem;
+        line-height: .14rem;
+        font-size: .10rem;
+        color: #63687d;
+        margin-top: .09rem; }
+        .order .merchant .content .refund li {
+          float: left; }
+        .order .merchant .content .refund li:nth-child(1) img {
+          width: .12rem;
+          height: .12rem;
+          float: left;
+          margin-top: .01rem;
+          margin-right: .05rem; }
+        .order .merchant .content .refund li:nth-child(2) {
+          width: .01rem;
+          height: .10rem;
+          margin: .02rem  .10rem; }
+          .order .merchant .content .refund li:nth-child(2) img {
+            width: .01rem;
+            height: .10rem; }
+      .order .merchant .content .phone {
+        position: absolute;
+        width: .15rem;
+        height: .20rem;
+        top: .53rem;
+        right: .10rem; }
+        .order .merchant .content .phone img {
+          width: .20rem;
+          height: .20rem; }
+  .order .set {
+    width: 3.19rem;
+    margin: auto;
+    padding: .10rem .10rem .14rem .10rem;
+    background: #f8f9fe;
+    border-radius: .08rem;
+    margin-top: .16rem;
+    position: relative; }
+    .order .set .title {
+      height: .22rem;
+      line-height: .22rem;
+      font-size: .16rem;
+      font-weight: bold; }
+      .order .set .title img {
+        width: .03rem;
+        height: .15rem;
+        margin-top: .04rem;
+        margin-right: .05rem; }
+    .order .set .details {
+      margin-top: .06rem;
+      margin-left: .13rem; }
+      .order .set .details li {
+        height: .17rem;
+        line-height: .17rem;
+        font-size: .12rem;
+        font-weight: bold;
+        margin-top: .04rem; }
+        .order .set .details li span {
+          color: #63687d; }
+        .order .set .details li .left {
+          float: left; }
+        .order .set .details li .right {
+          float: right; }
+  .order .hint {
+    width: 3.19rem;
+    margin: auto;
+    padding: .10rem .10rem 0 .10rem;
+    background: #f8f9fe;
+    border-radius: .08rem;
+    margin-top: .16rem;
+    position: relative; }
+    .order .hint .title {
+      height: .22rem;
+      line-height: .22rem;
+      font-size: .16rem;
+      font-weight: bold; }
+      .order .hint .title img {
+        width: .03rem;
+        height: .15rem;
+        margin-top: .04rem;
+        margin-right: .05rem; }
+    .order .hint .details {
+      margin-left: .13rem; }
+      .order .hint .details li {
+        height: .20rem;
+        line-height: .20rem;
+        font-size: .14rem;
+        margin-top: .10rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+        .order .hint .details li .copy {
+          width: .44rem;
+          height: .18rem;
+          line-height: .18rem;
+          border-radius: .09rem;
+          border: 0.01rem solid #3d3d3d;
+          text-align: center;
+          float: right; }
+    .order .hint .relation {
+      margin-top: .10rem;
+      height: .50rem;
+      line-height: .50rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: #63687d;
+      font-size: .12rem;
+      border-top: .01rem solid #E4E7F1; }
+      .order .hint .relation img {
+        width: .24rem;
+        height: .24rem;
+        margin-top: .13rem;
+        margin-right: .05rem; }
+      .order .hint .relation li:nth-child(2) {
+        width: .01rem;
+        height: .10rem;
+        margin-top: .07rem; }
+        .order .hint .relation li:nth-child(2) img {
+          width: .01rem;
+          height: .10rem; }
+  .order .tj {
+    width: 100%;
+    margin-bottom: .50rem;
+    padding: .12rem 0 0 0; }
+    .order .tj .title {
+      width: 3.43rem;
+      margin: auto;
+      line-height: .22rem;
+      height: .22rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .order .tj .title .hint {
+        font-weight: 500;
+        font-size: .12rem;
+        color: #63687d; }
+      .order .tj .title li:nth-child(1) {
+        font-weight: bold;
+        font-size: .16rem; }
+      .order .tj .title li:nth-child(2) {
+        font-weight: bold;
+        font-size: .14rem; }
+        .order .tj .title li:nth-child(2) img {
+          width: .10rem;
+          height: .10rem;
+          margin-top: .06rem;
+          float: right;
+          margin-left: 0.1rem; }
+    .order .tj .shangjia {
+      width: 3.43rem;
+      margin: auto;
+      padding-bottom: .16rem; }
+      .order .tj .shangjia li {
+        margin-top: .16rem; }
+        .order .tj .shangjia li .left {
+          margin-top: .02rem;
+          float: left; }
+          .order .tj .shangjia li .left img {
+            width: 1rem;
+            height: 1rem;
+            margin-right: .10rem; }
+        .order .tj .shangjia li .right .zy {
+          line-height: .17rem;
+          width: 2.28rem;
+          height: .34rem;
+          font-size: .12rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical; }
+          .order .tj .shangjia li .right .zy span {
+            background: #ff3053;
+            width: .26rem;
+            height: .15rem;
+            font-size: .14rem;
+            border-radius: .04rem;
+            color: white;
+            font-size: .10rem;
+            font-weight: 500;
+            line-height: .15rem;
+            padding: 0 .05rem; }
+        .order .tj .shangjia li .right .price {
+          margin-top: .05rem;
+          line-height: .20rem; }
+          .order .tj .shangjia li .right .price .new {
+            font-size: .14rem;
+            font-weight: bold;
+            margin-right: .10rem; }
+          .order .tj .shangjia li .right .price .old {
+            font-size: .10rem;
+            font-weight: bold;
+            text-decoration: line-through;
+            color: #ADB2C6; }
+        .order .tj .shangjia li .right .num {
+          margin-top: .05rem;
+          line-height: .14rem;
+          font-weight: 500;
+          font-size: .10rem;
+          color: #63687d; }
+        .order .tj .shangjia li .right .md {
+          text-align: center;
+          padding: 0 .10rem;
+          height: .24rem;
+          background: white;
+          border: 0.01rem solid #ff3053;
+          opacity: 1;
+          border-radius: .12rem;
+          color: #ff3053;
+          float: right;
+          font-size: .12rem;
+          line-height: .24rem;
+          text-align: center; }
+
+.foot {
+  box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  height: .50rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #ffffff; }
+  .foot li {
+    width: .70rem;
+    height: .22rem;
+    margin-top: .14rem;
+    border-radius: .12rem;
+    margin-right: .16rem;
+    line-height: .22rem;
+    font-size: .12rem;
+    color: #454545;
+    float: right;
+    border: .01rem solid #454545;
+    text-align: center; }
+
+/*# sourceMappingURL=my-6041xianxiayishiyong.css.map */

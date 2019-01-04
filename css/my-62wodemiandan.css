@@ -1,0 +1,122 @@
+html, body {
+  background: #f8f9fe; }
+
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    margin-left: .14rem;
+    margin-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+
+.details {
+  border-top: .01rem solid #E4E7F1; }
+  .details .chunk {
+    width: 3.39rem;
+    margin: auto;
+    margin-top: .16rem;
+    background: white;
+    border-radius: .08rem; }
+    .details .chunk .yonghu {
+      width: 100%; }
+      .details .chunk .yonghu img {
+        float: left;
+        margin-left: .10rem;
+        margin-top: .10rem;
+        width: .40rem;
+        height: .40rem;
+        border-radius: 50%; }
+      .details .chunk .yonghu .center {
+        margin-left: .10rem;
+        margin-top: .13rem;
+        float: left; }
+        .details .chunk .yonghu .center .name {
+          line-height: .20rem;
+          font-size: .14rem;
+          color: #3D3D3D;
+          font-weight: bold; }
+        .details .chunk .yonghu .center .time {
+          line-height: .14rem;
+          font-size: .10rem;
+          color: #ADB2C6; }
+      .details .chunk .yonghu .delete {
+        float: right;
+        width: .44rem;
+        height: .44rem;
+        margin-right: .16rem; }
+        .details .chunk .yonghu .delete .delete1 {
+          width: .44rem;
+          height: .44rem; }
+    .details .chunk .shangpin {
+      padding-top: .05rem;
+      padding-bottom: .14rem; }
+      .details .chunk .shangpin .goodsimg {
+        float: left;
+        margin-left: .10rem;
+        width: .70rem;
+        height: .70rem;
+        padding-top: .05rem; }
+        .details .chunk .shangpin .goodsimg img {
+          width: .70rem;
+          height: .70rem; }
+      .details .chunk .shangpin .right {
+        float: left;
+        margin-left: .10rem;
+        width: 2.47rem; }
+        .details .chunk .shangpin .right .goodsname {
+          width: 2.42rem;
+          line-height: .20rem;
+          font-size: .14rem;
+          float: left;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+        .details .chunk .shangpin .right .num {
+          margin-top: .02rem;
+          line-height: .17rem;
+          font-size: .12rem; }
+        .details .chunk .shangpin .right .time1 {
+          line-height: .17rem;
+          font-size: .12rem; }
+        .details .chunk .shangpin .right .active {
+          margin-top: .02rem;
+          line-height: .20rem;
+          font-size: .12rem;
+          color: #ff3053; }
+          .details .chunk .shangpin .right .active img {
+            width: .20rem;
+            height: .20rem;
+            border-radius: 50%;
+            margin-right: .05rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-62wodemiandan.css.map */

@@ -1,0 +1,111 @@
+.head {
+  width: 100%;
+  height: .44rem;
+  position: relative; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .title {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1.98rem;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .head .search {
+    float: right;
+    width: .20rem;
+    height: .20rem;
+    padding-top: .12rem;
+    margin-right: .20rem; }
+    .head .search img {
+      width: .20rem;
+      height: .20rem; }
+  .head .information {
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    font-weight: bold;
+    float: right;
+    margin-right: .16rem; }
+
+.nav {
+  width: 3.43rem;
+  margin: auto;
+  padding: .09rem 0 .07rem 0;
+  height: .22rem;
+  line-height: .22rem;
+  font-size: .16rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .nav li {
+    border-bottom: .02rem solid #FF4C26; }
+
+.box {
+  width: 100%;
+  border-top: .01rem solid #E4E7F1; }
+  .box li {
+    padding: .22rem .16rem .13rem .16rem;
+    border-bottom: .01rem solid #F8F9FE; }
+    .box li img {
+      float: left;
+      width: .40rem;
+      height: .40rem; }
+    .box li .name {
+      float: left;
+      height: .40rem;
+      line-height: .40rem;
+      font-size: .14rem;
+      font-weight: bold;
+      margin-left: .10rem; }
+    .box li .btn {
+      float: right;
+      width: .10rem;
+      height: .10rem;
+      margin-top: .18rem; }
+      .box li .btn img {
+        width: .10rem;
+        height: .10rem; }
+    .box li .right {
+      float: right;
+      margin-right: .05rem;
+      text-align: center;
+      color: #adb2c6; }
+      .box li .right .d1 {
+        font-size: .16rem;
+        font-weight: bold;
+        line-height: .22rem; }
+      .box li .right .d2 {
+        font-size: .12rem;
+        font-weight: bold;
+        line-height: .17rem;
+        margin-top: .02rem; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=my-631dianpushoucang.css.map */

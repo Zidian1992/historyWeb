@@ -1,0 +1,203 @@
+html,body{
+    background:rgba(248,249,254,1);
+}
+.head{
+    background:rgba(255,255,255,1);
+    width: 100%;
+    height: .44rem;
+    position: relative;
+    border-bottom: .01rem solid #E4E7F1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .return{
+        float: left;
+        width: .16rem;
+        height: .17rem;
+        margin-left: .14rem;
+        padding-top: .14rem;
+        img{
+            width: .16rem;
+            height: .17rem; 
+        }
+    }
+    .title{
+        position: absolute;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width:1.98rem;
+        text-align: center;
+        height: .25rem;
+        line-height: .25rem;
+        font-size: .18rem;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    }
+   
+}
+
+.coupon{
+    background:rgba(255,255,255,1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: .22rem;
+    padding-top: .66rem;
+    li{
+        text-align: center;
+        width: 25%;
+        img{
+            width: .24rem;
+            height: .24rem;
+            border-radius: 50%;
+        }
+        div{
+            height: .20rem;
+            line-height: .20rem;
+            font-size: .14rem;
+            margin-top: .05rem;
+            font-weight:bold;
+        }
+    }
+}
+
+.time{
+    width: 3.43rem;
+    margin: auto;
+    padding-top: .27rem;
+    height: .20rem;
+    line-height: .20rem;
+    font-size: .14rem;
+    font-weight:bold;
+    li{
+        float: left;
+        border-bottom: .02rem solid #FD127C;
+        margin-right: .40rem;
+    }
+}
+.type{
+    width: 3.31rem;
+    margin: auto;
+    padding-top: .09rem;
+    height: .20rem;
+    line-height: .20rem;
+    font-size: .14rem;
+    font-weight:bold;
+    li{
+        float: left;
+        
+        margin-right: .54rem;
+    }
+}
+
+.ticket{
+    position: relative;
+    width: 3.28rem;
+    margin: auto;
+    background:rgba(255,255,255,1);
+    margin-top:.13rem;
+    .up{
+        .left{
+            float: left;
+            color:rgba(0,0,0,1);
+            width: .91rem;
+            height: .70rem;
+            border-right: .01rem dashed  #E4E7F1;
+            .num1{
+                height: .42rem;
+                line-height: .42rem;
+                font-size: .30rem;
+                font-weight:bold;
+                text-align: center;
+                span{
+                    font-size: .14rem;
+                    font-weight:500;
+                }
+            }
+            .num2{
+                height: .17rem;
+                line-height: .17rem;
+                font-size: .12rem;
+                text-align: center;
+            }
+        }
+        .right{
+            width: 2rem;
+            
+            padding: .12rem .13rem .12rem .20rem;
+            border-left: .01rem dashed  #E4E7F1;
+            position: relative;
+            float: left;
+            .taxon{
+                width: 1.44rem;
+                line-height: .17rem;
+                font-size: .12rem;
+                font-weight:bold;
+                span{
+                    height: .14rem;
+                    line-height: .14rem;
+                    font-size: .08rem;
+                    font-weight:500;
+                    background:rgba(255,158,174,1);
+                    color: #ffffff;
+                    padding:0 .03rem;
+                    border-radius: .02rem;
+                    margin-right: .06rem;
+                }
+            }
+            .date{
+                line-height: .14rem;
+                font-size: .10rem;
+                color:rgba(99,104,125,1);
+                margin-top: .16rem;
+            }
+            .btn{
+                height: .24rem;
+                line-height: .24rem;
+                font-size: .12rem;
+                background:rgba(255,48,83,1);
+                color: #ffffff;
+                padding: 0 .06rem;
+                border-radius: .12rem;
+                position: absolute;
+                bottom: .14rem;
+                right: .10rem;
+
+            }
+        }
+    }
+    .down{
+        border-top: .01rem dashed  #E4E7F1;
+        height: .27rem;
+        line-height: .27rem;
+        font-size: .10rem;
+        text-indent:.17rem
+    }
+    .q1{
+        width: .20rem;
+        height: .20rem;
+        border-radius: 50%;
+        background: #F8F9FE;
+        position: absolute;
+        left: -.10rem;
+        bottom: .17rem;
+        z-index: 99;
+    }
+    .q2{
+        width: .20rem;
+        height: .20rem;
+        border-radius: 50%;
+        background: #F8F9FE;
+        position: absolute;
+        right: -.10rem;
+        bottom: .17rem;
+        z-index: 99;
+    }
+}

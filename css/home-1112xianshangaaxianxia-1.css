@@ -1,0 +1,177 @@
+.head {
+  width: 100%;
+  height: .44rem; }
+  .head .return {
+    float: left;
+    width: .16rem;
+    height: .17rem;
+    margin-left: .14rem;
+    padding-top: .14rem; }
+    .head .return img {
+      width: .16rem;
+      height: .17rem; }
+  .head .information {
+    float: right;
+    padding-top: .20rem;
+    margin-right: .24rem;
+    position: relative; }
+    .head .information li {
+      width: .04rem;
+      height: .04rem;
+      float: left;
+      margin-right: .03rem;
+      background: #3D3D3D;
+      border-radius: 50%; }
+    .head .information div {
+      position: absolute;
+      top: .07rem;
+      left: .06rem;
+      width: .20rem;
+      height: .12rem;
+      border-radius: .03rem;
+      background: #FF3053;
+      color: #ffffff;
+      font-size: .10rem;
+      text-align: center;
+      line-height: .12rem; }
+
+.result {
+  width: 100%;
+  padding-bottom: .16rem; }
+  .result .hint {
+    width: 100%;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .18rem;
+    font-weight: bold;
+    text-align: center; }
+    .result .hint img {
+      width: .20rem;
+      height: .20rem;
+      margin-top: .02rem; }
+  .result .pay {
+    width: 100%;
+    height: .22rem;
+    line-height: .22rem;
+    font-size: .16rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: .03rem; }
+  .result .btn {
+    width: 100%;
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .12rem;
+    text-align: center;
+    margin-top: .15rem;
+    color: #ff3053; }
+    .result .btn li {
+      display: inline-block;
+      margin-left: .50rem;
+      border: .01rem solid #FF3053;
+      padding: 0 .16rem;
+      height: .24rem;
+      line-height: .24rem;
+      border-radius: .12rem; }
+    .result .btn li:nth-child(1) {
+      margin-left: 0; }
+
+.tj {
+  width: 100%;
+  border-top: .06rem solid #F8F9FE;
+  padding: .12rem 0 .50rem 0; }
+  .tj .title {
+    width: 3.43rem;
+    margin: auto;
+    line-height: .22rem;
+    height: .22rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .tj .title li:nth-child(1) {
+      font-weight: bold;
+      font-size: .16rem; }
+    .tj .title li:nth-child(2) {
+      font-weight: bold;
+      font-size: .14rem; }
+      .tj .title li:nth-child(2) img {
+        width: .10rem;
+        height: .10rem;
+        margin-top: .06rem;
+        float: right;
+        margin-left: 0.1rem; }
+  .tj .shangjia {
+    width: 3.43rem;
+    margin: auto;
+    padding-bottom: .16rem; }
+    .tj .shangjia li {
+      margin-top: .16rem; }
+      .tj .shangjia li .left {
+        margin-top: .02rem;
+        float: left; }
+        .tj .shangjia li .left img {
+          width: 1rem;
+          height: 1rem;
+          margin-right: .10rem; }
+      .tj .shangjia li .right .zy {
+        line-height: .17rem;
+        width: 2.33rem;
+        height: .34rem;
+        font-size: .12rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; }
+        .tj .shangjia li .right .zy span {
+          background: #ff3053;
+          width: .26rem;
+          height: .15rem;
+          font-size: .14rem;
+          border-radius: .04rem;
+          color: white;
+          font-size: .10rem;
+          font-weight: 500;
+          line-height: .15rem;
+          padding: 0 .05rem; }
+      .tj .shangjia li .right .price {
+        margin-top: .05rem;
+        line-height: .20rem; }
+        .tj .shangjia li .right .price .new {
+          font-size: .14rem;
+          font-weight: bold;
+          margin-right: .10rem; }
+        .tj .shangjia li .right .price .old {
+          font-size: .10rem;
+          font-weight: bold;
+          text-decoration: line-through;
+          color: #ADB2C6; }
+      .tj .shangjia li .right .num {
+        margin-top: .05rem;
+        line-height: .14rem;
+        font-weight: 500;
+        font-size: .10rem;
+        color: #63687d; }
+      .tj .shangjia li .right .md {
+        width: .80rem;
+        height: .24rem;
+        background: white;
+        border: 0.01rem solid #ff3053;
+        opacity: 1;
+        border-radius: .12rem;
+        color: #ff3053;
+        float: right;
+        font-size: .12rem;
+        line-height: .24rem;
+        text-align: center; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
+/*# sourceMappingURL=home-1112xianshangaaxianxia-1.css.map */

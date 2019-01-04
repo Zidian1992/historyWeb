@@ -38,4 +38,228 @@
   font-weight: bold;
   color: #454545; }
 
+.pubilsh {
+  width: 100%;
+  border-top: 1px solid #E4E7F1; }
+  .pubilsh .chunk {
+    width: 100%;
+    border-bottom: 1px solid #f8f9fe; }
+    .pubilsh .chunk .yonghu {
+      width: 100%; }
+      .pubilsh .chunk .yonghu img {
+        float: left;
+        margin-left: .16rem;
+        margin-top: .16rem;
+        width: .56rem;
+        height: .56rem; }
+      .pubilsh .chunk .yonghu .center {
+        margin-left: .10rem;
+        margin-top: .34rem;
+        float: left; }
+        .pubilsh .chunk .yonghu .center .name {
+          line-height: .20rem;
+          font-size: .14rem;
+          color: #3D3D3D; }
+        .pubilsh .chunk .yonghu .center .time {
+          line-height: .14rem;
+          font-size: .10rem;
+          color: #3D3D3D;
+          margin-top: .02rem; }
+      .pubilsh .chunk .yonghu .delete {
+        float: right;
+        width: .44rem;
+        height: .44rem;
+        margin-right: .16rem; }
+        .pubilsh .chunk .yonghu .delete .delete1 {
+          width: .44rem;
+          height: .44rem; }
+    .pubilsh .chunk .title {
+      margin-top: .07rem;
+      margin-left: .16rem;
+      line-height: .17rem;
+      font-size: .12rem;
+      color: #3D3D3D; }
+    .pubilsh .chunk .pltupian {
+      margin-top: .13rem;
+      margin-left: .18rem;
+      margin-bottom: .16rem; }
+      .pubilsh .chunk .pltupian li {
+        float: left;
+        margin-right: .05rem;
+        width: 1.10rem;
+        height: 1.10rem; }
+        .pubilsh .chunk .pltupian li img {
+          width: 1.10rem;
+          height: 1.10rem; }
+    .pubilsh .chunk .plshipin {
+      width: 3.43rem;
+      height: 1.93rem;
+      margin: auto;
+      position: relative;
+      margin-top: .09rem; }
+      .pubilsh .chunk .plshipin img {
+        width: 3.43rem;
+        height: 1.93rem;
+        border-radius: .02rem .02rem 0 0; }
+      .pubilsh .chunk .plshipin .btn {
+        position: absolute;
+        top: .65rem;
+        left: 1.48rem; }
+        .pubilsh .chunk .plshipin .btn img {
+          width: .48rem;
+          height: .48rem; }
+      .pubilsh .chunk .plshipin .wenzhi {
+        position: absolute;
+        top: .99rem;
+        left: .10rem;
+        width: 1rem;
+        height: .16rem;
+        background: rgba(0, 0, 0, 0.3);
+        line-height: .16rem;
+        border-radius: .02rem;
+        font-size: .10rem;
+        color: #F8F9FE;
+        padding: 0 .09rem; }
+      .pubilsh .chunk .plshipin .tu {
+        position: absolute;
+        top: 1.23rem;
+        left: .10rem; }
+        .pubilsh .chunk .plshipin .tu li {
+          float: left;
+          width: .60rem;
+          height: .60rem;
+          margin-right: .05rem; }
+          .pubilsh .chunk .plshipin .tu li img {
+            width: .60rem;
+            height: .60rem; }
+      .pubilsh .chunk .plshipin .chakan {
+        position: absolute;
+        top: 1.73rem;
+        right: .09rem; }
+        .pubilsh .chunk .plshipin .chakan li {
+          float: right;
+          line-height: .17rem;
+          color: #ffffff;
+          font-size: .10rem;
+          padding: 0 .10rem; }
+        .pubilsh .chunk .plshipin .chakan li:nth-child(2) {
+          height: .08rem;
+          border-right: .01rem solid #ffffff;
+          padding: 0;
+          margin-top: .04rem; }
+        .pubilsh .chunk .plshipin .chakan li:nth-child(3) img {
+          width: .17rem;
+          height: .17rem;
+          float: left;
+          margin-right: .05rem; }
+        .pubilsh .chunk .plshipin .chakan li:nth-child(3) span {
+          float: left; }
+    .pubilsh .chunk .dianzan {
+      width: 3.44rem;
+      border-top: .01rem solid  #F8F9FE;
+      margin-left: .15rem; }
+      .pubilsh .chunk .dianzan li {
+        font-size: .10rem;
+        color: #000000;
+        line-height: .14rem; }
+      .pubilsh .chunk .dianzan li:nth-child(1) {
+        float: left;
+        width: .89rem;
+        height: .22rem;
+        background: #F8F9FE;
+        border-radius: .13rem;
+        margin-top: .14rem; }
+        .pubilsh .chunk .dianzan li:nth-child(1) img {
+          float: left;
+          width: .14rem;
+          height: .14rem;
+          margin-top: .04rem;
+          margin-left: .10rem; }
+        .pubilsh .chunk .dianzan li:nth-child(1) span {
+          float: left;
+          line-height: .22rem;
+          margin-left: .05rem;
+          font-size: .10rem;
+          color: #ADB2C6; }
+      .pubilsh .chunk .dianzan li:nth-child(2) {
+        float: right;
+        font-weight: bold;
+        width: .20rem;
+        height: .20rem; }
+        .pubilsh .chunk .dianzan li:nth-child(2) img {
+          width: .20rem;
+          height: .20rem;
+          margin-top: .12rem; }
+      .pubilsh .chunk .dianzan li:nth-child(3) {
+        float: right;
+        margin-right: .20rem;
+        margin-top: .15rem; }
+      .pubilsh .chunk .dianzan li:nth-child(4) {
+        float: right;
+        margin-right: .05rem; }
+        .pubilsh .chunk .dianzan li:nth-child(4) img {
+          width: .20rem;
+          height: .20rem;
+          margin-top: .12rem; }
+      .pubilsh .chunk .dianzan li:nth-child(5) {
+        float: right;
+        margin-right: .28rem;
+        margin-top: .15rem; }
+      .pubilsh .chunk .dianzan li:nth-child(6) {
+        float: right;
+        margin-right: .05rem; }
+        .pubilsh .chunk .dianzan li:nth-child(6) img {
+          width: .20rem;
+          height: .20rem;
+          margin-top: .11rem; }
+    .pubilsh .chunk .pl {
+      width: 100%;
+      margin-top: .11rem;
+      margin-bottom: .10rem; }
+      .pubilsh .chunk .pl .commenter {
+        margin-left: .15rem; }
+        .pubilsh .chunk .pl .commenter img {
+          float: left;
+          width: .40rem;
+          height: .40rem; }
+        .pubilsh .chunk .pl .commenter .center {
+          float: left;
+          margin-left: .10rem; }
+          .pubilsh .chunk .pl .commenter .center .name {
+            line-height: .17rem;
+            font-size: .12rem;
+            color: #808AB8; }
+          .pubilsh .chunk .pl .commenter .center .content {
+            line-height: .17rem;
+            font-size: .12rem;
+            color: #3D3D3D;
+            margin-top: .03rem; }
+        .pubilsh .chunk .pl .commenter .right {
+          float: right;
+          margin-right: .16rem; }
+          .pubilsh .chunk .pl .commenter .right img {
+            width: .16rem;
+            height: .16rem; }
+          .pubilsh .chunk .pl .commenter .right div {
+            line-height: .14rem;
+            font-size: .10rem;
+            color: #000000;
+            text-align: center;
+            width: .16rem; }
+      .pubilsh .chunk .pl .time {
+        margin-top: .15rem;
+        margin-left: .15rem;
+        line-height: .14rem;
+        font-size: .10rem;
+        color: #3D3D3D; }
+
+.xian {
+  position: fixed;
+  left: 1.21rem;
+  bottom: .09rem;
+  width: 1.34rem;
+  height: .05rem;
+  border-radius: 1rem;
+  background: #000; }
+
 /*# sourceMappingURL=my-61wodedongtai.css.map */
